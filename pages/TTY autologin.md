@@ -1,3 +1,4 @@
+-
 - Reference
   [How do I enable autologin on TTY running on the Controllers serial port [Raspbian Buster/Bullseye]?](https://8086.support/content/23/110/en/how-do-i-enable-autologin-on-tty-running-on-the-controllers-serial-port-raspbian-buster_bullseye.html)
 - 1. Add `serial-getty@YOUR_SERIAL_PORT.service.d/` under `/etc/systemd/system/`
@@ -8,4 +9,9 @@
   ```bash
   sudo vim /etc/systemd/system/serial-getty@YOUR_SERIAL_PORT.service.d/autologin.conf
   ```
-  3. Add
+  3. Add belows into `autologin,conf`
+  ```
+  [Service]
+  ExecStart=
+  ExecStart=-/sbin/agetty --autologin pi --noclear %I \$TERM
+  ```
