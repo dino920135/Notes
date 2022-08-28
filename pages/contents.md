@@ -1,1 +1,1 @@
-- [[TTY autologin]]
+- [[TTY_autologin]]
