@@ -9,7 +9,7 @@
 - # Useful Plugins
 	- [logseq-plugin-git](https://github.com/haydenull/logseq-plugin-git)
 	  Provide buttons for quick git operating (git status, git log, git commit, git pull, git push)
-	- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading) 
+	- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)   
 	  ![image.png](../assets/image_1661680142697_0.png)
 	- [logseq-plugin-todo-master](https://github.com/pengx17/logseq-plugin-todo-master)  
 	  ![image.png](../assets/image_1661680163729_0.png)
