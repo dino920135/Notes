@@ -17,7 +17,7 @@ title:: TTY_autologin
   ```
 - Disable autologin
   ```bash
-  sudo rm -rf /etc/systemd/system/serial-getty@ttyS0.service.d/
+  sudo rm -rf /etc/systemd/system/serial-getty@YOUR_SERIAL_PORT.service.d/
   ```
 - Reference
   [How do I enable autologin on TTY running on the Controllers serial port [Raspbian Buster/Bullseye]?](https://8086.support/content/23/110/en/how-do-i-enable-autologin-on-tty-running-on-the-controllers-serial-port-raspbian-buster_bullseye.html)
