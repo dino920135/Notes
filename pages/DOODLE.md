@@ -1,5 +1,5 @@
-- # Introduction
-	- **This is a note for kepting my personal sketching projects**
+- # Introduction**
+  This is a note for kepting my personal sketching projects**
 	- My Pinterest: [@dino920135](https://pin.it/4odSlE4)
 	- Familier Materials:
 		- Paper
