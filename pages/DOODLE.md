@@ -1,2 +1,14 @@
+- # Introduction
+	- **This is a note for kepting my personal sketching projects**
+	- My Pinterest: [@dino920135](https://pin.it/4odSlE4)
+	- Familier Materials:
+		- Paper
+			- canson croquis
+		- Pen
+			- Pencil (2H - 2B)
+			- uni PIN (0.2 - 0.5 mm)
+		- Digital
+			- HUION KAMVAS 13
+			- Krita
 - Deconstructing Car with basic shapes
 	- ![](https://i.pinimg.com/originals/6a/8e/c2/6a8ec232e3ce8329705a829828bc7df9.png)
