@@ -12,5 +12,6 @@
 			- HUION KAMVAS 13
 		- Software
 			- ![image.png](../assets/image_1662281718227_0.png)Krita
-- Deconstructing Car with basic shapes
-	- ![](https://i.pinimg.com/originals/6a/8e/c2/6a8ec232e3ce8329705a829828bc7df9.png)
+- # Projects
+	- Deconstructing Car with basic shapes
+		- ![](https://i.pinimg.com/originals/6a/8e/c2/6a8ec232e3ce8329705a829828bc7df9.png)
