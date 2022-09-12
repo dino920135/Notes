@@ -1,4 +1,4 @@
-title:: TTY_autologin
+title:: tty_autologin
 
 - ## Enable Autologin
   * Add folder `serial-getty@YOUR_SERIAL_PORT.service.d/` under `/etc/systemd/system/`
