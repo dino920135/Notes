@@ -2,6 +2,12 @@
 	- ```bash
 	  sudo apt-get install tmux
 	  ```
+- ## Basic commands
+	- ### System Operating
+		- **<prefix> ?**    help for Hotkeys
+		- **<prefix> d**    Detach current session
+		- **<prefix> s**    Switch session
+		- **<prefix> [**    enter Copy mode
 - ## Customization
   The configuration should be in the home directory `~/.tmux.conf`
 	- ### Changing Prefix Combo
