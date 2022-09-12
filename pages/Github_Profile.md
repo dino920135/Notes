@@ -1,4 +1,4 @@
-title:: Github_Profile
+title:: github_profile
 
 - ## Create
   Create a reposotiry which has the same name as **user id**, Github should remind you that it was a special repository. Check the option **Initialize this repository with a README** while creating the reposotory or create a README.md later  
