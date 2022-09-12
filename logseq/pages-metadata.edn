@@ -30,7 +30,7 @@
   :block/updated-at 1661839422914}
  {:block/name "crontab",
   :block/created-at 1662908721646,
-  :block/updated-at 1662982252102}
+  :block/updated-at 1662990742401}
  {:block/name "doing",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
@@ -67,6 +67,9 @@
  {:block/name "sep 12th, 2022",
   :block/created-at 1662912003047,
   :block/updated-at 1662912003047}
+ {:block/name "sep 13th, 2022",
+  :block/created-at 1662998404966,
+  :block/updated-at 1662998404966}
  {:block/name "sep 1st, 2022",
   :block/created-at 1662042392595,
   :block/updated-at 1662042392595}
@@ -79,6 +82,9 @@
  {:block/name "sep 5th, 2022",
   :block/created-at 1662358481603,
   :block/updated-at 1662358481603}
+ {:block/name "tmux",
+  :block/created-at 1662986696241,
+  :block/updated-at 1663004411451}
  {:block/name "todo",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}

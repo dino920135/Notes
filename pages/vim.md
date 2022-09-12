@@ -1,0 +1,23 @@
+- [8 Essential Vim Editor Navigation Fundamentals](https://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/)
+- **Line** Navigation
+	- **hlkj** (←→↑↓)
+	- **^** - **start** of current line
+	- **$** - **end** of current line
+- **Word** Navigation
+	- **b** - **before** previous word
+	- **e** - **end** of current word
+	- **w** - **next** word
+	- **B, E, W** WORD include non-blank characters
+- **Paragraph** Navigation
+	- **{ , }**
+- **Search** Navigation
+	- **\*** - **next** occurence of current word
+	- **#** - **previous** occurence of current word
+- **Screen** Navigation
+	- H – Go to the first line of current screen.
+	- M – Go to the middle line of current screen.
+	- L – Go to the last line of current screen.
+	- ctrl+f – Jump forward one full screen.
+	- ctrl+b – Jump backwards one full screen
+	- ctrl+d – Jump forward (down) a half screen
+	- ctrl+u – Jump back (up) one half screen
