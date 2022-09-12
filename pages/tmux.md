@@ -9,7 +9,7 @@
 		- **<prefix> s**    Switch session
 		- **<prefix> [**    enter Copy mode
 - ## Customization
-  The configuration should be in the home directory `~/.tmux.conf`
+  The configuration should be in the home directory `~/.tmux.conf`. Create if not exist.
 	- ### Changing Prefix Combo
 	  The default prefix combo is (**Ctrl+b**) which wasn't very natural
 		- Remapping to **Ctrl+a**
