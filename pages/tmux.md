@@ -39,4 +39,5 @@
 		  bind -n M-k select-pane -U
 		  bind -n M-l select-pane -R
 		  ```
-	-
+- ## References
+	- [Customizing TMUX for Efficiency and Aesthetics: Part 1](https://blog.yarsalabs.com/customising-tmux-part1/)
