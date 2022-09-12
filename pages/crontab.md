@@ -1,0 +1,3 @@
+- ## Change editor to vim
+	- crontab uses the default editor of bash. Change the editor with command `export EDITOR=vim`. Or add this line to `.bashrc`
+-
