@@ -1,5 +1,7 @@
+title:: logseq_basics
+
 - # Sync Logseq with Github
-  title:: logseq
+  title:: logseq_basics
   1. Create repository on Github (eg: Note)
   2. Clone the repository to local directories
   3. Press ![image.png](../assets/image_1661680355000_0.png) and select **Add new graph**
