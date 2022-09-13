@@ -45,7 +45,7 @@
 		  bind -n M-k select-pane -U
 		  bind -n M-l select-pane -R
 		  ```
-- ## Existing session
+- ## Sessions
 	- ### Check existing Session
 		- `tmux list-session`
 		  ![image.png](../assets/image_1663086248908_0.png)
