@@ -1,6 +1,8 @@
 - # Coding Tools
 	- [tmux](tmux.md)
 	- [vim](vim.md)
+	- ## Shell Script
+	-
 - # Note Tools
 	- [logseq_basics](logseq_basic.md)
 - # Github
@@ -10,4 +12,4 @@
 		- [tty_autologin](tty_autologin.md)
 		- [crontab](crontab.md)
 - # DOODLE
-	-
+	- [DOODLE](DOODLE.md)
