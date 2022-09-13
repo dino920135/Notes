@@ -45,5 +45,11 @@
 		  bind -n M-k select-pane -U
 		  bind -n M-l select-pane -R
 		  ```
+- ## Existing session
+	- ### Check existing Session
+		- `tmux list-session`
+		  ![image.png](../assets/image_1663086248908_0.png)
+	- ### Open existing session
+		- `tmux attach -t n` where **n** is the index of the session
 - ## References
 	- [Customizing TMUX for Efficiency and Aesthetics: Part 1](https://blog.yarsalabs.com/customising-tmux-part1/)
