@@ -91,6 +91,9 @@
  {:block/name "tty_autologin",
   :block/created-at 1661621662932,
   :block/updated-at 1661732504923}
+ {:block/name "vim",
+  :block/created-at 1663015268389,
+  :block/updated-at 1663017408122}
  {:block/name "wait",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
