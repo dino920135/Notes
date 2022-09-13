@@ -1,3 +1,13 @@
-- [tmux](tmux.md)
-- [[tmux]]
--
+- # Coding Tools
+	- [tmux](tmux.md)
+	- [vim](vim.md)
+- # Note Tools
+	- [logseq_basics](logseq_basic.md)
+- # Github
+	- [github_profile](github_profile.md)
+- # Embedded Modules
+	- ## Automation
+		- [tty_autologin](tty_autologin.md)
+		- [crontab](crontab.md)
+- # DOODLE
+	-
