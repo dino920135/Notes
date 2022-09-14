@@ -27,7 +27,7 @@
   :block/updated-at 1661622641762}
  {:block/name "contents",
   :block/created-at 1661839422914,
-  :block/updated-at 1661839422914}
+  :block/updated-at 1663092081769}
  {:block/name "crontab",
   :block/created-at 1662908721646,
   :block/updated-at 1662990742401}
@@ -40,9 +40,6 @@
  {:block/name "doodle",
   :block/created-at 1662358481717,
   :block/updated-at 1662358481717}
- {:block/name "favorites",
-  :block/created-at 1661622641762,
-  :block/updated-at 1661622641762}
  {:block/name "github_profile",
   :block/created-at 1661651302998,
   :block/updated-at 1661732460154}
@@ -52,7 +49,7 @@
  {:block/name "later",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
- {:block/name "logseq",
+ {:block/name "logseq_basics",
   :block/created-at 1661626143548,
   :block/updated-at 1661762140771}
  {:block/name "now",
@@ -70,6 +67,12 @@
  {:block/name "sep 13th, 2022",
   :block/created-at 1662998404966,
   :block/updated-at 1662998404966}
+ {:block/name "sep 14th, 2022",
+  :block/created-at 1663084857870,
+  :block/updated-at 1663084857870}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1663171254795,
+  :block/updated-at 1663171254795}
  {:block/name "sep 1st, 2022",
   :block/created-at 1662042392595,
   :block/updated-at 1662042392595}
@@ -84,7 +87,7 @@
   :block/updated-at 1662358481603}
  {:block/name "tmux",
   :block/created-at 1662986696241,
-  :block/updated-at 1663004411451}
+  :block/updated-at 1663089810216}
  {:block/name "todo",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
