@@ -14,3 +14,4 @@ title:: logseq_basics
 	  Provide buttons for quick git operating (git status, git log, git commit, git pull, git push)
 	- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
 	- [logseq-plugin-todo-master](https://github.com/pengx17/logseq-plugin-todo-master)
+	- [Logseq Markdown Table Editor](https://github.com/haydenull/logseq-plugin-markdown-table)
