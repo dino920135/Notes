@@ -1,3 +1,5 @@
+title:: ION_Notes
+
 - GNSS Attitude determination algorithm using Optimization Tech on Riemannian Manifolds
   collapsed:: true
 	- GNSS attitude model
