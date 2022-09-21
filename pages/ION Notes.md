@@ -1,0 +1,28 @@
+- GNSS Attitude determination algorithm using Optimization Tech
+  collapsed:: true
+	- GNSS attitude model
+	- GNSS attitude model Constrain
+		- Integer
+		- ortho
+	- Riemannian Optimization
+		- reduce dimention
+		- fewer nnumber of opration
+	- Search interger
+	- Comparing with MC Lambda
+- Spatiaal filtering for real-word jamming
+  collapsed:: true
+	- Antenna array
+		- phase center error
+	- steering vector
+	- How to calulate the beamform
+		- eigenbeamformer
+		- buikd the real steering vector
+			- max sig power
+	- slow change jammer
+	- rapid change
+		- single
+		- blind
+		- deterninistic
+	-
+- PPP and IMU refernced LiDAR Data for 3D Mapping and monitoring of arial electric power lines
+	-
