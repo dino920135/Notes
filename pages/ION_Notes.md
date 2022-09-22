@@ -52,4 +52,34 @@ title:: ION_Notes
 	- MAP PPK
 		- **predicting driving path (type)**
 	-
+- An RTKLIB Opensource based Solution
+  collapsed:: true
+	- benchmark for "Conventional" PPK
+	- [andriod_rinex](https://github.com/rokubun/android_rinex/tree/8ea7ab7ab807745b21cf452955d3589b6d0c8b71)
+	- Maximize use of low-quality obs.
+		- de-weight
+		- elevation based -> C/N0 based
+	-
+- Two-step Optimization of velocity and position using smartphone's carrier phase obs.
+  collapsed:: true
+	- 0% fixed
+	- FGO
+	- two step
+		- vel estimate
+			- vx vy vz t
+			- motion/doppler factor
+			- exclude outlier fron cov in U direction
+			- **moiddfied akima intrepolation**
+		- position est.
+			- xx xy xz t(diff const.)
+			- Pseudorange factor + TDCP Factor + Doppler&t Factor
+	- TDCP Factor
+		- M-estimator with HUber func.
+	- diff weighting for diff freq.
+	- Maybe with Sliding window in realtime
+	-
+- Improving smartphone ppp/rtk performance using TDCP Obs.
+  collapsed:: true
+	- Doppler obs. in android cell phone seems to have bias with respect to pseudorange & carrier phase obs.
+	-
 -
