@@ -1,7 +1,7 @@
 title:: VS_Code_SSH
 
-- Install SSH server
-	- Linux as server
+- # Install SSH server
+	- ## Linux as server
 		- Installation
 		  ```bash
 		  sudo apt-get install openssh-server
@@ -11,7 +11,7 @@ title:: VS_Code_SSH
 		  sudo systemctl enable ssh
 		  sudo systemctl start ssh
 		  ```
-	- Win as server
+	- ## Win as server
 		- Installation
 		  1. Open **Settings**, select **Apps**, then select **Optional Features**
 		  2. If OpenSSH is not installed yet, select **Add a feature**, install **OpenSSH Client** & **OpenSSH Server**
@@ -22,3 +22,5 @@ title:: VS_Code_SSH
 		  Set-Service -Name sshd -StartupType 'Automatic'
 		  Get-NetFirewallRule -Name *ssh*
 		  ```
+- # Connect to SSH server through VS Code
+	-
