@@ -83,6 +83,11 @@ title:: ION_Notes
 	- Doppler obs. in android cell phone seems to have bias with respect to pseudorange & carrier phase obs.
 	-
 - Evaluation of Invariant Extanted Kalman Filters Applied to Multi-sensor Land Vehicles Navigation in sensor Land Vehicles Navigationin GNSS Challenge Environments
+  collapsed:: true
+	- Main Purpose
+		- IEKF vs EKF in outage (wo tunning, just same input and output)
+		- w or wo bias compansation
+		  is it worth it? degrade performance
 - Multi-sensor Fault Detection, Exclusion, and Re-Admission
   collapsed:: true
 	- Decentrialized filter
@@ -98,6 +103,7 @@ title:: ION_Notes
 	-
 	-
 - GNSS Fault detection and mitigation using Android Sensors
+  collapsed:: true
 	- interference RFI (Radio Frequency Interference) & multipath
 	- Eliminate -> mitigation
 	- Qualcom: Nerual RF SLAM. Samsung: HRC
@@ -105,4 +111,4 @@ title:: ION_Notes
 		- single differenced measurement
 	- worst ins for pixel
 	- OMC (obsereved Minus Computed Residual)
-	-
+	- non rigid problem
