@@ -23,4 +23,5 @@ title:: VS_Code_SSH
 		  Get-NetFirewallRule -Name *ssh*
 		  ```
 - # Connect to SSH server through VS Code
-	-
+	- ## With Remote-Explorer
+		- ### Installation
