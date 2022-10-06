@@ -34,3 +34,5 @@
 	- [NuScenes](https://www.nuscenes.org/)
 - ## Blogs
 	- [Automotive radar startups review 2021](https://medium.com/frontier-tech-review/automotive-radar-startups-review-2021-bcb95f3b5f)
+- ## Videos
+	- [Automotive Radar – An Overview on State-of-the-Art Technology](https://youtu.be/P-C6_4ceY64)
