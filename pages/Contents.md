@@ -6,12 +6,12 @@
 	- ## [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
 - # NOTE
-	- [logseq_basics](logseq_basic.md)
+	- ## [logseq_basics](logseq_basic.md)
 - # GIT
-	- [github_profile](github_profile.md)
+	- ## [github_profile](github_profile.md)
 - # EMBEDDED
 	- ## Automation
 		- [tty_autologin](tty_autologin.md)
 		- [crontab](crontab.md)
 - # DOODLE
-	- [DOODLE](DOODLE.md)
+	- ## [DOODLE](DOODLE.md)
