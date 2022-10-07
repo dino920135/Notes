@@ -13,7 +13,8 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 	  ![image.png](../assets/image_1665136744368_0.png) 
 	  Could be given through:
 		- #### xWR1xxx EVM (J3 60 pin HD Connector)
-		  ![image.png](../assets/image_1665136507791_0.png)
+			- ![image.png](../assets/image_1665136868667_0.png)
 		- #### External DC Power Jack
 			- 2.1 mm barrel jack(center positive), 5V, 2.5 A
+			  ![image.png](../assets/image_1665136806877_0.png)
 	-
