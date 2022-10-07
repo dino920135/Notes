@@ -7,6 +7,13 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 	- **[DCA1000EVM Quick Start Guide](https://www.ti.com/lit/ml/spruik7/spruik7.pdf?ts=1665067397329)**
 - ## Power Supply
 	- ### AWR1843 BOOST
-	-
+		- 2.1 mm barrel jack(center positive), 5V > 2.5 A
 	- ### DCA1000EVM
-		- 2.1 mm 5V, 2.5 A
+	  **Power Selection Switch Information**
+	  ![image.png](../assets/image_1665136744368_0.png) 
+	  Could be given through:
+		- #### xWR1xxx EVM (J3 60 pin HD Connector)
+		  ![image.png](../assets/image_1665136507791_0.png)
+		- #### External DC Power Jack
+			- 2.1 mm barrel jack(center positive), 5V, 2.5 A
+	-
