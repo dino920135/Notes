@@ -1,14 +1,14 @@
-- # Coding Tools
+- # CODE
 	- ## [tmux](tmux.md)
 	- ## [vim](vim.md)
 	- ## Shell Script
 	- ## [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
-- # Note Tools
+- # NOTE
 	- [logseq_basics](logseq_basic.md)
-- # Github
+- # GIT
 	- [github_profile](github_profile.md)
-- # Embedded Modules
+- # EMBEDDED
 	- ## Automation
 		- [tty_autologin](tty_autologin.md)
 		- [crontab](crontab.md)
