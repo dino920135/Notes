@@ -29,9 +29,8 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 	  ![image.png](../assets/image_1665237052204_0.png)   
 	  ![image.png](../assets/image_1665231884986_0.png)   
 	  Should see the above picture (Device Manager) if all connection and drivers were connected correctly
+	  **[Warning] Do not insert SD card**
 	- ### Ethernet Settings
 	  ![image.png](../assets/image_1665236872957_0.png)
-	-
 - ## mmWave Studio
-	-
 	-
