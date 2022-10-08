@@ -26,10 +26,11 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 - ## Connection
   [DCA1000EVM使用指南](https://e2echina.ti.com/blogs_/b/the_process/posts/dca1000evm)
 	- ### Wire Connection  
-	  ![image.png](../assets/image_1665161325422_0.png)  
+	  ![image.png](../assets/image_1665237052204_0.png) 
 	  ![image.png](../assets/image_1665231884986_0.png)  
 	  Should see the above picture if all connection and drivers were connected correctly
 	- ### Ethernet Settings
+	  ![image.png](../assets/image_1665236872957_0.png)
 	-
 - ## mmWave Studio
 	-
