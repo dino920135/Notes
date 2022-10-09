@@ -33,4 +33,6 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 	- ### Ethernet Settings
 	  ![image.png](../assets/image_1665236872957_0.png)
 - ## mmWave Studio
-	-
+	- Execute mmWave Studio under path _ti\mmwave_studio_02_01_01_00\mmWaveStudio\RunTime\mmWaveStudio.exe_
+	- ![image.png](../assets/image_1665299000249_0.png)
+-
