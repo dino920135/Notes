@@ -33,6 +33,16 @@ title:: AWR1843-BOOST+DCA1000EVM_data_capture
 	- ### Ethernet Settings
 	  ![image.png](../assets/image_1665236872957_0.png)
 - ## mmWave Studio
-	- Execute mmWave Studio under path _ti\mmwave_studio_02_01_01_00\mmWaveStudio\RunTime\mmWaveStudio.exe_
-	- ![image.png](../assets/image_1665299000249_0.png)
+	- Execute mmWave Studio under path _ti\mmwave_studio_02_01_01_00\mmWaveStudio\RunTime\mmWaveStudio.exe_  
+	  ![image.png](../assets/image_1665299000249_0.png)
+	  1. Select **Connection** tab
+	  2. **FDTI Connectivity Status** -> **Connected (green)**
+	  3. Select **DCA1000**
+	  4. Click **Set** button in Reset control
+	  5. Select **COM Port** in **RS232 Operations**, **RS232 Connectivity State** -> **Connected**. **Device Status** -> **mmWave EVM Version**
+	  6. Select **.bin** file in **Files** block
+	  * BSS FW: _mmwave_studio_02_00_00_02\rf_eval_firmware\radarss\xwr18xx_radarss.bin_
+	  * MSS FW: _mmwave_studio_02_00_00_02\rf_eval_firmware\masterss\xwr16xx_masterss.bin_ 
+	  * **Load** files to the board
+	  7. Click **SPI connect** & **RF Power-up**
 -
