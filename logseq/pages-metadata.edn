@@ -15,7 +15,7 @@
   :block/updated-at 1661876256228}
  {:block/name "awr1843-boost+dca1000evm_data_capture",
   :block/created-at 1665130933397,
-  :block/updated-at 1665130933397}
+  :block/updated-at 1665304036442}
  {:block/name "b",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
@@ -30,7 +30,10 @@
   :block/updated-at 1661622641762}
  {:block/name "contents",
   :block/created-at 1661839422914,
-  :block/updated-at 1663092081769}
+  :block/updated-at 1665680310056}
+ {:block/name "crash_course_electronics_and_pcb_design",
+  :block/created-at 1665680036136,
+  :block/updated-at 1665683890135}
  {:block/name "crontab",
   :block/created-at 1662908721646,
   :block/updated-at 1662990742401}
@@ -70,6 +73,18 @@
  {:block/name "now",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
+ {:block/name "oct 10th, 2022",
+  :block/created-at 1665331207268,
+  :block/updated-at 1665331207268}
+ {:block/name "oct 11th, 2022",
+  :block/created-at 1665417605162,
+  :block/updated-at 1665417605162}
+ {:block/name "oct 12th, 2022",
+  :block/created-at 1665504001994,
+  :block/updated-at 1665504001994}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1665680013418,
+  :block/updated-at 1665680013418}
  {:block/name "oct 5th, 2022",
   :block/created-at 1664960336415,
   :block/updated-at 1664960336415}
@@ -79,6 +94,12 @@
  {:block/name "oct 7th, 2022",
   :block/created-at 1665072044149,
   :block/updated-at 1665072044149}
+ {:block/name "oct 8th, 2022",
+  :block/created-at 1665217079480,
+  :block/updated-at 1665217079480}
+ {:block/name "oct 9th, 2022",
+  :block/created-at 1665244803242,
+  :block/updated-at 1665244803242}
  {:block/name "readme",
   :block/created-at 1661621603422,
   :block/updated-at 1661621603422}
@@ -133,6 +154,9 @@
  {:block/name "vim",
   :block/created-at 1663015268389,
   :block/updated-at 1663017408122}
+ {:block/name "vs code",
+  :block/created-at 1665217080230,
+  :block/updated-at 1665217080230}
  {:block/name "vs_code",
   :block/created-at 1663866498413,
   :block/updated-at 1663866498413}
