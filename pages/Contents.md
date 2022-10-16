@@ -11,12 +11,12 @@
 - ## NOTE
 	- [logseq_basics](logseq_basic.md)
 - ## GIT
-	- [github_profile](github_profile.md)
+	- [github_profile](Github_Profile.md)
 - ## EMBEDDED
 	- ### PCB
 		- [[Crash_Course_Electronics_and_PCB_Design]]
 	- ### Automation
-		- [tty_autologin](tty_autologin.md)
+		- [tty_autologin](TTY_autologin.md)
 		- [crontab](crontab.md)
 - ## DOODLE
 	- [DOODLE](DOODLE.md)
