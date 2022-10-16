@@ -1,22 +1,22 @@
-- # CODE
-	- ## [tmux](tmux.md)
-	- ## [vim](vim.md)
-	- ## Shell Script
+- # Contents
+- ## Code
+	- [tmux](tmux.md)
+	- [vim](vim.md)
+	- ### Shell Script
 		-
-	- ## [VS Code](VS_Code.md)
+	- ### [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
-	- ## Memory
+	- ## Memory Leak
 		- [valgrind](valgrind.md)
-		-
-- # NOTE
-	- ## [logseq_basics](logseq_basic.md)
-- # GIT
-	- ## [github_profile](github_profile.md)
-- # EMBEDDED
-	- ## PCB
+- ## NOTE
+	- [logseq_basics](logseq_basic.md)
+- ## GIT
+	- [github_profile](github_profile.md)
+- ## EMBEDDED
+	- ### PCB
 		- [[Crash_Course_Electronics_and_PCB_Design]]
-	- ## Automation
+	- ### Automation
 		- [tty_autologin](tty_autologin.md)
 		- [crontab](crontab.md)
-- # DOODLE
-	- ## [DOODLE](DOODLE.md)
+- ## DOODLE
+	- [DOODLE](DOODLE.md)
