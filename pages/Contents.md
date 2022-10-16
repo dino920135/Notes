@@ -5,18 +5,18 @@
 	- ### Shell Script
 		-
 	- ### [VS Code](VS_Code.md)
-		- [VS_Code_SSH](VS_Code_SSH.md)
+		- [VS Code SSH](VS_Code_SSH.md)
 	- ## Memory Leak
 		- [valgrind](valgrind.md)
 - ## NOTE
-	- [logseq_basics](logseq_basic.md)
+	- [logseq basics](logseq_basic.md)
 - ## GIT
-	- [github_profile](Github_Profile.md)
+	- [github profile](Github_Profile.md)
 - ## EMBEDDED
 	- ### PCB
-		- [[Crash_Course_Electronics_and_PCB_Design]]
+		- [Crash Course Electronics and PCB Design](Crash_Course_Electronics_and_PCB_Design.md)
 	- ### Automation
-		- [tty_autologin](TTY_autologin.md)
+		- [tty autologin](TTY_autologin.md)
 		- [crontab](crontab.md)
 - ## DOODLE
 	- [DOODLE](DOODLE.md)
