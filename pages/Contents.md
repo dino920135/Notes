@@ -5,11 +5,16 @@
 		-
 	- ## [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
+	- ## Memory
+		- [valgrind](valgrind.md)
+		-
 - # NOTE
 	- ## [logseq_basics](logseq_basic.md)
 - # GIT
 	- ## [github_profile](github_profile.md)
 - # EMBEDDED
+	- ## PCB
+		- [[Crash_Course_Electronics_and_PCB_Design]]
 	- ## Automation
 		- [tty_autologin](tty_autologin.md)
 		- [crontab](crontab.md)
