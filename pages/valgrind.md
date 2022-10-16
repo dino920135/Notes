@@ -1,4 +1,4 @@
-- # valgrind - tool for check memeory leak
+- # valgrind - memeory leak checking tool
 - ## Installation
   Run `sudo apt-get install valgrind`
 - ## Usage
