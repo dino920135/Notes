@@ -11,7 +11,9 @@
 - ## NOTE
 	- [logseq basics](logseq_basic.md)
 - ## GIT
-	- [github profile](Github_Profile.md)
+	- ### Github
+		- [github profile](Github_Profile.md)
+	- ### GitLab
 - ## EMBEDDED
 	- ### PCB
 		- [Crash Course Electronics and PCB Design](Crash_Course_Electronics_and_PCB_Design.md)

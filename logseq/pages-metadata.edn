@@ -30,10 +30,13 @@
   :block/updated-at 1661622641762}
  {:block/name "contents",
   :block/created-at 1661839422914,
-  :block/updated-at 1665680310056}
+  :block/updated-at 1665945828082}
+ {:block/name "crash course electronics and pcb design",
+  :block/created-at 1665945555267,
+  :block/updated-at 1665945555267}
  {:block/name "crash_course_electronics_and_pcb_design",
   :block/created-at 1665680036136,
-  :block/updated-at 1665683890135}
+  :block/updated-at 1665908111064}
  {:block/name "crontab",
   :block/created-at 1662908721646,
   :block/updated-at 1662990742401}
@@ -52,6 +55,9 @@
  {:block/name "favorites",
   :block/created-at 1663213149015,
   :block/updated-at 1663213149015}
+ {:block/name "github profile",
+  :block/created-at 1665945792918,
+  :block/updated-at 1665945792918}
  {:block/name "github_profile",
   :block/created-at 1661651302998,
   :block/updated-at 1661732460154}
@@ -64,6 +70,9 @@
  {:block/name "later",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
+ {:block/name "logseq basics",
+  :block/created-at 1665945526828,
+  :block/updated-at 1665945526828}
  {:block/name "logseq_basics",
   :block/created-at 1661626143548,
   :block/updated-at 1663656183204}
@@ -85,6 +94,12 @@
  {:block/name "oct 14th, 2022",
   :block/created-at 1665680013418,
   :block/updated-at 1665680013418}
+ {:block/name "oct 16th, 2022",
+  :block/created-at 1665906056186,
+  :block/updated-at 1665906056186}
+ {:block/name "oct 17th, 2022",
+  :block/created-at 1665936000705,
+  :block/updated-at 1665936000705}
  {:block/name "oct 5th, 2022",
   :block/created-at 1664960336415,
   :block/updated-at 1664960336415}
@@ -100,6 +115,9 @@
  {:block/name "oct 9th, 2022",
   :block/created-at 1665244803242,
   :block/updated-at 1665244803242}
+ {:block/name "photoelectric effect",
+  :block/created-at 1665907977623,
+  :block/updated-at 1665907977623}
  {:block/name "readme",
   :block/created-at 1661621603422,
   :block/updated-at 1661621603422}
@@ -145,18 +163,27 @@
  {:block/name "todo",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
+ {:block/name "tty autologin",
+  :block/created-at 1665945541260,
+  :block/updated-at 1665945541260}
  {:block/name "tty_autologin",
   :block/created-at 1661621662932,
   :block/updated-at 1661732504923}
  {:block/name "uncertainty",
   :block/created-at 1663206198430,
   :block/updated-at 1663206198430}
+ {:block/name "valgrind",
+  :block/created-at 1665912396453,
+  :block/updated-at 1665945028745}
  {:block/name "vim",
   :block/created-at 1663015268389,
   :block/updated-at 1663017408122}
  {:block/name "vs code",
   :block/created-at 1665217080230,
   :block/updated-at 1665217080230}
+ {:block/name "vs code ssh",
+  :block/created-at 1665945534985,
+  :block/updated-at 1665945534985}
  {:block/name "vs_code",
   :block/created-at 1663866498413,
   :block/updated-at 1663866498413}
