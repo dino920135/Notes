@@ -17,6 +17,8 @@
 - ## EMBEDDED
 	- ### PCB
 		- [Crash Course Electronics and PCB Design](Crash_Course_Electronics_and_PCB_Design.md)
+	- ### Arduino
+		- [fastled lightstrip](fastled_lightstrip.md)
 	- ### Automation
 		- [tty autologin](TTY_autologin.md)
 		- [crontab](crontab.md)
