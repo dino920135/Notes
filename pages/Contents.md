@@ -5,22 +5,23 @@
 	- ### Shell Script
 		-
 	- ### [VS Code](VS_Code.md)
-		- [VS Code SSH](VS_Code_SSH.md)
+		- [VS_Code_SSH](VS_Code_SSH.md)
 	- ## Memory Leak
 		- [valgrind](valgrind.md)
 - ## NOTE
-	- [logseq basics](logseq_basic.md)
+	- [logseq_basics](logseq_basic.md)
 - ## GIT
 	- ### Github
-		- [github profile](Github_Profile.md)
+		- [github_profile](Github_Profile.md)
 	- ### GitLab
+		- [GitLab_sent_mail_with_Gmail_SMTP](GitLab_sent_mail_with_Gmail_SMTP.md)
 - ## EMBEDDED
 	- ### PCB
-		- [Crash Course Electronics and PCB Design](Crash_Course_Electronics_and_PCB_Design.md)
+		- [Crash_Course_Electronics_and_PCB_Design](Crash_Course_Electronics_and_PCB_Design.md)
 	- ### Arduino
-		- [fastled lightstrip](fastled_lightstrip.md)
+		- [fastled_lightstrip](fastled_lightstrip.md)
 	- ### Automation
-		- [tty autologin](TTY_autologin.md)
+		- [TTY_autologin](TTY_autologin.md)
 		- [crontab](crontab.md)
 - ## DOODLE
 	- [DOODLE](DOODLE.md)
