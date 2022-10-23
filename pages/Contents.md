@@ -20,8 +20,8 @@
 		- [Crash_Course_Electronics_and_PCB_Design](Crash_Course_Electronics_and_PCB_Design.md)
 	- ### Arduino
 		- [fastled_lightstrip](fastled_lightstrip.md)
-	- ### Automation
-		- [TTY_autologin](TTY_autologin.md)
-		- [crontab](crontab.md)
+- ## Automation
+	- [TTY_autologin](TTY_autologin.md)
+	- [crontab](crontab.md)
 - ## DOODLE
 	- [DOODLE](DOODLE.md)
