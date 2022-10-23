@@ -22,6 +22,8 @@ title:: VS_Code_SSH
 		  Set-Service -Name sshd -StartupType 'Automatic'
 		  Get-NetFirewallRule -Name *ssh*
 		  ```
+		- **Remember to setup login password** in **Settings > Accounts > Sign-in options**
+		  ![image.png](../assets/image_1666464085880_0.png)
 - # Connect to SSH server through VS Code
 	- ## With Remote-Explorer
 		- ### Installation
