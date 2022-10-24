@@ -7,8 +7,10 @@
 		- [check_if_specific_process_is_running](check_if_specific_process_is_running.md)
 	- ### [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
-	- ## Memory Leak
+	- ### Memory Leak
 		- [valgrind](valgrind.md)
+	- ### zsh
+		- [setup_zsh](setup_zsh.md)
 - ## NOTE
 	- [logseq_basics](logseq_basic.md)
 - ## GIT
