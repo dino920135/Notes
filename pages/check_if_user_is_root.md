@@ -11,4 +11,3 @@ title:: check_if_user_is_root
 		      exit
 		  fi
 		  ```
--
