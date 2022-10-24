@@ -11,35 +11,20 @@ title:: GitLab_sent_mail_with_Gmail_SMTP
 	- Edit `/etc/gitlab/gitlab.rb` file as follow
 	  ```
 	  external_url 'http://your-doamin'
-	  
 	  gitlab_rails['time_zone'] = 'Asia/Taipei'
-	  
 	  gitlab_rails['gitlab_email_enabled'] = true
-	  
 	  gitlab_rails['gitlab_email_from'] = 'your_email'
-	  
 	  gitlab_rails['gitlab_email_display_name'] = 'GitLab'
-	  
 	  gitlab_rails['gitlab_shell_ssh_port'] = 22
-	  
 	  gitlab_rails['smtp_enable'] = true
-	  
 	  gitlab_rails['smtp_address'] = 'smtp.gmail.com'
-	  
 	  gitlab_rails['smtp_port'] = 587
-	  
 	  gitlab_rails['smtp_user_name'] = 'your_email'
-	  
 	  gitlab_rails['smtp_password'] = 'your_email_password'
-	  
 	  gitlab_rails['smtp_domain'] = 'smtp.gmail.com'
-	  
 	  gitlab_rails['smtp_authentication'] = 'login'
-	  
 	  gitlab_rails['smtp_enable_starttls_auto'] = true
-	  
 	  gitlab_rails['smtp_tls'] = false
-	  
 	  gitlab_rails['smtp_openssl_verify_mode'] = 'peer'
 	  ```
 - ## Test Sending Email
