@@ -4,6 +4,7 @@
 	- [vim](vim.md)
 	- ### Shell Script
 		- [check_if_user_is_root](check_if_user_is_root.md)
+		- [check_if_specific_process_is_running](check_if_specific_process_is_running.md)
 	- ### [VS Code](VS_Code.md)
 		- [VS_Code_SSH](VS_Code_SSH.md)
 	- ## Memory Leak
