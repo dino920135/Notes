@@ -1,7 +1,7 @@
 title:: check_if_specific_process_is_running
 
 - # Check if specific process is running
-	- ```bash
+	- ```shell
 	  while true
 	  do
 	  	if [[ $(ps -ef | grep MY_PROCESS | grep -v grep | wc -l) != 0 ]]
