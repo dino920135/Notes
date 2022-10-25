@@ -1,4 +1,5 @@
 title:: check_if_user_is_root
+#shellscript #code #bash
 
 - # Check if user is root
 	- ## `id -u`

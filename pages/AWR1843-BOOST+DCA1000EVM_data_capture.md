@@ -1,4 +1,5 @@
 title:: AWR1843-BOOST+DCA1000EVM_data_capture
+#awr1843 #mmwave-radar #dca1000evm
 
 - ## Documents
 	- [The fundamentals of millimeter wave radar sensors (Rev. A)](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf?ts=1665127395624&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FAWR1843BOOST)

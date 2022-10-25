@@ -1,4 +1,5 @@
 title:: GitLab_sent_mail_with_Gmail_SMTP
+#gitlab #server #email #git
 
 - # GitLab sent mail with Gmail SMTP
 - ## Documantation

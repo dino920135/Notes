@@ -1,4 +1,5 @@
 title:: logseq_basics
+#logseq #note
 
 - # Sync Logseq with Github
   title:: logseq_basics
