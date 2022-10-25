@@ -1,3 +1,5 @@
+- #code #ide
+- # tmux
 - ## Installing tmux
 	- ```bash
 	  sudo apt-get install tmux

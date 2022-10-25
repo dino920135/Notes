@@ -1,3 +1,5 @@
+- #code #IDE
+- # vim
 - [8 Essential Vim Editor Navigation Fundamentals](https://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/)
 - **Line** Navigation
 	- **hlkj** (←→↑↓)

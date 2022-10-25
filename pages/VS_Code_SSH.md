@@ -1,4 +1,5 @@
 title:: VS_Code_SSH
+#vscode #ssh
 
 - # Install SSH server
 	- ## Linux as server
