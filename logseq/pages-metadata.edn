@@ -1,6 +1,9 @@
 [{:block/name "a",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
+ {:block/name "arduino",
+  :block/created-at 1666685909741,
+  :block/updated-at 1666685909741}
  {:block/name "aug 28th, 2022",
   :block/created-at 1661621603619,
   :block/updated-at 1661621603619}
@@ -13,33 +16,57 @@
  {:block/name "aug 31st, 2022",
   :block/created-at 1661876256228,
   :block/updated-at 1661876256228}
+ {:block/name "autologin",
+  :block/created-at 1666686208509,
+  :block/updated-at 1666686208509}
+ {:block/name "awr1843",
+  :block/created-at 1666686181702,
+  :block/updated-at 1666686181702}
  {:block/name "awr1843-boost+dca1000evm_data_capture",
   :block/created-at 1665130933397,
-  :block/updated-at 1665304036442}
+  :block/updated-at 1666686181703}
  {:block/name "b",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
+ {:block/name "bash",
+  :block/created-at 1666685877172,
+  :block/updated-at 1666685877172}
  {:block/name "c",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
  {:block/name "c++error",
   :block/created-at 1662358481673,
   :block/updated-at 1662358481673}
+ {:block/name "camera",
+  :block/created-at 1666686549299,
+  :block/updated-at 1666686549299}
  {:block/name "card",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
+ {:block/name "check_if_specific_process_is_running",
+  :block/created-at 1666611378055,
+  :block/updated-at 1666685877173}
+ {:block/name "check_if_user_is_root",
+  :block/created-at 1666609835314,
+  :block/updated-at 1666685886290}
+ {:block/name "code",
+  :block/created-at 1666685858613,
+  :block/updated-at 1666685858613}
  {:block/name "contents",
   :block/created-at 1661839422914,
-  :block/updated-at 1665945828082}
- {:block/name "crash course electronics and pcb design",
-  :block/created-at 1665945555267,
-  :block/updated-at 1665945555267}
+  :block/updated-at 1666686477713}
+ {:block/name "course",
+  :block/created-at 1666685968023,
+  :block/updated-at 1666685968023}
  {:block/name "crash_course_electronics_and_pcb_design",
   :block/created-at 1665680036136,
-  :block/updated-at 1665908111064}
+  :block/updated-at 1666686839683}
  {:block/name "crontab",
   :block/created-at 1662908721646,
-  :block/updated-at 1662990742401}
+  :block/updated-at 1666686045669}
+ {:block/name "dca1000evm",
+  :block/created-at 1666686181701,
+  :block/updated-at 1666686181701}
  {:block/name "doing",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
@@ -49,18 +76,48 @@
  {:block/name "doodle",
   :block/created-at 1662358481717,
   :block/updated-at 1662358481717}
+ {:block/name "electronics",
+  :block/created-at 1666685968021,
+  :block/updated-at 1666685968021}
+ {:block/name "email",
+  :block/created-at 1666685929784,
+  :block/updated-at 1666685929784}
+ {:block/name "embedded",
+  :block/created-at 1666686828195,
+  :block/updated-at 1666686828195}
  {:block/name "error-propagation",
   :block/created-at 1663206207265,
   :block/updated-at 1663206207265}
+ {:block/name "fastled",
+  :block/created-at 1666685909740,
+  :block/updated-at 1666685909740}
+ {:block/name "fastled_lightstrip",
+  :block/created-at 1666363554336,
+  :block/updated-at 1666686828198}
  {:block/name "favorites",
   :block/created-at 1663213149015,
   :block/updated-at 1663213149015}
- {:block/name "github profile",
-  :block/created-at 1665945792918,
-  :block/updated-at 1665945792918}
+ {:block/name "git",
+  :block/created-at 1666686119868,
+  :block/updated-at 1666686119868}
+ {:block/name "github",
+  :block/created-at 1666686119869,
+  :block/updated-at 1666686119869}
  {:block/name "github_profile",
   :block/created-at 1661651302998,
-  :block/updated-at 1661732460154}
+  :block/updated-at 1666686119870}
+ {:block/name "gitlab",
+  :block/created-at 1666685929785,
+  :block/updated-at 1666685929785}
+ {:block/name "gitlab_sent_mail_with_gmail_smtp",
+  :block/created-at 1666345415234,
+  :block/updated-at 1666686866301}
+ {:block/name "ide",
+  :block/created-at 1666686151384,
+  :block/updated-at 1666686151384}
+ {:block/name "image",
+  :block/created-at 1666686549300,
+  :block/updated-at 1666686549300}
  {:block/name "in-progress",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
@@ -70,15 +127,36 @@
  {:block/name "later",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
- {:block/name "logseq basics",
-  :block/created-at 1665945526828,
-  :block/updated-at 1665945526828}
+ {:block/name "lightstrip",
+  :block/created-at 1666685909740,
+  :block/updated-at 1666685909740}
+ {:block/name "localization",
+  :block/created-at 1666686520948,
+  :block/updated-at 1666686520948}
+ {:block/name "logseq",
+  :block/created-at 1666686391236,
+  :block/updated-at 1666686391236}
  {:block/name "logseq_basics",
   :block/created-at 1661626143548,
-  :block/updated-at 1663656183204}
+  :block/updated-at 1666686399943}
+ {:block/name "memory",
+  :block/created-at 1666686097428,
+  :block/updated-at 1666686097428}
+ {:block/name "memory-leak",
+  :block/created-at 1666686097428,
+  :block/updated-at 1666686097428}
+ {:block/name "mmwave",
+  :block/created-at 1666686520950,
+  :block/updated-at 1666686520950}
+ {:block/name "mmwave-radar",
+  :block/created-at 1666686181701,
+  :block/updated-at 1666686181701}
  {:block/name "mmwave-radar-localization-references",
   :block/created-at 1663187682218,
-  :block/updated-at 1665033743690}
+  :block/updated-at 1666686586286}
+ {:block/name "note",
+  :block/created-at 1666686391235,
+  :block/updated-at 1666686391235}
  {:block/name "now",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
@@ -100,6 +178,36 @@
  {:block/name "oct 17th, 2022",
   :block/created-at 1665936000705,
   :block/updated-at 1665936000705}
+ {:block/name "oct 18th, 2022",
+  :block/created-at 1666022419079,
+  :block/updated-at 1666022419079}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666108816911,
+  :block/updated-at 1666108816911}
+ {:block/name "oct 20th, 2022",
+  :block/created-at 1666195213638,
+  :block/updated-at 1666195213638}
+ {:block/name "oct 21st, 2022",
+  :block/created-at 1666281610381,
+  :block/updated-at 1666281610381}
+ {:block/name "oct 22nd, 2022",
+  :block/created-at 1666368001572,
+  :block/updated-at 1666368001572}
+ {:block/name "oct 23rd, 2022",
+  :block/created-at 1666454403351,
+  :block/updated-at 1666454403351}
+ {:block/name "oct 24th, 2022",
+  :block/created-at 1666540805029,
+  :block/updated-at 1666540805029}
+ {:block/name "oct 25th, 2022",
+  :block/created-at 1666627259488,
+  :block/updated-at 1666627259488}
+ {:block/name "oct 26th, 2022",
+  :block/created-at 1666725450273,
+  :block/updated-at 1666725450273}
+ {:block/name "oct 27th, 2022",
+  :block/created-at 1666800031296,
+  :block/updated-at 1666800031296}
  {:block/name "oct 5th, 2022",
   :block/created-at 1664960336415,
   :block/updated-at 1664960336415}
@@ -115,12 +223,30 @@
  {:block/name "oct 9th, 2022",
   :block/created-at 1665244803242,
   :block/updated-at 1665244803242}
+ {:block/name "paper",
+  :block/created-at 1666686520947,
+  :block/updated-at 1666686520947}
+ {:block/name "pcb",
+  :block/created-at 1666685968022,
+  :block/updated-at 1666685968022}
  {:block/name "photoelectric effect",
   :block/created-at 1665907977623,
   :block/updated-at 1665907977623}
+ {:block/name "profile",
+  :block/created-at 1666686119869,
+  :block/updated-at 1666686119869}
+ {:block/name "radar",
+  :block/created-at 1666686520949,
+  :block/updated-at 1666686520949}
  {:block/name "readme",
   :block/created-at 1661621603422,
   :block/updated-at 1661621603422}
+ {:block/name "reference",
+  :block/created-at 1666686520946,
+  :block/updated-at 1666686520946}
+ {:block/name "research",
+  :block/created-at 1666686520950,
+  :block/updated-at 1666686520950}
  {:block/name "sep 11th, 2022",
   :block/created-at 1662908706391,
   :block/updated-at 1662908706391}
@@ -157,42 +283,57 @@
  {:block/name "sep 5th, 2022",
   :block/created-at 1662358481603,
   :block/updated-at 1662358481603}
+ {:block/name "server",
+  :block/created-at 1666685929784,
+  :block/updated-at 1666685929784}
+ {:block/name "setup_zsh",
+  :block/created-at 1666629628922,
+  :block/updated-at 1666685858614}
+ {:block/name "shellscript",
+  :block/created-at 1666685823977,
+  :block/updated-at 1666685823977}
+ {:block/name "slam",
+  :block/created-at 1666686560268,
+  :block/updated-at 1666686560268}
+ {:block/name "ssh",
+  :block/created-at 1666685945702,
+  :block/updated-at 1666685945702}
  {:block/name "tmux",
   :block/created-at 1662986696241,
-  :block/updated-at 1663089810216}
+  :block/updated-at 1666686928468}
  {:block/name "todo",
   :block/created-at 1661622641762,
   :block/updated-at 1661622641762}
- {:block/name "tty autologin",
-  :block/created-at 1665945541260,
-  :block/updated-at 1665945541260}
+ {:block/name "tty",
+  :block/created-at 1666686208510,
+  :block/updated-at 1666686208510}
  {:block/name "tty_autologin",
   :block/created-at 1661621662932,
-  :block/updated-at 1661732504923}
+  :block/updated-at 1666686208510}
  {:block/name "uncertainty",
   :block/created-at 1663206198430,
   :block/updated-at 1663206198430}
  {:block/name "valgrind",
   :block/created-at 1665912396453,
-  :block/updated-at 1665945028745}
+  :block/updated-at 1666686961873}
  {:block/name "vim",
   :block/created-at 1663015268389,
-  :block/updated-at 1663017408122}
- {:block/name "vs code",
-  :block/created-at 1665217080230,
-  :block/updated-at 1665217080230}
- {:block/name "vs code ssh",
-  :block/created-at 1665945534985,
-  :block/updated-at 1665945534985}
+  :block/updated-at 1666686943068}
  {:block/name "vs_code",
   :block/created-at 1663866498413,
-  :block/updated-at 1663866498413}
+  :block/updated-at 1666687000691}
  {:block/name "vs_code_ssh",
   :block/created-at 1663866498459,
-  :block/updated-at 1664976018407}
+  :block/updated-at 1666685945704}
+ {:block/name "vscode",
+  :block/created-at 1666685945703,
+  :block/updated-at 1666685945703}
  {:block/name "wait",
   :block/created-at 1661622641763,
   :block/updated-at 1661622641763}
  {:block/name "waiting",
-  :block/created-at 1661622641762, 
-  :block/updated-at 1661622641762}]
+  :block/created-at 1661622641762,
+  :block/updated-at 1661622641762}
+ {:block/name "zsh",
+  :block/created-at 1666685850494, 
+  :block/updated-at 1666685850494}]
