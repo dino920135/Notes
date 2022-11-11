@@ -8,14 +8,14 @@ title:: VS_Code
 	- ### Visual Studio Code is unable to watch for file changes in this large workspace(error ENOSPC)
 	  
 	  **Solutions**
-	  Check Maximum user watches avaliable 
+	  Check Maximum user watches avaliable  
 	  `cat /proc/sys/fs/inotify/max_user_watches`
 	  
-	  To change the number of watches avaliable, edit file:
+	  To change the number of watches avaliable, edit file:  
 	  `sudo vim /etc/sysctl.conf`
 	  
-	  Add new line
+	  Add new line  
 	  `fs.inotify.max_user_watches=524288`
 	  
-	  Refresh settings
+	  Refresh settings  
 	  `sudo sysctl -p`
