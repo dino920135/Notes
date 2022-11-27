@@ -13,7 +13,7 @@
 		- [setup_zsh](setup_zsh.md)
 - ## NOTE
 	- [logseq_basics](logseq_basic.md)
-- ## GIT
+- ## [GIT](GIT.md )
 	- ### Github
 		- [github_profile](Github_Profile.md)
 	- ### GitLab
