@@ -3,6 +3,7 @@ title:: VS_Code
 
 - # VS Code
 - ## Navigate
+  [42 Visual Studio Code Shortcuts for Boosting Your Productivity](https://www.sitepoint.com/visual-studio-code-keyboard-shortcuts/)
 	- ### Open file
 	  `Ctrl` + `p`
 	- ### Toggle Side Bar
