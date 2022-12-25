@@ -3,7 +3,6 @@ title:: Crash_Course_Electronics_and_PCB_Design
 
 - # Crash Course Electronics and PCB Design
 	- ### Glossary
-	  collapsed:: true
 		- [transistor](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwia3P-O2t36AhUQBt4KHauACBkQmhN6BAhWEAI&url=https%3A%2F%2Fzh.wikipedia.org%2Fzh-tw%2F%25E6%2599%25B6%25E4%25BD%2593%25E7%25AE%25A1&usg=AOvVaw00n45Li0dcVlgLPZOYMLcp)
 		- [diode](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPqf7u2d36AhWMBt4KHZfOCWAQmhN6BAhYEAI&url=https%3A%2F%2Fzh.wikipedia.org%2Fzh-tw%2F%25E4%25BA%258C%25E6%25A5%25B5%25E9%25AB%2594&usg=AOvVaw0ucWfeL-qNsnMGoOIdg2D0)
 		- [dual in-line package](https://zh.wikipedia.org/wiki/%E9%9B%99%E5%88%97%E7%9B%B4%E6%8F%92%E5%B0%81%E8%A3%9D)
@@ -25,5 +24,11 @@ title:: Crash_Course_Electronics_and_PCB_Design
 			  $$1V=1J/1C$$
 		- ### The Photoelectric Effect ([光電效應](Photoelectric Effect))
 		- ### Alternating and Direct Current
-			-
-			-
+			- RMS of alternating current
+			  Peak-peak Voltage: $$V_{pp}=2 \sqrt[]{2} RMS$$
+		- ### Ohm's Law and Power
+		  Voltage = current * resistance
+		  V = I * R (V, mA, $\Omega$)
+		  I = V / R or R = V / I
+			- Alternating power
+				- Hope Power Factor = 1 (Phase shift = 0)
