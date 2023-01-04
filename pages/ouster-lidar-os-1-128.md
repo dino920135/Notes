@@ -1,0 +1,28 @@
+- # Ouster lidar OS-1-128
+  sensor:: lidar
+  manufacturers:: ouster
+  model:: OS-1-128
+- ## Document
+	- [OS1 Hardware User Manual (ouster.io)](https://data.ouster.io/downloads/hardware-user-manual/hardware-user-manual-revd-os1.pdf)
+	- [Firmware User Manual (ouster.io)](https://data.ouster.io/downloads/software-user-manual/firmware-user-manual-v2.4.0.pdf)
+	- [Software User Manual (ouster.io)](https://data.ouster.io/downloads/software-user-manual/software-user-manual-v2p0.pdf)
+	- [Ouster Sensor API Guide (aliyuncs.com)](https://ouster.oss-cn-shanghai.aliyuncs.com/firmware%20v2.1/api-manual-v2.1.0.pdf)
+	- [Sensor Operations — Ouster Sensor Docs documentation](https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_operations/sensor-operations.html)
+- ## Connecting
+	- sensor hostname: `os-[sensor serial number].local`
+	  [sensor serial number] could be found on a sticker to the top of the sensor as 99xxxxxxxxxx
+	- ### Connect to Web Interface through browser
+	  `http://OS-[sensor serial number].local`
+	- ### Ouster Studio
+	  [Ouster Studio lidar visualization software | Ouster](https://ouster.com/products/software/ouster-studio-visualizer/)
+- ## Configure
+	- ### Mode
+		- ![image.png](../assets/image_1672873086359_0.png)
+	- ### Timming
+		- ![image.png](../assets/image_1672873135647_0.png)
+	-
+- ## Alert
+	- ETHERNET_LINK_BAD
+	  ![image.png](../assets/image_1672872308929_0.png)
+	  Sensor has detected an issue with the connected ethernet link. Please check the network setup including the network switch and harnessing can support 1 Gbps Ethernet. If you experience no issues with this Alert active, **this alert can be ignored**.
+-
