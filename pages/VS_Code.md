@@ -26,6 +26,25 @@ title:: VS_Code
 	-
 - ## Git with vscode
 	- ## git clone
+- ## Coo-work Tips
+	- ### Recommended extesion
+	  `ctrl + shift + P` and type `Extensions: Configure Recommended Extensions (Workspace)`
+	  ```json
+	  // Example (in .code-workspace)
+	  "extensions": {
+	    "recommendations": [
+	      "takumii.markdowntable",
+	      "mhutchie.git-graph",
+	      "eamodio.gitlens",
+	      "shd101wyy.markdown-preview-enhanced",
+	      "davidanson.vscode-markdownlint",
+	      "gruntfuggly.todo-tree",
+	      "llvm-vs-code-extensions.vscode-clangd",
+	      "twxs.cmake",
+	      "ms-vscode.cmake-tools"
+	    ]
+	  }
+	  ```
 - ## Warnings and Debug
 	- ### Visual Studio Code is unable to watch for file changes in this large workspace(error ENOSPC)
 	  
