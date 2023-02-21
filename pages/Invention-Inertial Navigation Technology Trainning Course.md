@@ -9,8 +9,8 @@
 		- Absolute
 		  Measurements are made with respect to a **reference system**
 	- ### Principle
-	  $v=v_0+\int a\ dt$ <=> $s = s_0 + \int v\ dt = s_0 + v_0 t + \int a\ dt\ dt$
-	  $a^n = R^n_b a^b$
+	  $v=v_0+\int a\ dt$ <=> $s = s_0 + \int v\ dt = s_0 + v_0 t + \int a\ dt\ dt$  
+	  $a^n = R^n_b a^b$  
 	  where $R^n_b$ can be derived from gyroscope, $A^b$ can be derived from accelerometer
 	- ### Accelerometer
 		- Not possible to seperate gravitational measurement from motion measurement
@@ -51,4 +51,12 @@
 	  Accel & Gyros were assumed to be orthogonal
 	  Nonorthogonality can cause **cross-axis signal coupling**
 	- ### Stochastic Modeling of noise
+		- wite noise process
+		  (independent to time)
+		- $1^{st}$ order Markov Process (For modeling the Auto-correlation function)
+	- ### Accelerometer Measurement Model
+		- $I_f=f + B_f + S f + N f + \delta g + \epsilon(f)$
+	- ### Gyroscope Measurement Model
 		-
+- ## Calibration of Inertial Sensors
+	-
