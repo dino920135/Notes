@@ -59,4 +59,11 @@
 	- ### Gyroscope Measurement Model
 		-
 - ## Calibration of Inertial Sensors
+	- Accel Bias could lead to leveling error
+	  $e_{\theta}=-b_x/g$
+	- ### How Gyro error effect position error  
+	  $\delta \theta = \int b_\omega dt = b_\omega t$  
+	  $\delta f_y = gsin(\delta \theta) \approx g\delta \theta \approx gb_\omega t$  
+	  $\delta v = \int \delta f_y dt=\frac{1}{2}b_\omega g t^2$  
+	  $\delta p = \int \delta v dt = \frac{1}{6}b_\omega gt^3$
 	-
