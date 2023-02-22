@@ -66,4 +66,16 @@
 	  $\delta f_y = gsin(\delta \theta) \approx g\delta \theta \approx gb_\omega t$  
 	  $\delta v = \int \delta f_y dt=\frac{1}{2}b_\omega g t^2$  
 	  $\delta p = \int \delta v dt = \frac{1}{6}b_\omega gt^3$
-	-
+- ## Initial Alignment of INS
+	- ### Static Alignment
+		- Course-Alignment
+			- Leveling
+				- Limited by Accel Bias
+			- Gyro Compassing
+				- Gyro Bias:  
+				  $\delta=\frac{b_{\omega_{x^b}}}{\omega_e cos\phi}$  
+				  (eg:plans fly below 80 deg lat)
+				- Gyro ARW:  
+				  $\delta A=\frac{ARW}{\omega_e cos\phi \sqrt{T_a}} => T_a=(\frac{ARW}{\omega_e cos\phi \delta A})^2$
+- ## Surveying with Inertial Navigation
+-
