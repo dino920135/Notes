@@ -115,10 +115,25 @@
 		- Attitude
 		- ### Local Level Machanization Equations
 		  $\dot{R}^l_b->\dot{V}^l->\dot{r}^l$  
-		  $$\begin{bmatrix}
+		  $$
+		  \begin{bmatrix}
+		  \dot{r}^l \\
+		  \dot{V}^l \\
+		  \dot{R}^l_{ib} \\
+		  \end{bmatrix}
+		  =
+		  \begin{bmatrix}
 		  D^{-1} V^l \\
 		  R^l_b f^b - (2\Omega^l_{ie} + \Omega^l_{el})V^l + g^l \\
 		  R^l_b (\Omega^b_{ib} - \Omega^b_{il}) \\
 		  \end{bmatrix}$$  
 		  where, $f^b$ is from Accel, $\Omega^b_{ib}$ is from Gyro
+		-
+- ## Modeling Inertial Sensors Using Kalman Filtering
+	- Minimizing INS error with external observations
+	- $X_{t+1}=e^{f\Delta t} \cdot X_t$  
+	  $e^{f\Delta t} = I + f \cdot \Delta t + \frac{1}{2}f^2 \Delta t^2 + ... (Taylor Expension)$  
+	  $\Phi (Transition Matrix) = I +  f \cdot \Delta t$  
+	  $X_{t+1} = \Phi \cdot X$
+	- ### Velocity Errors
 		-
