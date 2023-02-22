@@ -78,4 +78,47 @@
 				- Gyro ARW:  
 				  $\delta A=\frac{ARW}{\omega_e cos\phi \sqrt{T_a}} => T_a=(\frac{ARW}{\omega_e cos\phi \delta A})^2$
 - ## Surveying with Inertial Navigation
--
+- ## Modeling Motion Using Inertial Data
+	- ### Time Derivative of Rotation Metrices
+		- $\dot{R^i_b} = R^i_b \Omega^i_{ib}$
+		- When the rotations are small:  
+		  $R^n_b=R(r)R(p)R(A)=I+\Omega^n_{nb}$
+		- $$S=
+		  \begin{bmatrix}
+		  \theta , \theta, \theta
+		  \end{bmatrix}$$  
+		  https://youtu.be/BI5rUKu49jA
+	- ### Transformation between Computational Frames
+		- e->i (Earth Rotation)  
+		  $$\omega^l_{ie}=
+		  \begin{bmatrix}
+		  0 \\
+		  \omega^e cos\phi \\
+		  \omega^e sin\phi
+		  \end{bmatrix}
+		  $$
+		- e->l (Change of Local level frame)  
+		  $$
+		  \omega^l_{ie}=
+		  \begin{bmatrix}
+		  -\dot{\phi} \\
+		  \dot{\lambda}cos\phi \\
+		  \dot{\lambda}sin\phi
+		  \end{bmatrix}
+		  $$
+	- ### Modeling Motion (Machanization) in the LLF
+		- Position  
+		  $\dot{\phi}=\frac{V^n}{M+h}$  
+		  $\dot{\lambda} = \frac{V^e}{(N+h) cos\phi}$  
+		  $\dot{h}=V^u$
+		- Velocity
+		- Attitude
+		- ### Local Level Machanization Equations
+		  $\dot{R}^l_b->\dot{V}^l->\dot{r}^l$  
+		  $$\begin{bmatrix}
+		  D^{-1} V^l \\
+		  R^l_b f^b - (2\Omega^l_{ie} + \Omega^l_{el})V^l + g^l \\
+		  R^l_b (\Omega^b_{ib} - \Omega^b_{il}) \\
+		  \end{bmatrix}$$  
+		  where, $f^b$ is from Accel, $\Omega^b_{ib}$ is from Gyro
+		-
