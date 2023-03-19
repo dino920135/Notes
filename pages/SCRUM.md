@@ -1,46 +1,51 @@
-- Waterfall vs. Agile
-	- Waterfall (Predicted): long term, schedule, got the result at the end
-	- Agile (): For customers had no clear objectives or changing method, **Develope and Testing Simultaniously**
-- ## Agile Developement
-  Scrum is one of them
-	- ### [Functions]
-		- Team, Specialize, Customers, Manager close cooperated
-		- Release in short term
-- ## Scrum Introduction
-	- team of 5-9 people
-	- **Sprint (Iteration)** as unit
-	- 2-4 weeks for a Sprint, a release of usable result (Show customers)
-- ## Main component of Scrum
-- ## MVP
-- ## Features
-	- Self-Organization
-	- Inspected &
-- ## Scrum meeting
-	- Planning: What(Scope/Goal) & How(Implement, Person-hours) of this sprint -> Sprint Backlog
-	- Daily: Done yesterday, Plan for today, Current difficulties, Let the Teams know each others work
-	- Gromming (Backlog Refinement): Change Backlog (one in one out)
-	- Review: **Show result (MVP)** to customers
-	- Retrospective: good & bad in this Sprint, vote the worse and try to solve it
-- ## Scrum member
-	- **Product Owner (PO)**: setting Goal and discuss with customer
-	- **Scrum Master (SM)**: Holder for sprint (Meeting and Schedule)
-	- Translator
-	- **Domain Expert**
-	- Change Agent
-	- ### Tech
-		- Tech Lead
-- ## Scrum Topic
-	- PO:
-		- Use case: What to do, user, env, func
-		- Epic: Split use case
-		- User Story: As an [actor], i [want/must] so that [achievement] (wishes)
-		- Backlog: Todo list (With importancy)
-	- Develope team
-		- Task: Split user story to small APIs (about 2 days)
-- ## Planning Poker
-  A method to evalute the amount of works
-	- story + number card (eg: 0,1,2,3,5,8,13 ,How much time did it need)
-	- Give weight to stories
-- ## Visualization
-	- Burn Down Chart
-	-
+- #scrum #adgile
+  {{renderer :tocgen}}
+- # Whats Agile
+	- ## Waterfall vs. Agile
+		- Waterfall (Predicted): long term, schedule, got the result at the end
+		- Agile (): For customers had no clear objectives or changing method, **Develope and Testing Simultaniously**
+	- ## Agile Developement
+	  Scrum is one of them
+		- ### Functions
+			- Team, Specialize, Customers, Manager close cooperated
+			- Release in short term
+	- ## Introduction
+		- team of 5-9 people
+		- **Sprint (Iteration)** as unit
+		- 2-4 weeks for a Sprint, a release of usable result (Show customers)
+- # Scrum
+	- ## Main component of Scrum
+	- ## MVP
+	- ## Features
+		- Self-Organization
+		- Inspected &
+	- ## Meeting
+		- Planning: What(Scope/Goal) & How(Implement, Person-hours) of this sprint -> Sprint Backlog
+		- Daily: Done yesterday, Plan for today, Current difficulties, Let the Teams know each others work
+		- Gromming (Backlog Refinement): Change Backlog (one in one out)
+		- Review: **Show result (MVP)** to customers
+		- Retrospective: good & bad in this Sprint, vote the worse and try to solve it
+	- ## Member
+		- **Product Owner (PO)**: setting Goal and discuss with customer
+		- **Scrum Master (SM)**: Holder for sprint (Meeting and Schedule)
+		- Translator
+		- **Domain Expert**
+		- Change Agent
+		- ### Tech
+			- Tech Lead
+	- ## Topic
+		- PO:
+			- Use case: What to do, user, env, func
+			- Epic: Split use case
+			- User Story: As an [actor], i [want/must] so that [achievement] (wishes)
+			- Backlog: Todo list (With importancy)
+		- Develope team
+			- Task: Split user story to small APIs (about 2 days)
+	- ## Planning Poker
+	  A method to evalute the amount of works
+		- story + number card (eg: 0,1,2,3,5,8,13 ,How much time did it need)
+		- Give weight to stories
+	- ## Visualization
+		- Burn Down Chart
+- ## Jira
+	- Jira with Gitlab
