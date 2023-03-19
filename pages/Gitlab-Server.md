@@ -1,5 +1,6 @@
 - {{renderer :tocgen}}
 - # Backup Gitlab in docker
+  id:: 64153b91-5c7a-40a2-8298-a1019bc911fd
   [Backup and restore Gitlab in docker - A code to remember (copdips.com)](https://copdips.com/2018/09/backup-and-restore-gitlab-in-docker.html#backup-gitlab-in-docker)
 	- ## Check backup path
 		- ### Synology NAS
@@ -20,14 +21,10 @@
 		  # gitlab_rails['backup_path'] = "/var/opt/gitlab/backups"
 		  # gitlab_rails['backup_gitaly_backup_path'] = "/opt/gitlab/embedded/bin/gitaly-backup"
 		  ```
-	- ### Create Backup
-		- ### Entering container
-		  ```bash
-		  docker exec -it gitlab bash
-		  ```
+	- ## Create Backup
 		- ### Backup
 		  ```bash
-		  root@d44c48535c28:/# gitlab-rake gitlab:backup:create
+		  root@d44c48535c28:/# sudo docker exec -it gitlab gitlab-rake gitlab:backup:create
 		  2023-03-18 04:48:17 +0000 -- Dumping database ...
 		  Dumping PostgreSQL database gitlabhq_production ... [DONE]
 		  2023-03-18 04:48:25 +0000 -- Dumping database ... done
@@ -74,7 +71,11 @@
 		  2023-03-18 04:49:14 +0000 -- Backup 1679114897_2023_03_18_15.0.4 is done.
 		  ```
 		- ### Backup configuration and secret files
-			- Should locate in `/etc/gitlab/`  
+			- ### Entering container
+			  ```bash
+			  docker exec -it gitlab bash
+			  ```
+			- `gitlab.rb` and `gitlab-secrets.json` locate in `/etc/gitlab/`  
 			  ```bash
 			  root@d44c48535c28:/# ls -al /etc/gitlab/
 			  total 172
@@ -90,18 +91,63 @@
 			  -rwxrwxrwx 1 root root    565 Feb 10  2022 ssh_host_rsa_key.pub
 			  drwxr-xr-x 1 root root      0 Feb 10  2022 trusted-certs
 			  ```
+			- Copy `gitlab.rb` and `gitlab-secrets.json`
+			  ```bash
+			  root@d44c48535c28:/# cp /etc/gitlab/gitlab.rb /var/opt/gitlab/backups/gitlab.rb
+			  root@d44c48535c28:/# cp /etc/gitlab/gitlab-secrets.json /var/opt/gitlab/backups/gitlab-secrets.json
+			  ```
 	- ## Check backup
 		- ```bash
 		  root@d44c48535c28:/# ls -lart /var/opt/gitlab/backups/
 		  total 2605248
 		  -rw------- 1 git  git  1007308800 Aug  4  2022 1659582860_2022_08_04_14.7.2_gitlab_backup.tar
-		  -rw------- 1 root root     130379 Aug  4  2022 gitlab.rb
-		  -rw------- 1 root root      19103 Aug  4  2022 gitlab-secrets.json
 		  drwxr-xr-x 1 root root        506 Sep 22 01:56 ..
 		  -rw------- 1 git  git  1660313600 Mar 18 04:49 1679114897_2023_03_18_15.0.4_gitlab_backup.tar
 		  drwx------ 1 git  root        240 Mar 18 04:49 .
+		  -rw------- 1 root root     130379 Mar 18 05:56 gitlab.rb
+		  -rw------- 1 root root      19205 Mar 18 05:56 gitlab-secrets.json
 		  ```
-- ## Update Gitlab in docker
+		- ### Copy to Exterior Storage
+		  ```bash
+		  Pointshare@PointNAS:/$ sudo docker cp gitlab:/var/opt/gitlab/backups /volume2/Personal/Dino/
+		  ```
+- # Update Gitlab in docker
   [Update Gitlab in docker - A code to remember (copdips.com)](https://copdips.com/2018/10/update-gitlab-in-docker.html)
-	- ### Backup (important)
-	-
+	- ## Backup (important)
+	  Refer to ((64153b91-5c7a-40a2-8298-a1019bc911fd))
+	- ## Verify the docker container volumes
+		- ```bash
+		  Pointshare@PointNAS:/$ sudo docker container inspect -f "{{ json .HostConfig
+		  .Binds }}" gitlab | python3 -m json.tool
+		  Password:
+		  [
+		      "/volume1/gitlab/log:/var/log/gitlab",
+		      "/volume1/gitlab/data:/var/opt/gitlab",
+		      "/volume1/gitlab/config:/etc/gitlab"
+		  ]
+		  ```
+		- ### Update Gitlab docker version
+		  [GitLab Docker images | GitLab](https://docs.gitlab.com/ee/install/docker.html#upgrade-gitlab-to-newer-version)
+			- Check previously specified options when creating the container
+			  ```bash
+			  root@PointNAS:~# docker container ps
+			  CONTAINER ID   IMAGE                         COMMAND                  CREATED         STATUS                 PORTS                                                 NAMES
+			  d92ed934028e   gitlab/gitlab-ce:latest       "/assets/wrapper"        8 hours ago     Up 7 hours (healthy)   443/tcp, 0.0.0.0:2222->22/tcp, 0.0.0.0:8080->80/tcp   gitlab
+			  ```
+			- Pull new image  
+			  `sudo docker pull gitlab/gitlab-ce:latest`
+			- Stop old container
+			  `docker stop gitlab`
+			- Remove old container
+			  `docker rm gitlab`
+			- Create the container with same options when creating the old one
+			  ```bash
+			  docker run --detach \
+			  --publish 8080:80 --publish 2222:22 \
+			  --name gitlab \
+			  --restart always \
+			  --volume /volume1/gitlab/log:/var/log/gitlab \
+			  --volume /volume1/gitlab/data:/var/opt/gitlab \
+			  --volume /volume1/gitlab/config:/etc/gitlab \
+			  gitlab/gitlab-ce:latest
+			  ```
