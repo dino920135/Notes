@@ -1,6 +1,14 @@
 - {{renderer :tocgen}}
+- # Useful Command
+	- Check doker container
+	  `doker container ps`
+	- Check logs
+	  `docker logs -f gitlab`
+	- Get into container with bash
+	  `docker exec -it gitlab bash`
 - # Backup Gitlab in docker
   id:: 64153b91-5c7a-40a2-8298-a1019bc911fd
+  collapsed:: true
   [Backup and restore Gitlab in docker - A code to remember (copdips.com)](https://copdips.com/2018/09/backup-and-restore-gitlab-in-docker.html#backup-gitlab-in-docker)
 	- ## Check backup path
 		- ### Synology NAS
@@ -151,3 +159,8 @@
 			  --volume /volume1/gitlab/config:/etc/gitlab \
 			  gitlab/gitlab-ce:latest
 			  ```
+	- ## Other Related links
+		- [Upgrading GitLab | GitLab](https://docs.gitlab.com/ee/update/)
+			- [Upgrading GitLab without downtime](https://docs.gitlab.com/ee/update/#upgrading-without-downtime)
+		- [Back up and restore GitLab | GitLab](https://docs.gitlab.com/ee/raketasks/backup_restore.html)
+		-
