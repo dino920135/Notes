@@ -50,13 +50,19 @@ title:: VS_Code
 	  
 	  **Solutions**
 	  Check Maximum user watches avaliable  
-	  `cat /proc/sys/fs/inotify/max_user_watches`
+	  ```bash
+	  cat /proc/sys/fs/inotify/max_user_watches
+	  ```
 	  
 	  To change the number of watches avaliable, edit file:  
-	  `sudo vim /etc/sysctl.conf`
+	  ```bash
+	  sudo vim /etc/sysctl.conf
+	  ```
 	  
 	  Add new line  
-	  `fs.inotify.max_user_watches=524288`
+	  ```bash
+	  fs.inotify.max_user_watches=524288
+	  ```
 	  
 	  Refresh settings  
 	  `sudo sysctl -p`
