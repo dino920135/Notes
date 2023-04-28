@@ -33,5 +33,5 @@
 		- Met hod for development / estimating time-series models implicitly or explicity involve **inverse mapping of the estimated ACF to the model parameters**.
 		- ### None negative defeniteness
 			- A sequence $\gamma[.]$ is said to be non-negative define if it satisfies
-			  $$\sum_{i=1}^{n} \sum_{j=1}^{n} a_i \gamma [|i-j|]a_j \ge 0 \ \ \ \ \ \ \ \ a_i, a_j \in \R , n>0$$
+			  $$\sum_{i=1}^{n} \sum_{j=1}^{n} a_i \gamma [|i-j|]a_j \ge 0 \ \ \ \ \ \ \ \ a_i, a_j \in \mathbb{R} , n>0$$
 		-
