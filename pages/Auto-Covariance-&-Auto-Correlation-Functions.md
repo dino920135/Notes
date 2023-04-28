@@ -17,7 +17,7 @@
 	- ACF is defined as  
 	  $$\rho_{vv}[l] = \frac{\sigma[l]}{\sigma_{v[k]} \sigma_{v[k-l]}} = \frac{\sigma_{vv}[l]}{\sigma_{v}^2}  \le 1$$
 	- Example:  
-	  ![image.png](../assets/image_1682539009630_0.png)
+	  ![image.png](../assets/image_1682539009630_0.png){:height 339, :width 590}
 	- ## Interpreting ACF in predictions
 		- Linear forcasring of a series at $k_2 = k + l$ given information only at $k_1 = k$
 		  $$\hat{v}[k+l\ |\ v[k]] = \alpha v [k]$$
@@ -34,4 +34,24 @@
 		- ### None negative defeniteness
 			- A sequence $\gamma[.]$ is said to be non-negative define if it satisfies
 			  $$\sum_{i=1}^{n} \sum_{j=1}^{n} a_i \gamma [|i-j|]a_j \ge 0 \ \ \ \ \ \ \ \ a_i, a_j \in \mathbb{R} , n>0$$
-		-
+- ## White Noise Process
+	- Using ACF to define an **ideal random process**, which is the backbone of (linear) random process theory.
+	- The white noise process $e[k]$ is a **stationary uncorelated** random process,
+	  $$
+	  \rho_{ee}[l] = 
+	      \begin{cases}
+	          1 \ \ \ \ l=0 \\
+	          0 \ \ \ \ l\neq0
+	      \end{cases}
+	  $$
+	- It is an unpredictable (in linear sense) stationary process
+	  The ACF of a white-noise process has an impulse-like shape
+	  ![image.png](../assets/image_1682670057491_0.png){:height 271, :width 458}
+	- The white-noise (WN) process is useful in two ways:
+	  1. **Benchmark process for test of prediction (The Predictability)**
+	  2. **The ideal residule (The leftover residule should be unpredictable)**
+	  3. As a function input (driving force) to a random process for modeling purposes
+	  The definition of WN does nor impose any conditions on the distribution, only requires:
+	  4. **stationary**
+	  5. **uncorrelated**
+-
