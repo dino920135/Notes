@@ -37,8 +37,7 @@
 - ## White Noise Process
 	- Using ACF to define an **ideal random process**, which is the backbone of (linear) random process theory.
 	- The white noise process $e[k]$ is a **stationary uncorelated** random process,  
-	  $$
-	  \rho_{ee}[l] = 
+	  $$\rho_{ee}[l] = 
 	      \begin{cases}
 	          1 \ \ \ \ l=0 \\
 	          0 \ \ \ \ l\neq0
