@@ -41,8 +41,7 @@
 	      \begin{cases}
 	          1 \ \ \ \ l=0 \\
 	          0 \ \ \ \ l\neq0
-	      \end{cases}
-	  $$
+	      \end{cases}S$$
 	- It is an unpredictable (in linear sense) stationary process
 	  The ACF of a white-noise process has an impulse-like shape
 	  ![image.png](../assets/image_1682670057491_0.png){:height 271, :width 458}
