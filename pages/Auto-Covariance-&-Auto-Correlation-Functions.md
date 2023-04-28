@@ -36,7 +36,7 @@
 			  $$\sum_{i=1}^{n} \sum_{j=1}^{n} a_i \gamma [|i-j|]a_j \ge 0 \ \ \ \ \ \ \ \ a_i, a_j \in \mathbb{R} , n>0$$
 - ## White Noise Process
 	- Using ACF to define an **ideal random process**, which is the backbone of (linear) random process theory.
-	- The white noise process $e[k]$ is a **stationary uncorelated** random process,
+	- The white noise process $e[k]$ is a **stationary uncorelated** random process,  
 	  $$
 	  \rho_{ee}[l] = 
 	      \begin{cases}
