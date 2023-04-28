@@ -15,7 +15,7 @@
 	- However,  ACVF is sensitive to units -> Autocorrelation function
 - ## Auto-correlation Function (ACF)
 	- ACF is defined as  
-	  $$ \rho_{vv}[l] = \frac{\sigma[l]}{\sigma_{v[k]} \sigma_{v[k-l]}} = \frac{\sigma_{vv}[l]}{\sigma_{v}^2}  \le 1$$
+	  $$\rho_{vv}[l] = \frac{\sigma[l]}{\sigma_{v[k]} \sigma_{v[k-l]}} = \frac{\sigma_{vv}[l]}{\sigma_{v}^2}  \le 1$$
 	- Example:  
 	  ![image.png](../assets/image_1682539009630_0.png)
 	- ## Interpreting ACF in predictions
