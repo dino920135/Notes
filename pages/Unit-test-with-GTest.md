@@ -21,7 +21,7 @@
 	  
 	  The above configuration declares a dependency on GoogleTest which is downloaded from GitHub. In the above example, `03597a01ee50ed33e9dfd640b249b4be3799d395` is the Git commit hash of the GoogleTest version to use; it is recommend **updating the hash often to point to the latest version**.
 - ## Creating Test Script
-	- By creating a file named hello_test.cc in the project diectory
+	- By creating a file named `hello_test.cc` in the project diectory, 
 	  
 	  ```c
 	  #include <gtest/gtest.h>
@@ -34,7 +34,9 @@
 	    EXPECT_EQ(7 * 6, 42);
 	  }
 	  ```
-	- ```cmake
+	- Include `hello_test.cc` in the project by adding the following content in `CMakelists.txt`
+	  
+	  ```cmake
 	  enable_testing()
 	  
 	  add_executable(
