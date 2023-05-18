@@ -14,7 +14,7 @@
 		  ![image.png](../assets/image_1684376936953_0.png)
 		- ALIGNBSLNXYZ  
 		  ![image.png](../assets/image_1684377019046_0.png)
-		- **DUALANTENNAHEADING**  
+		- **DUALANTENNAHEADING**
 		  id:: 64658dbd-a843-4699-ba69-80e4d7730899
 		  ![image.png](../assets/image_1684377087023_0.png)
 		- GPHDTDUALANTENNA  
