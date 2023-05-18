@@ -1,5 +1,5 @@
 - # Contents
-- ## Code
+- ## CODE
 	- [tmux](tmux.md)
 	- [vim](vim.md)
 	- ### Unit Test
@@ -37,3 +37,6 @@
 - ## RESEARCH
 	- [MmWave-Radar-Localization-References](MmWave-Radar-Localization-References.md)
 	- [Auto-Covariance-&-Auto-Correlation-Functions](Auto-Covariance-&-Auto-Correlation-Functions.md)
+- ## SENSORS
+	- [swift-Navigation-Piksi-Multi-Evaluation-Kit](swift-Navigation-Piksi-Multi-Evaluation-Kit.md)
+	- [Novatel-Manual](Novatel-Manual.md)
