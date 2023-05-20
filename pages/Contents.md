@@ -17,6 +17,7 @@
 		- [setup_zsh](setup_zsh.md)
 - ## NOTE
 	- [logseq_basics](logseq_basic.md)
+	- [ROS-with-PCL](ROS-with-PCL.md)
 - ## [GIT](GIT.md )
 	- ### Github
 		- [github_profile](Github_Profile.md)
