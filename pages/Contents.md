@@ -15,6 +15,9 @@
 		- [valgrind](valgrind.md)
 	- ### zsh
 		- [setup_zsh](setup_zsh.md)
+	- ### Python
+		- [Einsum-in-Pytorch](Einsum-in-Pytorch.md)
+		- [Python-file-IO](Python-file-IO.md)
 - ## NOTE
 	- [logseq_basics](logseq_basic.md)
 	- [ROS-with-PCL](ROS-with-PCL.md)
