@@ -13,7 +13,12 @@
 	- ### $S^3$ Unit Quaternion
 	  ![image.png](../assets/image_1685795616162_0.png){:height 229, :width 632}
 	- ### $SE(2)$ Pose (position + attitude)  
-	  $$X (t) = \begin{bmatrix} R(t) & p(t) \\ 0 & 1 \end{bmatrix}$$
+	  $$
+	  X (t) = 
+	  \begin{bmatrix} 
+	  R(t) & p(t) \\ 
+	  0 & 1 
+	  \end{bmatrix} $$
 - ## The Tangent Space og SO(3)
   Extend from ((647b0a7a-7fb6-4712-9675-a635ff47ad5c))
 	- Differentiate $R^T \cdot R = I$:  
