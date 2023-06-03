@@ -16,7 +16,7 @@
 	  $$X (t) = \begin{bmatrix} R(t) & p(t) \\ 0 & 1 \end{bmatrix}$$
 - ## The Tangent Space og SO(3)
   Extend from ((647b0a7a-7fb6-4712-9675-a635ff47ad5c))
-	- Differentiate $R^T \cdot R = I$:
+	- Differentiate $R^T \cdot R = I$:  
 	  $$
 	  \dot{R^T} R + R^T \dot{R} = 0 \\
 	  R^T \dot{R} = -(R^T \dot{R})^T\ (skew\ symmetric) \\
@@ -27,7 +27,7 @@
 	  -\omega_y & \omega_x & 0
 	  \end{bmatrix}
 	  $$
-	- When $R = I$ 
+	- When $R = I$  
 	  $$
 	  \dot{R} = \omega_\times = 
 	  \begin{bmatrix}
