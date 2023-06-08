@@ -16,8 +16,8 @@
 	  $$
 	  X (t) = 
 	  \begin{bmatrix} 
-	  R(t) & p(t) \\ 
-	  0 & 1 \\ 
+	  R(t) & p(t) \\
+	  0 & 1 \\
 	  \end{bmatrix} $$
 - ## The Tangent Space og SO(3)
   Extend from ((647b0a7a-7fb6-4712-9675-a635ff47ad5c))
