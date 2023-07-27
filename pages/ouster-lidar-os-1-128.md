@@ -1,3 +1,5 @@
+public:: true
+
 - # Ouster lidar OS-1-128
   sensor:: lidar
   manufacturers:: ouster
