@@ -1,3 +1,5 @@
+public:: true
+
 - # Novatel Manual
 - ## OEM7 Commands and Logs
 	- ### Document

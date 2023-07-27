@@ -1,3 +1,5 @@
+public:: true
+
 - #memory #memory-leak #code
 - # valgrind - memeory leak checking tool
 - ## Installation

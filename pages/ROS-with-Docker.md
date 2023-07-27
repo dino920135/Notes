@@ -1,3 +1,4 @@
+public:: true
 title::ROS with Docker
 #ros #docker
 

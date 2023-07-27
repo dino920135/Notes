@@ -1,3 +1,4 @@
+public:: true
 title:: Crash_Course_Electronics_and_PCB_Design
 #course #PCB #electronics #embedded
 

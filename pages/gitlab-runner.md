@@ -1,3 +1,5 @@
+public:: true
+
 - ## Documents
 	- [Run GitLab Runner in a container | GitLab](https://docs.gitlab.com/runner/install/docker.html)
 - ## Gitlab Runner Docker  image usage

@@ -1,3 +1,5 @@
+public:: true
+
 - {{renderer :tocgen2}}
 - Info
 	- [Video Link - # Lecture 12A: Autocovariance & Autocorrelation Functions](https://www.youtube.com/watch?v=YugzOoZh9Zk&list=PLl0FT6O_WWDBm-4W-eoK34omYmEMseQDX&index=31&pp=iAQB)

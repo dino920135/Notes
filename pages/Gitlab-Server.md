@@ -1,3 +1,5 @@
+public:: true
+
 - {{renderer :tocgen}}
 - # Useful Command
 	- Check doker container

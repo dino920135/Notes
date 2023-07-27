@@ -1,3 +1,5 @@
+public:: true
+
 - # swift-Navigation-Piksi-Multi-Evaluation-Kit
   title:: swift-Navigation-Piksi-Multi-Evaluation-Kit
   {{renderer :tocgen}}
