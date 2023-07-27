@@ -178,7 +178,6 @@
  :ref/linked-references-collapsed-threshold 50
  :favorites["vim" "AWR1843-BOOST+DCA1000EVM_data_capture" "MmWave-Radar-Localization-References"]
  :graph/settings {:builtin-pages? false}
- :publishing/all-pages-public? true
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
