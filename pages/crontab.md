@@ -1,3 +1,5 @@
+public:: true
+
 - #crontab
 - # crontab
 	- ## Basic commands

@@ -1,3 +1,5 @@
+public:: true
+
 - #code #ide
 - # tmux
 - ## Installing tmux

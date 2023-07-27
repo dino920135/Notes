@@ -1,3 +1,4 @@
+public:: true
 title:: GitLab_sent_mail_with_Gmail_SMTP
 #gitlab #server #email #git
 

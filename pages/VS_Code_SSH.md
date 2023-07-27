@@ -1,3 +1,4 @@
+public:: true
 title:: VS_Code_SSH
 #vscode #ssh
 

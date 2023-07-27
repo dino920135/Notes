@@ -1,3 +1,5 @@
+public:: true
+
 - # GIT
 - ### Changing the order of commit
   Start with **rebase**:

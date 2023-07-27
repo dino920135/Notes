@@ -1,3 +1,5 @@
+public:: true
+
 - # Unit-test-with-GTest
 - ## Reference
 	- [Quickstart: Building with CMake | GoogleTest](https://google.github.io/googletest/quickstart-cmake.html)

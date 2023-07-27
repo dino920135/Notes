@@ -1,3 +1,4 @@
+public:: true
 title:: tty_autologin
 #tty #autologin
 

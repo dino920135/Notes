@@ -1,3 +1,4 @@
+public:: true
 title:: check_if_user_is_root
 #shellscript #code #bash
 

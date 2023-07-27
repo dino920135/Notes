@@ -1,3 +1,4 @@
+public:: true
 title:: setup_zsh
 #zsh #code
 
