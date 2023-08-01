@@ -2,7 +2,6 @@ public:: true
 title:: setup_zsh
 #zsh #code
 
-- # setup_zsh
 - Reference from [leovincentseles/zsh-config](https://github.com/leovincentseles/zsh-config) by [leovincentseles](https://github.com/leovincentseles)
 - ## Installation
 	- ### zsh
