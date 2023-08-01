@@ -2,7 +2,6 @@ public:: true
 title:: check_if_user_is_root
 #shellscript #code #bash
 
-- # Check if user is root
 	- ## `id -u`
 		- `id -u` return **0** when user is **root**
 		  ```shell

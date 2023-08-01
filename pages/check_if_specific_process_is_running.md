@@ -2,7 +2,6 @@ public:: true
 title:: check_if_specific_process_is_running
 #shellscript #code #bash
 
-- # Check if specific process is running
 	- ```shell
 	  while true
 	  do

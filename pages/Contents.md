@@ -2,47 +2,47 @@ public:: true
 
 - # Contents
 - ## CODE
-	- [tmux](tmux.md)
-	- [vim](vim.md)
+	- [[tmux]]
+	- [[vim]]
 	- ### Unit Test
-		- [Unit-test-with-GTest](Unit-test-with-GTest.md)
+		- [[Unit-test-with-GTest]]
 	- ### Docker
-		- [ROS-with-Docker](ROS-with-Docker.md)
+		- [[ROS-with-Docker]]
 	- ### Shell Script
-		- [check_if_user_is_root](check_if_user_is_root.md)
-		- [check_if_specific_process_is_running](check_if_specific_process_is_running.md)
-	- ### [VS_Code](VS_Code.md)
-		- [VS_Code_SSH](VS_Code_SSH.md)
+		- [[check_if_user_is_root]]
+		- [[check_if_specific_process_is_running]]
+	- ### [[VS_Code]]
+		- [[VS_Code_SSH]]
 	- ### Memory Leak
-		- [valgrind](valgrind.md)
+		- [[valgrind]]
 	- ### zsh
-		- [setup_zsh](setup_zsh.md)
+		- [[setup_zsh]]
 	- ### Python
-		- [Einsum-in-Pytorch](Einsum-in-Pytorch.md)
-		- [Python-file-IO](Python-file-IO.md)
+		- [[Einsum-in-Pytorch]]
+		- [[Python-file-IO]]
 - ## NOTE
-	- [logseq_basics](logseq_basic.md)
-	- [ROS-with-PCL](ROS-with-PCL.md)
-- ## [GIT](GIT.md )
+	- [[logseq_basics]]
+	- [[ROS-with-PCL]]
+- ## [[Git]]
 	- ### Github
-		- [github_profile](Github_Profile.md)
+		- [[github_profile]]
 	- ### GitLab
-		- [Gitlab-Server](Gitlab-Server.md)
-		- [GitLab_sent_mail_with_Gmail_SMTP](GitLab_sent_mail_with_Gmail_SMTP.md)
-		- [gitlab-runner](gitlab-runner.md)
+		- [[Gitlab-Server]]
+		- [[GitLab_sent_mail_with_Gmail_SMTP]]
+		- [[gitlab-runner]]
 - ## EMBEDDED
 	- ### PCB
-		- [Crash_Course_Electronics_and_PCB_Design](Crash_Course_Electronics_and_PCB_Design.md)
+		- [[Crash_Course_Electronics_and_PCB_Design]]
 	- ### Arduino
-		- [fastled_lightstrip](fastled_lightstrip.md)
+		- [[fastled_lightstrip]]
 - ## Automation
-	- [TTY_autologin](TTY_autologin.md)
-	- [crontab](crontab.md)
+	- [[tty_autologin]]
+	- [[crontab]]
 - ## DOODLE
-	- [DOODLE](DOODLE.md)
+	- [[DOODLE]]
 - ## RESEARCH
-	- [MmWave-Radar-Localization-References](MmWave-Radar-Localization-References.md)
-	- [Auto-Covariance-&-Auto-Correlation-Functions](Auto-Covariance-&-Auto-Correlation-Functions.md)
+	- [[MmWave-Radar-Localization-References]]
+	- [[Auto-Covariance-&-Auto-Correlation-Functions]]
 - ## SENSORS
-	- [swift-Navigation-Piksi-Multi-Evaluation-Kit](swift-Navigation-Piksi-Multi-Evaluation-Kit.md)
-	- [Novatel-Manual](Novatel-Manual.md)
+	- [[swift-Navigation-Piksi-Multi-Evaluation-Kit]]
+	- [[Novatel-Manual]]

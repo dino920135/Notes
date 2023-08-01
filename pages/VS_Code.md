@@ -2,7 +2,6 @@ public:: true
 title:: VS_Code
 #vscode
 
-- # VS Code
 - ## Navigate
   collapsed:: true
   [42 Visual Studio Code Shortcuts for Boosting Your Productivity](https://www.sitepoint.com/visual-studio-code-keyboard-shortcuts/)

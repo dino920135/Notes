@@ -1,6 +1,5 @@
 public:: true
 
-- # GIT
 - ### Changing the order of commit
   Start with **rebase**:
   Rebase on the last commit before all the commits you want to edit

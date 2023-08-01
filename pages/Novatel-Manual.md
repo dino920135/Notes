@@ -1,11 +1,9 @@
 public:: true
 
-- # Novatel Manual
 - ## OEM7 Commands and Logs
 	- ### Document
 		- [OEM7 Commands Logs Manual](https://docs.novatel.com/OEM7/Content/PDFs/OEM7_Commands_Logs_Manual.pdf)
 	- ### Dual Antenna Study
-	  collapsed:: true
 		- Binary Message Header Structure  
 		  Field 6: Message Type: Bit 0-4 Measurement source  
 		  ![image.png](../assets/image_1684376507453_0.png)
@@ -25,5 +23,4 @@ public:: true
 		  ![image.png](../assets/image_1684377156473_0.png)
 		- INSCALIBRATE  
 		  ![image.png](../assets/image_1684377184714_0.png)
-	-
 -
