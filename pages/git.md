@@ -7,4 +7,3 @@ public:: true
   git rebase -i [the last commit not editing]
   ```
   Then change the order of commits
--
