@@ -2,7 +2,7 @@ public:: true
 
 - # Introduction
   **This is a note for kepting my personal sketching projects**
-	- My Pinterest: [@dino920135](https://pin.it/693rWuU)
+	- My Pinterest: [@dino920135](https://www.pinterest.com/dino920135/)
 	- Familier Materials:
 		- Paper
 			- canson croquis
