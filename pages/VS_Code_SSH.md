@@ -5,11 +5,12 @@ title:: VS_Code_SSH
 - # Install SSH server
 	- ## Linux as server
 		- Installation
+		  id:: 64e5b599-a0b5-4fb6-8350-518b82dbbb2a
 		  ```bash
 		  sudo apt-get install openssh-server
-		  ```
-		- sudo systemctl enable ssh
+		  sudo systemctl enable ssh
 		  sudo systemctl start ssh
+		  ```
 	- ## Win as server
 		- Installation
 		  1. Open **Settings**, select **Apps**, then select **Optional Features**
