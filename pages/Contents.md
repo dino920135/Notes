@@ -32,7 +32,7 @@ public:: true
 		- [[gitlab-runner]]
 - ## EMBEDDED
 	- ### PCB
-		- [[Crash_Course_Electronics_and_PCB_Design]]
+		- [[Crash-Course-Electronics-and-PCB-Design]]
 	- ### Arduino
 		- [[fastled-lightstrip]]
 	- ### RaspberryPi
