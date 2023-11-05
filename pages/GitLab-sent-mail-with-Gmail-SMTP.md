@@ -1,5 +1,5 @@
 public:: true
-title:: GitLab_sent_mail_with_Gmail_SMTP
+title:: GitLab-sent-mail-with-Gmail-SMTP
 #gitlab #server #email #Git
 
 - # GitLab sent mail with Gmail SMTP
