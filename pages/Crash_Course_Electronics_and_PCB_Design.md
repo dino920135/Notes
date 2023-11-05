@@ -1,5 +1,5 @@
 public:: true
-title:: Crash_Course_Electronics_and_PCB_Design
+title:: Crash-Course-Electronics-and-PCB-Design
 #course #PCB #electronics #embedded
 
 - # Crash Course Electronics and PCB Design
