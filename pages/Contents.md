@@ -34,7 +34,8 @@ public:: true
 	- ### PCB
 		- [[Crash_Course_Electronics_and_PCB_Design]]
 	- ### Arduino
-		- [[fastled_lightstrip]]
+		- [[fastled-lightstrip]]
+	- ### RaspberryPi
 - ## Automation
 	- [[tty_autologin]]
 	- [[crontab]]
