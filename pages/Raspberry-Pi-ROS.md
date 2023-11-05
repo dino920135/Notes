@@ -13,3 +13,37 @@
 	  {{embed ((64e5b599-a0b5-4fb6-8350-518b82dbbb2a))}}
 - # Install ROS (Melodic)
   Follow the steps on ((6547e905-f91a-4fac-adbe-13fbcf7f3bad))
+	- ### Setup sources.lists
+	  ```bash
+	  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+	  ```
+	- ### Setup keys
+	  ```bash
+	  sudo apt install curl
+	  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+	  ```
+	- ### Installation
+	  First,
+	  ```bash
+	  sudo apt update
+	  sudo apt upgraade
+	  ```
+		-
+		-
+	- ## Errors
+		- ```bash
+		  ts@ts-raspi:~$ sudo apt install ros-melodic-desktop-full
+		  [sudo] password for ts:
+		  Reading package lists... Done
+		  Building dependency tree
+		  Reading state information... Done
+		  Some packages could not be installed. This may mean that you have
+		  requested an impossible situation or if you are using the unstable
+		  distribution that some required packages have not yet been created
+		  or been moved out of Incoming.
+		  The following information may help to resolve the situation:
+		  
+		  The following packages have unmet dependencies:
+		   ros-melodic-desktop-full : Depends: ros-melodic-perception but it is not going to be installed
+		  E: Unable to correct problems, you have held broken packages.
+		  ```
