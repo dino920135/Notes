@@ -28,6 +28,11 @@
 	  sudo apt update
 	  sudo apt upgraade
 	  ```
+	  There are several ways to install ROS
+		- Desktop-Full Install : `sudo apt install ros-melodic-desktop-full`
+		- Desktop Install : `sudo apt install ros-melodic-desktop`
+		- ROS-Base : `sudo apt install ros-melodic-ros-base`
+		- Individual Package : `sudo apt install ros-melodic-PACKAGE`
 		-
 		-
 	- ## Errors
