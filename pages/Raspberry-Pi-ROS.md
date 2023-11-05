@@ -22,7 +22,7 @@
 	  sudo apt install curl
 	  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 	  ```
-	- ### Installation
+	- ### Official Installation Instruction
 	  First,
 	  ```bash
 	  sudo apt update
@@ -33,10 +33,17 @@
 		- Desktop Install : `sudo apt install ros-melodic-desktop`
 		- ROS-Base : `sudo apt install ros-melodic-ros-base`
 		- Individual Package : `sudo apt install ros-melodic-PACKAGE`
-		-
-		-
+	- ### Customized Installation
+	  Some dependences required by ros-melodic-desktop was unmet, eg: ((6547f225-256e-4cb8-af48-10324ab51a77)). It is suggested to install **ROS-Base**, then install other packages afterward.
+	  ```bash
+	  sudo apt install ros-meldoic-ros-base
+	  sudo apt install ros-melodic-rviz
+	  sudo apt install ros-melodic-rqt
+	  ```
 	- ## Errors
-		- ```bash
+		- unmet dependencies error
+		  id:: 6547f225-256e-4cb8-af48-10324ab51a77
+		  ```bash
 		  ts@ts-raspi:~$ sudo apt install ros-melodic-desktop-full
 		  [sudo] password for ts:
 		  Reading package lists... Done
