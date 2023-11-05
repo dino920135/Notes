@@ -1,5 +1,5 @@
 public:: true
-title:: VS_Code_SSH
+title:: VS-Code-SSH
 #vscode #ssh
 
 - # Install SSH server

@@ -12,11 +12,11 @@ public:: true
 		- [[check_if_user_is_root]]
 		- [[check_if_specific_process_is_running]]
 	- ### [[VS_Code]]
-		- [[VS_Code_SSH]]
+		- [[VS-Code-SSH]]
 	- ### Memory Leak
 		- [[valgrind]]
 	- ### zsh
-		- [[setup_zsh]]
+		- [[setup-zsh]]
 	- ### Python
 		- [[Einsum-in-Pytorch]]
 		- [[Python-file-IO]]
