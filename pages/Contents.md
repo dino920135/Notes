@@ -28,7 +28,7 @@ public:: true
 		- [[github_profile]]
 	- ### GitLab
 		- [[Gitlab-Server]]
-		- [[GitLab_sent_mail_with_Gmail_SMTP]]
+		- [[GitLab-sent-mail-with-Gmail-SMTP]]
 		- [[gitlab-runner]]
 - ## EMBEDDED
 	- ### PCB
