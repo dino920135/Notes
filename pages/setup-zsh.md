@@ -1,5 +1,5 @@
 public:: true
-title:: setup_zsh
+title:: setup-zsh
 #zsh #code
 
 - Reference from [leovincentseles/zsh-config](https://github.com/leovincentseles/zsh-config) by [leovincentseles](https://github.com/leovincentseles)
