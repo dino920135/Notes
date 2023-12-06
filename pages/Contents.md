@@ -21,7 +21,7 @@ public:: true
 		- [[Einsum-in-Pytorch]]
 		- [[Python-file-IO]]
 - ## NOTE
-	- [[logseq_basics]]
+	- [[logseq-basics]]
 	- [[ROS-with-PCL]]
 - ## [[Git]]
 	- ### Github

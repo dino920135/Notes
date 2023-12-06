@@ -1,4 +1,4 @@
-title:: logseq_basics
+title:: logseq-basics
 #logseq #note
 
 - # Sync Logseq with Github
@@ -16,3 +16,5 @@ title:: logseq_basics
 	- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
 	- [logseq-plugin-todo-master](https://github.com/pengx17/logseq-plugin-todo-master)
 	- [Logseq Markdown Table Editor](https://github.com/haydenull/logseq-plugin-markdown-table)
+	- [logseq-formula-ocr-plugin](https://github.com/olmobaldoni/logseq-formula-ocr-plugin)
+	-
