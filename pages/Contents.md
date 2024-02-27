@@ -45,7 +45,12 @@ public:: true
 - ## RESEARCH
 	- [[MmWave-Radar-Localization-References]]
 	- [[Auto-Covariance-&-Auto-Correlation-Functions]]
+- ## INERTIAL NAVIGATION
+	- [[INS-Mechanization]]
+	- [[Inertial-Sensor-Measurement-Simulation]]
+	- [[Invention-Inertial-Navigation-Technology-Trainning-Course]]
 - ## SENSORS
 	- [[swift-Navigation-Piksi-Multi-Evaluation-Kit]]
 	- [[Novatel-Manual]]
 - {{renderer :tocgen2, [[ouster-lidar-os-1-128]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[feb 19th, 2024]], calc(100vh - 135px)}}
