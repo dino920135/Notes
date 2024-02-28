@@ -1,0 +1,8 @@
+- {{renderer :tocgen2}}
+- ## User Manual
+	- [GPS 18x Tech Specs (garmin.com)](https://static.garmin.com/pumac/GPS_18x_Tech_Specs.pdf)
+- ## Software
+	- [Garmin SNSRXCFG](https://www8.garmin.com/support/download_details.jsp?id=4053) (**Suggested**)
+	- [Garmin: SNSRCFG Updates & Downloads](https://www8.garmin.com/support/download_details.jsp?id=925)
+- ## Wiring & Pin Outs
+	-
