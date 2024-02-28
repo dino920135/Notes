@@ -32,4 +32,4 @@ model:: GPS 18x LVC
 		  ![image.png](../assets/image_1709144139367_0.png)
 			- Get Configuration from GPS
 			- Sensor Configuration
-			- SendConfiguration from GPS
+			- Send Configuration to GPS
