@@ -24,3 +24,12 @@ model:: GPS 18x LVC
 	  In order to reconfigure the GPS with Garmin ((65df6c3a-8148-47a5-98ab-18fc842ff0fb)). The wires can be connected to RS232 as the picture below.
 	  ![image.png](../assets/image_1709142153639_0.png)
 - ## Configuring GNSS
+	- ### SNSRXCFG/SNSRCFG
+	  ![image.png](../assets/image_1709144263826_0.png)
+		- **Comm -> setup**
+		  ![image.png](../assets/image_1709144060304_0.png)
+		- **Configuring Sensor (Config Tab)**
+		  ![image.png](../assets/image_1709144139367_0.png)
+			- Get Configuration from GPS
+			- Sensor Configuration
+			- SendConfiguration from GPS
