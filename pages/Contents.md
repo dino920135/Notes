@@ -52,5 +52,5 @@ public:: true
 - ## SENSORS
 	- [[swift-Navigation-Piksi-Multi-Evaluation-Kit]]
 	- [[Novatel-Manual]]
-- {{renderer :tocgen2, [[ouster-lidar-os-1-128]], calc(100vh - 135px)}}
-- {{renderer :tocgen2, [[feb 19th, 2024]], calc(100vh - 135px)}}
+	- [[ouster-lidar-os-1-128]]
+	- [[HDL-64E-S3-Time-Synchronization]]
