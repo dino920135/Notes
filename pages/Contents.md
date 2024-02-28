@@ -54,3 +54,4 @@ public:: true
 	- [[Novatel-Manual]]
 	- [[ouster-lidar-os-1-128]]
 	- [[HDL-64E-S3-Time-Synchronization]]
+	- [[Garmin-GPS-18x-LVC]]
