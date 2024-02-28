@@ -21,5 +21,17 @@ model:: HDL-64E S3
 	- ## External GPS Setup
 		- ### Garmin GPS 18x LVC
 		  Refer to [[Garmin-GPS-18x-LVC]]
+			- Settings
+			  |GPS SETTING|VALUE|
+			  |--|--|
+			  |Baud Rate|9600|
+			  |Power Save Mode|off|
+			  |NMEA Sentences|GPRMC *|
+			  |NMEA Output Time|1 sec|
+			  |PPS Mode|1 Hz|
+			  |PPS Length|100 ms|
+			  |PPS Auto Off|Off|
+			  |Fix Mode|Automatic|
+			  |Posotion Averaging|Off|
 		- ### Novatel
 	-

@@ -13,5 +13,7 @@ model:: GPS 18x LVC
 	  id:: 65df6cbe-52fe-432f-961a-e6b8c28a8088
 - ## Wiring & Pin Outs
   ![image.png](../assets/image_1709141671638_0.png)
-	- In order to reconfigure the GPS with Garmin ((65df6c3a-8148-47a5-98ab-18fc842ff0fb)). The wires 
+	- ### Power Supply
+	- ### Connecting to Computer
+	  In order to reconfigure the GPS with Garmin ((65df6c3a-8148-47a5-98ab-18fc842ff0fb)). The wires can be connected to RS232 as the picture below.
 	  ![image.png](../assets/image_1709142153639_0.png)
