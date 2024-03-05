@@ -16,8 +16,10 @@ public:: true
 			- ![image.png](../assets/image_1662281718227_0.png)Krita
 - # Projects
 	- Car Deconstructing with basic shapes
+	  collapsed:: true
 		- ![](https://i.pinimg.com/originals/6a/8e/c2/6a8ec232e3ce8329705a829828bc7df9.png)
 	- Tank Decontructing
+	  collapsed:: true
 		- ![](https://i.pinimg.com/originals/e5/a2/9c/e5a29c503b3f4afe9c442959f9184a03.jpg)
 		- ![](https://i.pinimg.com/originals/1f/65/0d/1f650df624f41bed3c2092e306997673.jpg)
 		- ![](https://i.pinimg.com/originals/3e/a6/e9/3ea6e9ca6f0fbbbe997f09e4de02906c.jpg)
