@@ -1,7 +1,5 @@
-public:: true
-
-- # Introduction
-  **This is a note for kepting my personal sketching projects**
+# Introduction
+**This is a note for kepting my personal sketching projects**
 	- My Pinterest: [@dino920135](https://www.pinterest.com/dino920135/)
 	- Familier Materials:
 		- Paper
@@ -15,8 +13,8 @@ public:: true
 		- Software
 			- ![image.png](../assets/image_1662281718227_0.png)Krita
 - # Projects
+  collapsed:: true
 	- Car Deconstructing with basic shapes
-	  collapsed:: true
 		- ![](https://i.pinimg.com/originals/6a/8e/c2/6a8ec232e3ce8329705a829828bc7df9.png)
 	- Tank Decontructing
 	  collapsed:: true
