@@ -1,4 +1,3 @@
-public:: true
 title:: fastled-lightstrip
 #arduino #fastled #lightstrip #embedded
 
