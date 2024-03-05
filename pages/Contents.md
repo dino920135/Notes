@@ -37,8 +37,6 @@
 - ## AUTOMATION
 	- [[tty_autologin]]
 	- [[crontab]]
-- ## DOODLE
-	- [[DOODLE]]
 - ## RESEARCH
 	- [[MmWave-Radar-Localization-References]]
 	- [[Auto-Covariance-&-Auto-Correlation-Functions]]
@@ -47,7 +45,7 @@
 	- [[Inertial-Sensor-Measurement-Simulation]]
 	- [[Invention-Inertial-Navigation-Technology-Trainning-Course]]
 - ## SDR
-	- [[RTLSDR-quick-start-with-GNSS-SDRLIB-and-RTKNAVI]
+	- [[RTLSDR-quick-start-with-GNSS-SDRLIB-and-RTKNAVI]]
 - ## SENSORS
 	- [[swift-Navigation-Piksi-Multi-Evaluation-Kit]]
 	- [[Novatel-Manual]]
@@ -55,4 +53,5 @@
 	- [[HDL-64E-S3-Time-Synchronization]]
 	- [[Garmin-GPS-18x-LVC]]
 	- [[RTLSDR-Blog-V3]]
-- {{renderer :tocgen2, [[rtlsdr-quick-start-with-gnss-sdrlib-and-rtknavi]], calc(100vh - 135px)}}
+- ## DOODLE
+	- [[DOODLE]]
