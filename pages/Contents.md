@@ -53,5 +53,7 @@
 	- [[HDL-64E-S3-Time-Synchronization]]
 	- [[Garmin-GPS-18x-LVC]]
 	- [[RTLSDR-Blog-V3]]
+	- [[Septentrio-Mosaic]]
 - ## DOODLE
 	- [[DOODLE]]
+- {{renderer :tocgen2, [[mermaid-flowchart]], calc(100vh - 135px)}}
