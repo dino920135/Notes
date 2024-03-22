@@ -5,9 +5,6 @@
 		- [[Unit-test-with-GTest]]
 	- ### Docker
 		- [[ROS-with-Docker]]
-	- ### Shell Script
-		- [[check_if_user_is_root]]
-		- [[check_if_specific_process_is_running]]
 	- ### [[VS_Code]]
 		- [[VS-Code-SSH]]
 	- ### Memory Leak
@@ -34,7 +31,10 @@
 		- [[fastled-lightstrip]]
 	- ### RaspberryPi
 		- [[Raspberry-Pi-ROS]]
-- ## AUTOMATION
+- ## SCRIPT
+	- ### Shell Script
+		- [[check_if_user_is_root]]
+		- [[check_if_specific_process_is_running]]
 	- [[tty_autologin]]
 	- [[crontab]]
 - ## RESEARCH
