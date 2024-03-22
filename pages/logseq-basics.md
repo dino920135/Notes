@@ -1,5 +1,6 @@
-title:: logseq-basics
 #logseq #note
+title:: logseq-basics
+id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
 
 - # Sync Logseq with Github
   title:: logseq_basics

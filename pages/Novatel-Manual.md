@@ -1,4 +1,5 @@
 public:: true
+{{renderer :tocgen2}}
 
 - ## OEM7 Commands and Logs
 	- ### Document
