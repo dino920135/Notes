@@ -1,6 +1,7 @@
 public:: true
+#code #ide
+{{renderer :tocgen2}}
 
-- #code #ide
 - ## Installing tmux
 	- ```bash
 	  sudo apt-get install tmux
