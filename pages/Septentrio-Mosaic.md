@@ -11,4 +11,4 @@ sensor:: GNSS
   
   2. Connect to **Web UI** by typing `192.168.3.1` in browser
 - ## Configuring Receiver
--
+- ## RxTools
