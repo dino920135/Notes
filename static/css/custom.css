@@ -1,0 +1,3 @@
+.ui-items-container[data-type=toolbar]>.list-wrap {
+  overflow: visible;
+}
