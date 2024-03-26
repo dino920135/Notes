@@ -11,5 +11,7 @@ sensor:: GNSS
 	- ### Preparation
 		- Microsoft [Download .NET 7.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-windows-x86-installer)
 		- Microsoft Visual C++ redistribution [download the x86 version from here](https://aka.ms/vs/17/release/vc_redist.x86.exe)
+		- Download **sdrsharp-x86.zip** from **[www.airspy.com](http://www.airspy.com/)**
+	-
 		-
 	-
