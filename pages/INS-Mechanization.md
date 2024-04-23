@@ -16,9 +16,10 @@
 			- The **body Gyro Meas.** with respect to **n-frame**
 			  $$\omega^{b}_{nb} = ( \omega_{x} \ \omega_{y} \ \omega_{z})^{T} = \omega^{b}_{ib} - C_{n}^{b}(\omega^{n}_{ie}+\omega^{n}_{en}) \Delta t$$
 			- ### Four Types of Attitude Integral
-			  Euler Angle, Direction Cosine Matrix(DCM), Quaternion, Rotation Vector. Euler angle gives an intuitive attitude representation, but suffers from **Gimbal Lock**, which is not suitable for full attitude estimation. DCM doesn't suffer from gimbal lock, but more unknown parameters (9, 3$\times$3 matrix) needed to be solve.
 				- Euler Angle
+				  Gives an intuitive attitude representation, but suffers from **Gimbal Lock**, which is not suitable for full attitude estimation.
 				- DCM
+				  Doesn't suffer from gimbal lock, but more unknown parameters (9, 3$\times$3 matrix) needed to be solve.
 				- Quaternion
 				- Rotation Vector
 			- Angular increment
