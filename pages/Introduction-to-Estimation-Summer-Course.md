@@ -18,3 +18,9 @@
 		- Batch
 		- Summation of Normals
 		- Sequential
+- ## Kalman Filter
+	- ### Random variable v.s Random Process
+		- Collection or Group of function of time
+	- ### System models: continous & discrete
+	- Transition Matrix
+	-
