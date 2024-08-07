@@ -1,0 +1,20 @@
+- The **assumptions** for the model is important
+	- eg, kalman filter: white & gaussian noise
+- ## Deterministic model does not provide perfect estimation
+	- NO perfect mathematical model
+	- Dynamic models are driven not only by our own control input, but also the disturbance from the environment
+	- Sensor do not provide perfect and complete observation
+- ## Gaussian Random variables
+	- Normal distribution
+	- only two variable
+		- Colour Gaussian (multiple Gaussian)
+	- Joint PDF (dimension more then 1) [聯合分布 - 維基百科，自由的百科全書 (wikipedia.org)](https://zh.wikipedia.org/zh-tw/%E8%81%94%E5%90%88%E5%88%86%E5%B8%83)
+- ## The choose of optimal estimation
+	- Base on the suitable assumption
+- ## Least Square
+	- Loss func.: $L(\hat{x})=(z-H \hat{x})^T W (z-H \hat{x})$
+	- Finding the minimun->1st derivation = 0, 2nd derivation > 0
+	- ### Implementation
+		- Batch
+		- Summation of Normals
+		- Sequential
