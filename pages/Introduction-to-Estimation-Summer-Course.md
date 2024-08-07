@@ -23,4 +23,5 @@
 		- Collection or Group of function of time
 	- ### System models: continous & discrete
 	- Transition Matrix
+	- Q: spectral density matrix
 	-
