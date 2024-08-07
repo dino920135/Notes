@@ -24,4 +24,7 @@
 	- ### System models: continous & discrete
 	- Transition Matrix
 	- Q: spectral density matrix
+- ## Observability
+	- The rank of **observbility matrix**
+-
 	-
