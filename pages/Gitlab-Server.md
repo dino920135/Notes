@@ -10,7 +10,6 @@ public:: true
 	  `docker exec -it gitlab bash`
 - # Backup Gitlab in docker
   id:: 64153b91-5c7a-40a2-8298-a1019bc911fd
-  collapsed:: true
   [Backup and restore Gitlab in docker - A code to remember (copdips.com)](https://copdips.com/2018/09/backup-and-restore-gitlab-in-docker.html#backup-gitlab-in-docker)
 	- ## Check backup path
 		- ### Synology NAS
