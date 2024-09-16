@@ -20,7 +20,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4.1.7
       - name: Logseq Publish
-        uses: dino920135/logseq-publish@0.1.8
+        uses: dino920135/logseq-publish@latest
       - name: add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy
