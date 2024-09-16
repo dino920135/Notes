@@ -116,10 +116,7 @@ public:: true
 		  -rw------- 1 root root     130379 Mar 18 05:56 gitlab.rb
 		  -rw------- 1 root root      19205 Mar 18 05:56 gitlab-secrets.json
 		  ```
-		- ### Copy to Exterior Storage
-		  ```bash
-		  Pointshare@PointNAS:/$ sudo docker cp gitlab:/var/opt/gitlab/backups /volume2/Personal/Dino/
-		  ```
+		- Pointshare@PointNAS:/$ sudo docker cp gitlab:/var/opt/gitlab/backups /volume2/Personal/Dino/
 - # Update Gitlab in docker
   [Update Gitlab in docker - A code to remember (copdips.com)](https://copdips.com/2018/10/update-gitlab-in-docker.html)
 	- ## Backup (important)
