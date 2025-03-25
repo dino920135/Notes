@@ -1,4 +1,4 @@
-- {{renderer :tocgen2}}
+-
 - ## Overview
   | Data Element | UBX Message(s) | NMEA Sentence(s) |
   | ---- | ---- | ---- |
@@ -11,10 +11,31 @@
   | **Number of Satellites** | `UBX-NAV-SAT`, `UBX-NAV-PVT` | `GGA`, `GSV`, `GSA` |
   | **SNR / C/N₀** | `UBX-NAV-SIG`, `UBX-RXM-RAWX` | `GSV` |
 - ## Loosely Coupled
+	- ### Requirements
+	  collapsed:: true
+		- Time
+		- Position
+		- Velocity
+		- Attitude
+		- Position Accuracy
+		- Velocity Accuracy
+		- DOPs
+		- Number of Satellites
+		- SNR or $C/N_0$
+		-
+	- ### UBX
+		-
+	- ### NMEA
+		- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
+		- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
 - ## Tightly Coupled
+	- ((67e10ad0-83f0-44f8-943f-bfb2092e0363))
+	- ((67e10ad0-21b8-4894-b38c-d1c4aa9803bf))
 - ## UBX
 	- ### UBX-RXM-RAWX
+	  id:: 67e10ad0-83f0-44f8-943f-bfb2092e0363
 	- ### UBX-RXM-SFRBX
+	  id:: 67e10ad0-21b8-4894-b38c-d1c4aa9803bf
 	- ### UBX-NAV-PVT (0x01 0x07)
 	  collapsed:: true
 	  Navigation Position Velocity Time Solution| Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
@@ -62,4 +83,7 @@
 	- ### UBX-NAV-SAT
 	- ### UBX-NAV-SIG
 - # NMEA
-	-
+	- ### xxRMC
+	  id:: 67e10ad0-e2b4-46ea-9f4a-d8e317713799
+	- ### xxGGA
+	  id:: 67e11cf5-6658-48ca-94f3-8c14360310ed
