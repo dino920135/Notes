@@ -1,30 +1,18 @@
--
-- ## Overview
-  | Data Element | UBX Message(s) | NMEA Sentence(s) |
-  | ---- | ---- | ---- |
-  | **Time** | `UBX-NAV-PVT`, `UBX-NAV-TIMEGPS` | `ZDA`, `RMC` |
-  | **Position (Lat/Lon/Alt)** | `UBX-NAV-PVT`, `UBX-NAV-POSLLH`, `UBX-NAV-HPPOSLLH` | `GGA`, `PUBX,00` |
-  | **Velocity (NED)** | `UBX-NAV-VELNED` | `VTG`, `RMC`, `PUBX,00` |
-  | **Position Accuracy** | `UBX-NAV-PVT`, `UBX-NAV-COV` | `GST` |
-  | **Velocity Accuracy** | `UBX-NAV-COV`, `UBX-NAV-PVT` | N/A (not standard in NMEA) |
-  | **DOPs (GDOP, PDOP, HDOP, VDOP)** | `UBX-NAV-DOP` | `GSA` |
-  | **Number of Satellites** | `UBX-NAV-SAT`, `UBX-NAV-PVT` | `GGA`, `GSV`, `GSA` |
-  | **SNR / C/N₀** | `UBX-NAV-SIG`, `UBX-RXM-RAWX` | `GSV` |
+- {{renderer :tocgen2}}
 - ## Loosely Coupled
 	- ### Requirements
-	  collapsed:: true
-		- Time
-		- Position
-		- Velocity
-		- Attitude
-		- Position Accuracy
-		- Velocity Accuracy
-		- DOPs
-		- Number of Satellites
-		- SNR or $C/N_0$
-		-
+	  | Data Element | UBX Message(s) | NMEA Sentence(s) |
+	  | ---- | ---- | ---- |
+	  | **Time** | `UBX-NAV-PVT` | `RMC` |
+	  | **Position (Lat/Lon/Alt)** | `UBX-NAV-PVT` | `GGA` |
+	  | **Velocity (NED)** | `UBX-NAV-VELNED` | `RMC`|
+	  | **Position Accuracy** | `UBX-NAV-COV` | `GST` |
+	  | **Velocity Accuracy** | `UBX-NAV-COV` | N/A (not standard in NMEA) |
+	  | **DOPs (GDOP, PDOP, HDOP, VDOP)** | `UBX-NAV-DOP` | `GSA` |
+	  | **Number of Satellites** | `UBX-NAV-SAT`, `UBX-NAV-PVT` | `GGA`|
+	  | **SNR / C/N₀** | `UBX-NAV-SIG` | `GSV` |
 	- ### UBX
-		-
+		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
 	- ### NMEA
 		- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
 		- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
@@ -37,12 +25,13 @@
 	- ### UBX-RXM-SFRBX
 	  id:: 67e10ad0-21b8-4894-b38c-d1c4aa9803bf
 	- ### UBX-NAV-PVT (0x01 0x07)
+	  id:: 67e10ad0-f42b-469a-8b04-6cc825560219
 	  collapsed:: true
-	  Navigation Position Velocity Time Solution| Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
+	  Navigation Position Velocity Time Solution
+	  | Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
 	  |-------------------|-----------|-------|------|----------------|-----------|------------|
 	  |                   | 0xb5 0x62 | 0x01  | 0x07 | 92             | see below | CK_A CK_B  |
 		- Payload description
-		  collapsed:: true
 		  | Byte Offset | Type   | Name     | Scale | Unit | Description                                       |
 		  |-------------|--------|----------|-------|------|---------------------------------------------------|
 		  | 0           | U4     | iTOW     | -     | ms   | <u>GPS time of week of navigation epoch</u>             |
@@ -78,7 +67,30 @@
 		  | 84          | I4     | headVeh  | 1e-5  | deg  | <u>Heading of vehicle (2-D)</u>                          |
 		  | 88          | I2     | magDec   | 1e-2  | deg  | <u>Magnetic declination</u>                             |
 		  | 90          | U2     | magAcc   | 1e-2  | deg  | <u>Magnetic declination accuracy</u>                     |
-	- ### UBX-NAV-COV
+	- ### UBX-NAV-COV (0x01 0x36)
+	  | Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
+	  |-------------------|-----------|-------|------|----------------|-----------|------------|
+	  |                   | 0xb5 0x62 | 0x01  | 0x36 | 64             | see below | CK_A CK_B  |
+		- Payload description
+		  | Byte Offset | Type   | Name        | Scale | Unit        | Description                                |
+		  |-------------|--------|-------------|-------|-------------|--------------------------------------------|
+		  | 0           | U4     | iTOW        | -     | ms          | GPS time of week of navigation epoch       |
+		  | 4           | U1     | version     | -     | -           | Message version (0x00 for this version)    |
+		  | 5           | U1     | posCovValid | -     | -           | Position covariance validity flag          |
+		  | 6           | U1     | velCovValid | -     | -           | Velocity covariance validity flag          |
+		  | 7           | U1[9]  | reserved0   | -     | -           | Reserved                                   |
+		  | 16          | R4     | posCovNN    | -     | m²          |<u>Position covariance matrix value p_NN</u>|
+		  | 20          | R4     | posCovNE    | -     | m²          | Position covariance matrix value p_NE      |
+		  | 24          | R4     | posCovND    | -     | m²          | Position covariance matrix value p_ND      |
+		  | 28          | R4     | posCovEE    | -     | m²          |<u>Position covariance matrix value p_EE</u>|
+		  | 32          | R4     | posCovED    | -     | m²          | Position covariance matrix value p_ED      |
+		  | 36          | R4     | posCovDD    | -     | m²          |<u>Position covariance matrix value p_DD</u>|
+		  | 40          | R4     | velCovNN    | -     | m²/s²       |<u>Velocity covariance matrix value v_NN</u>|
+		  | 44          | R4     | velCovNE    | -     | m²/s²       | Velocity covariance matrix value v_NE      |
+		  | 48          | R4     | velCovND    | -     | m²/s²       | Velocity covariance matrix value v_ND      |
+		  | 52          | R4     | velCovEE    | -     | m²/s²       |<u>Velocity covariance matrix value v_EE</u>  |
+		  | 56          | R4     | velCovED    | -     | m²/s²       | Velocity covariance matrix value v_ED      |
+		  | 60          | R4     | velCovDD    | -     | m²/s²       | <u>Velocity covariance matrix value v_DD</u>|
 	- ### UBX-NAV-DOP
 	- ### UBX-NAV-SAT
 	- ### UBX-NAV-SIG
@@ -87,3 +99,6 @@
 	  id:: 67e10ad0-e2b4-46ea-9f4a-d8e317713799
 	- ### xxGGA
 	  id:: 67e11cf5-6658-48ca-94f3-8c14360310ed
+	- ### xxGST
+	- ### xxGSA
+	- ### xxGSV
