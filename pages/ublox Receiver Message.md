@@ -17,11 +17,15 @@
 		- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
 		- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
 - ## Tightly Coupled
-	- ((67e10ad0-83f0-44f8-943f-bfb2092e0363))
-	- ((67e10ad0-21b8-4894-b38c-d1c4aa9803bf))
+	- ((67e10ad0-83f0-44f8-943f-bfb2092e0363)) (Observation)
+	- ((67e10ad0-21b8-4894-b38c-d1c4aa9803bf)) (Ephemeris)
 - ## UBX
-	- ### UBX-RXM-RAWX
+	- ### UBX-RXM-RAWX (0x02 0x15)
 	  id:: 67e10ad0-83f0-44f8-943f-bfb2092e0363
+	  | Message structure | Header    | Class | ID   | Length (Bytes)     | Payload   | Checksum   |
+	  |-------------------|-----------|-------|------|--------------------|-----------|------------|
+	  |                   | 0xb5 0x62 | 0x02  | 0x15 | 16 + numMeas·32    | see below | CK_A CK_B  |
+		- Payload
 	- ### UBX-RXM-SFRBX
 	  id:: 67e10ad0-21b8-4894-b38c-d1c4aa9803bf
 	- ### UBX-NAV-PVT (0x01 0x07)
