@@ -21,7 +21,46 @@
 	  *Required feild
 	  ```
 		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
+		  collapsed:: true
 		  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
+			- ((67e10ad0-f42b-469a-8b04-6cc825560219))
+			  collapsed:: true
+			  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
+				- Time
+				  collapsed:: true
+					- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
+				- Position
+				  collapsed:: true
+					- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
+					- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
+					- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
+				- Velocity
+				  collapsed:: true
+					- `velN (mm/s)`: North velocity component (in millimeters per second).
+					- `velE (mm/s)`: East velocity component (in millimeters per second).
+					- `velD (mm/s)`: Down velocity component (in millimeters per second).
+				- Number of Satellite
+				  collapsed:: true
+					- `numSV`: Number of satellites used in the navigation solution.
+			- ((67e10ad0-f42b-469a-8b04-6cc825560219))
+			  collapsed:: true
+			  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
+				- Time
+				  collapsed:: true
+					- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
+				- Position
+				  collapsed:: true
+					- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
+					- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
+					- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
+				- Velocity
+				  collapsed:: true
+					- `velN (mm/s)`: North velocity component (in millimeters per second).
+					- `velE (mm/s)`: East velocity component (in millimeters per second).
+					- `velD (mm/s)`: Down velocity component (in millimeters per second).
+				- Number of Satellite
+				  collapsed:: true
+					- `numSV`: Number of satellites used in the navigation solution.
 			- Time
 			  collapsed:: true
 				- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
@@ -39,6 +78,7 @@
 			  collapsed:: true
 				- `numSV`: Number of satellites used in the navigation solution.
 		- ((67e1159a-0a92-40c0-bc57-dc47f8054ed2))
+		  collapsed:: true
 		  This message provides the `Covariance Matrix` values, used for estimating the uncertainty in the position and velocity measurements.
 			- Position Covariance Matrix:
 			  collapsed:: true
@@ -51,6 +91,7 @@
 				- `velCovEE (m²/s²)`: Covariance matrix value for velocity in the East-East direction.
 				- `velCovDD (m²/s²)`: Covariance matrix value for velocity in the Down direction.
 		- ((67e10ad0-be56-4a3a-a3cf-146092ed7bf0)) (DOPs)
+		  collapsed:: true
 		  This message provides `Dilution of Precision (DOP)` values. DOP indicates the quality of the satellite geometry and its effect on the positional accuracy.
 			- DOPs
 			  collapsed:: true
@@ -67,6 +108,7 @@
 				  
 				  `VDOP (Vertical DOP)`: Indicates the accuracy of the vertical (altitude) position.
 		- ((67e116b0-32af-4301-9753-de056c4cb114)) (SNR & $C/N_0$)
+		  collapsed:: true
 		  This message provides `Signal Information`, including information about the satellite signal quality.
 			- `SNR (dB-Hz)`: Signal strength of the received satellite signal.
 			- `C/N₀ (dB-Hz)`: Ratio of the signal's carrier power to its noise level, used to evaluate signal quality.
@@ -165,7 +207,6 @@
 		  | 60          | R4     | velCovDD    | -     | m²/s²       | <u>Velocity covariance matrix value v_DD</u>|
 	- ### UBX-NAV-DOP
 	  id:: 67e10ad0-be56-4a3a-a3cf-146092ed7bf0
-	- ### UBX-NAV-SAT
 	- ### UBX-NAV-SIG
 	  id:: 67e116b0-32af-4301-9753-de056c4cb114
 - # NMEA
@@ -177,5 +218,3 @@
 	  id:: 67e23cd1-2fba-45e4-87ec-3057bec52296
 	- ### xxGSA
 	  id:: 67e23cda-b229-40f6-9a66-8d6994c2c1b3
-	- ### xxGSV
-	  id:: 67e23cdf-1e70-4c16-ba61-23a3b658e8de
