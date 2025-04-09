@@ -13,6 +13,10 @@
 	  | **SNR / C/N₀** | `UBX-NAV-SIG` | `GSV` |
 	- ### UBX
 		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
+			- Primary: Time, Position, Velocity
+			- Optional: Number of Satellite
+		- ((67e1159a-0a92-40c0-bc57-dc47f8054ed2)) (Position, Velocity Covariance)
+		-
 	- ### NMEA
 		- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
 		- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
@@ -72,6 +76,7 @@
 		  | 88          | I2     | magDec   | 1e-2  | deg  | <u>Magnetic declination</u>                             |
 		  | 90          | U2     | magAcc   | 1e-2  | deg  | <u>Magnetic declination accuracy</u>                     |
 	- ### UBX-NAV-COV (0x01 0x36)
+	  id:: 67e1159a-0a92-40c0-bc57-dc47f8054ed2
 	  | Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
 	  |-------------------|-----------|-------|------|----------------|-----------|------------|
 	  |                   | 0xb5 0x62 | 0x01  | 0x36 | 64             | see below | CK_A CK_B  |
