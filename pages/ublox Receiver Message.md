@@ -5,7 +5,7 @@
 	  | ---- | ---- | ---- |
 	  | **Time** | `UBX-NAV-PVT` | `RMC` |
 	  | **Position (Lat/Lon/Alt)** | `UBX-NAV-PVT` | `GGA` |
-	  | **Velocity (NED)** | `UBX-NAV-VELNED` | `RMC`|
+	  | **Velocity (NED)** | `UBX-NAV-PVT` | `RMC`|
 	  | **Position Accuracy** | `UBX-NAV-COV` | `GST` |
 	  | **Velocity Accuracy** | `UBX-NAV-COV` | N/A (not standard in NMEA) |
 	  | **DOPs (GDOP, PDOP, HDOP, VDOP)** | `UBX-NAV-DOP` | `GSA` |
