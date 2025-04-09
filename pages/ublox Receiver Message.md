@@ -9,23 +9,61 @@
 	  | **Position Accuracy** | `UBX-NAV-COV` | `GST` |
 	  | **Velocity Accuracy** | `UBX-NAV-COV` | N/A (not standard in NMEA) |
 	  | **DOPs (GDOP, PDOP, HDOP, VDOP)** | `UBX-NAV-DOP` | `GSA` |
-	  | **Number of Satellites** | `UBX-NAV-SAT`, `UBX-NAV-PVT` | `GGA`|
-	  | **SNR / C/N₀** | `UBX-NAV-SIG` | `GSV` |
+	  | **Number of Satellites** | `UBX-NAV-PVT` | `GGA`|
+	  | **SNR / C/N₀** | `UBX-NAV-SIG` | `GGA`, `GSV` |
 	- ### UBX
+	  ```plaintext
+	  UBX-NAV-PVT* → Time, Lat/Lon/Altitude, Velocity(NED)
+	  UBX-NAV-COV* → Covariance Matrix
+	  UBX-NAV-DOP → GDOP, PDOP, HDOP, VDOP
+	  UBX-NAV-SIG → SNR, C/N0
+	  
+	  *Required feild
+	  ```
 		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
-			- Primary: Time, Position, Velocity
-			- Optional: Number of Satellite
-		- ((67e1159a-0a92-40c0-bc57-dc47f8054ed2)) (Position, Velocity Covariance)
-		-
+		  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
+			- Time
+				- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
+			- Position
+				- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
+				- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
+				- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
+			- Velocity
+				- `velN (mm/s)`: North velocity component (in millimeters per second).
+				- `velE (mm/s)`: East velocity component (in millimeters per second).
+				- `velD (mm/s)`: Down velocity component (in millimeters per second).
+			- Number of Satellite
+				- `numSV`: Number of satellites used in the navigation solution.
+		- ((67e1159a-0a92-40c0-bc57-dc47f8054ed2))
+		  This message provides the `Covariance Matrix` values, used for estimating the uncertainty in the position and velocity measurements.
+			- Position Covariance Matrix:
+				- `posCovNN (m²)`: Covariance matrix value for position in the North direction.
+				- `posCovEE (m²)`: Covariance matrix value for position in the East-East direction.
+				- `posCovDD (m²)`: Covariance matrix value for position in the Down direction.
+			- Velocity Covariance Matrix:
+				- `velCovNN (m²/s²)`: Covariance matrix value for velocity in the North direction.
+				- `velCovEE (m²/s²)`: Covariance matrix value for velocity in the East-East direction.
+				- `velCovDD (m²/s²)`: Covariance matrix value for velocity in the Down direction.
+		- ((67e10ad0-be56-4a3a-a3cf-146092ed7bf0)) (DOPs)
+		- ((67e116b0-32af-4301-9753-de056c4cb114)) (SNR & $C/N_0$)
 	- ### NMEA
+	  ```plaintext
+	  $GNRMC → Time, Lat/Lon, Velocity (ground speed & course)
+	  $GNGGA → Altitude, Num. Satellites, basic HDOP
+	  $GNGSA → GDOP, PDOP, HDOP, VDOP
+	  $GNGST → Detailed Position Accuracy (RMS values for lat, lon, altitude)
+	  ```
 		- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
 		- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
+		- ((67e23cd1-2fba-45e4-87ec-3057bec52296))
+		- ((67e23cda-b229-40f6-9a66-8d6994c2c1b3))
 - ## Tightly Coupled
 	- ((67e10ad0-83f0-44f8-943f-bfb2092e0363)) (Observation)
 	- ((67e10ad0-21b8-4894-b38c-d1c4aa9803bf)) (Ephemeris)
 - ## UBX
 	- ### UBX-RXM-RAWX (0x02 0x15)
 	  id:: 67e10ad0-83f0-44f8-943f-bfb2092e0363
+	  collapsed:: true
 	  | Message structure | Header    | Class | ID   | Length (Bytes)     | Payload   | Checksum   |
 	  |-------------------|-----------|-------|------|--------------------|-----------|------------|
 	  |                   | 0xb5 0x62 | 0x02  | 0x15 | 16 + numMeas·32    | see below | CK_A CK_B  |
@@ -77,6 +115,7 @@
 		  | 90          | U2     | magAcc   | 1e-2  | deg  | <u>Magnetic declination accuracy</u>                     |
 	- ### UBX-NAV-COV (0x01 0x36)
 	  id:: 67e1159a-0a92-40c0-bc57-dc47f8054ed2
+	  collapsed:: true
 	  | Message structure | Header    | Class | ID   | Length (Bytes) | Payload   | Checksum   |
 	  |-------------------|-----------|-------|------|----------------|-----------|------------|
 	  |                   | 0xb5 0x62 | 0x01  | 0x36 | 64             | see below | CK_A CK_B  |
@@ -101,13 +140,18 @@
 		  | 56          | R4     | velCovED    | -     | m²/s²       | Velocity covariance matrix value v_ED      |
 		  | 60          | R4     | velCovDD    | -     | m²/s²       | <u>Velocity covariance matrix value v_DD</u>|
 	- ### UBX-NAV-DOP
+	  id:: 67e10ad0-be56-4a3a-a3cf-146092ed7bf0
 	- ### UBX-NAV-SAT
 	- ### UBX-NAV-SIG
+	  id:: 67e116b0-32af-4301-9753-de056c4cb114
 - # NMEA
 	- ### xxRMC
 	  id:: 67e10ad0-e2b4-46ea-9f4a-d8e317713799
 	- ### xxGGA
 	  id:: 67e11cf5-6658-48ca-94f3-8c14360310ed
 	- ### xxGST
+	  id:: 67e23cd1-2fba-45e4-87ec-3057bec52296
 	- ### xxGSA
+	  id:: 67e23cda-b229-40f6-9a66-8d6994c2c1b3
 	- ### xxGSV
+	  id:: 67e23cdf-1e70-4c16-ba61-23a3b658e8de
