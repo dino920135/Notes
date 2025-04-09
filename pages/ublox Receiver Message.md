@@ -23,29 +23,53 @@
 		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
 		  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
 			- Time
+			  collapsed:: true
 				- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
 			- Position
+			  collapsed:: true
 				- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
 				- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
 				- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
 			- Velocity
+			  collapsed:: true
 				- `velN (mm/s)`: North velocity component (in millimeters per second).
 				- `velE (mm/s)`: East velocity component (in millimeters per second).
 				- `velD (mm/s)`: Down velocity component (in millimeters per second).
 			- Number of Satellite
+			  collapsed:: true
 				- `numSV`: Number of satellites used in the navigation solution.
 		- ((67e1159a-0a92-40c0-bc57-dc47f8054ed2))
 		  This message provides the `Covariance Matrix` values, used for estimating the uncertainty in the position and velocity measurements.
 			- Position Covariance Matrix:
+			  collapsed:: true
 				- `posCovNN (m²)`: Covariance matrix value for position in the North direction.
 				- `posCovEE (m²)`: Covariance matrix value for position in the East-East direction.
 				- `posCovDD (m²)`: Covariance matrix value for position in the Down direction.
 			- Velocity Covariance Matrix:
+			  collapsed:: true
 				- `velCovNN (m²/s²)`: Covariance matrix value for velocity in the North direction.
 				- `velCovEE (m²/s²)`: Covariance matrix value for velocity in the East-East direction.
 				- `velCovDD (m²/s²)`: Covariance matrix value for velocity in the Down direction.
 		- ((67e10ad0-be56-4a3a-a3cf-146092ed7bf0)) (DOPs)
+		  This message provides `Dilution of Precision (DOP)` values. DOP indicates the quality of the satellite geometry and its effect on the positional accuracy.
+			- DOPs
+			  collapsed:: true
+				- collapsed:: true
+				  
+				  `GDOP (Geometric DOP)`: A composite of the position, velocity, and time geometry.
+				- collapsed:: true
+				  
+				  `PDOP (Position DOP)`: Indicates the positional accuracy based on the satellite geometry.
+				- collapsed:: true
+				  
+				  `HDOP (Horizontal DOP)`: Indicates the accuracy of the horizontal (latitude/longitude) position.
+				- collapsed:: true
+				  
+				  `VDOP (Vertical DOP)`: Indicates the accuracy of the vertical (altitude) position.
 		- ((67e116b0-32af-4301-9753-de056c4cb114)) (SNR & $C/N_0$)
+		  This message provides `Signal Information`, including information about the satellite signal quality.
+			- `SNR (dB-Hz)`: Signal strength of the received satellite signal.
+			- `C/N₀ (dB-Hz)`: Ratio of the signal's carrier power to its noise level, used to evaluate signal quality.
 	- ### NMEA
 	  ```plaintext
 	  $GNRMC → Time, Lat/Lon, Velocity (ground speed & course)
