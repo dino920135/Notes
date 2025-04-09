@@ -58,3 +58,4 @@
 	- [[DOODLE]]
 - {{renderer :tocgen2, [[mermaid-flowchart]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[valgrind]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[ublox receiver message]], calc(100vh - 135px)}}
