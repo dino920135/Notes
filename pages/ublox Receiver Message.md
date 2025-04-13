@@ -3,7 +3,7 @@
 	- ### UBX
 	  ```plaintext
 	  UBX-NAV-PVT → Time, Lat/Lon/Altitude, Velocity(NED)
-	  UBX-NAV-COV → Covariance Matrix
+	  UBX-NAV-COV → posCovNN/EE/DD, velCovNN/EE/DD (Covariance Matrix)
 	  UBX-NAV-DOP → GDOP, PDOP, HDOP, VDOP
 	  UBX-NAV-SIG → SNR, C/N0
 	  ```
