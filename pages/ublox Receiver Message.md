@@ -7,36 +7,8 @@
 	  UBX-NAV-DOP → GDOP, PDOP, HDOP, VDOP
 	  UBX-NAV-SIG → SNR, C/N0
 	  ```
-		- #### UBX-NAV-PVT (0x01 0x07)
+		- ((67e10ad0-f42b-469a-8b04-6cc825560219))
 		  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
-			- ((67e10ad0-f42b-469a-8b04-6cc825560219))
-			  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
-				- Time
-					- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
-				- Position
-					- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
-					- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
-					- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
-				- Velocity
-					- `velN (mm/s)`: North velocity component (in millimeters per second).
-					- `velE (mm/s)`: East velocity component (in millimeters per second).
-					- `velD (mm/s)`: Down velocity component (in millimeters per second).
-				- Number of Satellite
-					- `numSV`: Number of satellites used in the navigation solution.
-			- ((67e10ad0-f42b-469a-8b04-6cc825560219))
-			  This message provides the complete `Navigation Position Velocity Time` solution, including position, velocity, time, and satellite information.
-				- Time
-					- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
-				- Position
-					- `lat (deg)`: Latitude (degrees, in the range of -90 to 90).
-					- `lon (deg)`: Longitude (degrees, in the range of -180 to 180).
-					- `altitude (mm)`: Altitude above the WGS84 ellipsoid (in millimeters).
-				- Velocity
-					- `velN (mm/s)`: North velocity component (in millimeters per second).
-					- `velE (mm/s)`: East velocity component (in millimeters per second).
-					- `velD (mm/s)`: Down velocity component (in millimeters per second).
-				- Number of Satellite
-					- `numSV`: Number of satellites used in the navigation solution.
 			- Time
 				- `iTOW (ms)``: GPS time of week of the navigation epoch (milliseconds).
 			- Position
