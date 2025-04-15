@@ -153,7 +153,7 @@
  ;; (multiple lines) can be collapsed too. For example:
  ;; - block title
  ;;   block content
- :outliner/block-title-collapse-enabled? false
+ :outliner/block-title-collapse-enabled? true
 
  ;; Macros replace texts and will make you more productive.
  ;; For example:
@@ -176,7 +176,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites["vim" "AWR1843-BOOST+DCA1000EVM_data_capture" "MmWave-Radar-Localization-References"]
+ :favorites["mmwave radar localization references" "ublox Receiver Message" "awr1843 boost+dca1000evm data capture" "vim" "AWR1843-BOOST+DCA1000EVM_data_capture" "MmWave-Radar-Localization-References"]
  :graph/settings {:builtin-pages? false
  :journal? true}
  :publishing/all-pages-public? true

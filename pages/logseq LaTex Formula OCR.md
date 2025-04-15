@@ -1,3 +1,3 @@
 - $$\mathbf{J}={\frac{d\mathbf{f(x)}}{d\mathbf{x}}}=\left[{\frac{\partial\mathbf{f(x)}}{\partial x_{1}}}...{\frac{\partial\mathbf{f(x)}}{\partial x_{u}}}\right]={\left[\begin{array}{l l l}{{\frac{\partial f_{1}(\mathbf{x})}{\partial x_{1}}}}&{\dots}&{{\frac{\partial f_{1}(\mathbf{x})}{\partial x_{u}}}}\\ {\vdots}&{}&{\vdots}\\ {{\frac{\partial f_{v}(\mathbf{x})}{\partial x_{1}}}}&{\dots}&{{\frac{\partial f_{v}(\mathbf{x})}{\partial x_{u}}}}\end{array}\right]}$$
 - $$\mathbf{J}={\frac{d\mathbf{f(x)}}{d\mathbf{x}}}=\left[{\frac{\partial\mathbf{f(x)}}{\partial x_{1}}}...{\frac{\partial\mathbf{f(x)}}{\partial x_{u}}}\right]={\left[\begin{array}{l l l}{{\frac{\partial f_{1}(\mathbf{x})}{\partial x_{1}}}}&{\dots}&{{\frac{\partial f_{1}(\mathbf{x})}{\partial x_{u}}}}\\ {\vdots}&{}&{\vdots}\\ {{\frac{\partial f_{v}(\mathbf{x})}{\partial x_{1}}}}&{\dots}&{{\frac{\partial f_{v}(\mathbf{x})}{\partial x_{u}}}}\end{array}\right]}$$
--
+- $$undefined$$
