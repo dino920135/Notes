@@ -176,7 +176,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites["ublox receiver messages" "mmwave radar localization references" "ublox Receiver Message" "awr1843 boost+dca1000evm data capture" "vim" "AWR1843-BOOST+DCA1000EVM_data_capture"]
+ :favorites["Septentrio Receiver Messages" "ublox receiver messages" "mmwave radar localization references" "ublox Receiver Message" "awr1843 boost+dca1000evm data capture" "vim" "AWR1843-BOOST+DCA1000EVM_data_capture"]
  :graph/settings {:builtin-pages? false
  :journal? true}
  :publishing/all-pages-public? true
