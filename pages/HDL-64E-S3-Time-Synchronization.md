@@ -20,7 +20,7 @@ model:: HDL-64E S3
 		- (Blue )  GPS Ground
 	- ## External GPS Setup
 		- ### Garmin GPS 18x LVC
-		  Refer to [[Garmin-GPS-18x-LVC]]
+		  Refer to [[Garmin GPS 18x LVC]]
 			- Settings
 			  |GPS SETTING|VALUE|
 			  |--|--|

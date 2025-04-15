@@ -1,5 +1,5 @@
 public:: true
-title:: tty_autologin
+title:: tty autologin
 #tty #autologin
 
 - ## Enable Autologin

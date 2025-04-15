@@ -153,7 +153,7 @@
  ;; (multiple lines) can be collapsed too. For example:
  ;; - block title
  ;;   block content
- :outliner/block-title-collapse-enabled? false
+ :outliner/block-title-collapse-enabled? true
 
  ;; Macros replace texts and will make you more productive.
  ;; For example:

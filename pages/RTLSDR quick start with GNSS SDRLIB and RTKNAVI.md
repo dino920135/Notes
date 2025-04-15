@@ -1,4 +1,4 @@
-- #rtlsdr #sdr #rtklib #gnss-sdrlib
+- #rtlsdr #sdr #rtklib #[[gnss sdrlib]]
 - ## Reference Documents
 	- [RTL-SDR Tutorial: GPS Decoding and Plotting](https://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/)
 - ## GNSS-SDRLIB

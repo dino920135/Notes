@@ -1,4 +1,4 @@
-title:: fastled-lightstrip
+title:: fastled lightstrip
 #arduino #fastled #lightstrip #embedded
 
 - # FastLED Lightstrip

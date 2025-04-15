@@ -2,7 +2,7 @@ public:: true
 
 - # Lie Group Algebra SO(3) and so(3)
   #SO(3), #lie-algebra, #Lie-Group, #tranformation
-# 3D Motion Representation
+- # 3D Motion Representation
 	- Rotation
 	- Translation
 	- ## Vectors

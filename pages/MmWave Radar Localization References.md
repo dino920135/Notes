@@ -1,7 +1,7 @@
 public:: true
 
 - #research #mmwave #radar #localization #paper #reference
-- # MmWave-Radar-Localization-References
+- # MmWave Radar Localization References
 - ## Papers
 	- ![image.png](../assets/image_1663203277420_0.png){:height 707, :width 699}
 	- ### Survey Paper
