@@ -1,5 +1,5 @@
 public:: true
-title:: check_if_user_is_root
+title:: check if user is root
 #shellscript #code #bash
 
 	- ## `id -u`

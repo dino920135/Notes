@@ -1,5 +1,5 @@
 public:: true
-title:: VS-Code-SSH
+title:: VS Code SSH
 #vscode #ssh
 
 - # Install SSH server
@@ -28,3 +28,4 @@ title:: VS-Code-SSH
   This method required vscode extensions: **Remote X11** & **Remote X11 (SSH)**
 	- ## Setup ssh keys
 	-
+-

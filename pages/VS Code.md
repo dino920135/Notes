@@ -1,5 +1,5 @@
 public:: true
-title:: VS_Code
+title:: VS Code
 #vscode
 
 - ## Navigate

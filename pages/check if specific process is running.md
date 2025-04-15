@@ -1,5 +1,5 @@
 public:: true
-title:: check_if_specific_process_is_running
+title:: check if specific process is running
 #shellscript #code #bash
 
 	- ```shell

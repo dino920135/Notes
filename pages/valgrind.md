@@ -1,6 +1,6 @@
 public:: true
 
-- #memory #memory-leak #code
+- #memory #[[memory leak]] #code
 - # valgrind - memeory leak checking tool
 - ## Installation
   Run `sudo apt-get install valgrind`
