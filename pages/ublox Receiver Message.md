@@ -1,4 +1,4 @@
-## TOC
+## Table of Contents
 	- ((67e11540-fc84-4a67-a851-c843574668be))
 		- ((67f9464a-1cc9-408f-ad21-647d37fe697c))
 			- ((67e10ad0-f42b-469a-8b04-6cc825560219))
@@ -84,6 +84,7 @@
 	- ### UBX
 		- ### UBX-RXM-RAWX (0x02 0x15)
 		  id:: 67e10ad0-83f0-44f8-943f-bfb2092e0363
+		  collapsed:: true
 		  This message contains the i**nformation needed to be able to generate a RINEX 3
 		  multi-GNSS observation file** (see ftp://ftp.igs.org/pub/data/format/).
 		  This message contains **pseudorange, Doppler, carrier phase, phase lock and
@@ -103,6 +104,7 @@
 		  | 0xB5 0x62 | 0x02  | 0x13 | 8 + 4*numWords | see below | CK_A CK_B  |
 		- ### UBX-NAV-PVT (0x01 0x07)
 		  id:: 67e10ad0-f42b-469a-8b04-6cc825560219
+		  collapsed:: true
 		  This message combines **position, velocity and time solution**, including accuracy
 		  figures. Note that during a leap second there may be more or less than 60 seconds in a
 		  minute. See the description of leap seconds for details.
