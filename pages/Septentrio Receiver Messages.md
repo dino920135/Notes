@@ -26,7 +26,7 @@
 	  PosCovGeodetic → posCovNN/EE/DD (Covariance Matrix)
 	  VelCovGeodetic → velCovNN/EE/DD (Covariance Matrix)
 	  DOP → GDOP, PDOP, HDOP, VDOP
-	  Meas3Ranges → SNR, C/N0
+	  Meas3Ranges → SNR, C/N0 (Optional)
 	  ```
 		- ((6800cc30-cfaa-4d4d-8688-5f6991761575))
 		  id:: 6800c98f-c11b-4d36-9f3a-f724d35a28d4
@@ -94,7 +94,7 @@
 			  Provides the tracking noise variance, might be useful for tightly coupled system
 		- ### Ephemeris
 		  id:: 68010e85-d67a-48d9-a832-c4da68ba1e3f
-		  Select the Ephemeris blocks based on the constellation used
+		  Select the Ephemeris blocks based on used constellation
 			- ((6801086d-4507-419f-8889-bc45d3e977e9))
 			- ((68010a8d-3c0d-4da1-be6c-9b67a0ff326f))
 			- ((68010aa5-e4ff-4b6d-a444-a1eefde549bd))
