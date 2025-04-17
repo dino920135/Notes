@@ -2,12 +2,19 @@
 - ## Table of Contents
 	- ((6800c069-6572-427c-bbfd-444869493456))
 		- ((6800c980-80d5-4200-b28f-fdb2223c5d19))
-			- ((6800cc30-cfaa-4d4d-8688-5f6991761575))
-			- ((6800ca7d-9f67-47f7-83c4-6c4d46d29d4f))
-			- ((6800d572-7a35-4070-b7b9-794a5d191967))
-			- ((6800caab-906d-42b6-8040-c44b9653accd))
-			- ((6800d589-5fc8-421d-8b36-e6747bcf2115))
+			- ((6800c98f-c11b-4d36-9f3a-f724d35a28d4))
+			- ((6801032f-7633-4a84-92c5-e095cf840fd5))
+			- ((6801033c-7e37-4935-b60e-d7c45ce5fe0a))
+			- ((6801034c-608b-4761-95a6-a8a88c0487d3))
+			  id:: 680107df-0a5b-4cdc-a204-fd968d4c2388
+			- ((68010362-cfd5-4482-b7db-0b3b6ffd3e9a))
 	- ((6800c074-9383-484f-98fc-f39f44dad838))
+		- ((68010e77-ed51-4b5b-bad1-9395cfe23db8))
+			- ((6801091f-cbad-4c15-8403-556ee54f1d3c))
+			- ((68010e96-6de4-4030-be27-1674a22bc171))
+			- ((68010f58-6aa2-41b2-8a0b-6212498af154))
+			  id:: 6801111a-6146-4c56-b63f-d67c577ae8b2
+		- ((68010e85-d67a-48d9-a832-c4da68ba1e3f))
 	- ((6800c080-5f62-437d-aa40-b940a19c7d43))
 		- ((6800c0cb-dc14-4a31-87fa-9c260f2f3921))
 - ## Loosely Coupled
@@ -22,6 +29,7 @@
 	  Meas3Ranges → SNR, C/N0
 	  ```
 		- ((6800cc30-cfaa-4d4d-8688-5f6991761575))
+		  id:: 6800c98f-c11b-4d36-9f3a-f724d35a28d4
 		  This block provides the receiver's **Position**, **Velocity**, and **Time** in **Geodetic coordinates**.
 			- **Time**
 				- `TOW (ms)`: GPS time of week of the navigation epoch (milliseconds).
@@ -37,18 +45,21 @@
 				- `mode`: Navigation mode (e.g., Standalone, RTK Fixed).
 				- `nrSV`: Number of satellites used in the solution.
 		- ((6800ca7d-9f67-47f7-83c4-6c4d46d29d4f))
+		  id:: 6801032f-7633-4a84-92c5-e095cf840fd5
 		  Provides the position covariance matrix in geodetic coordinates.
 			- **Covariance (Position)**
 				- `cov_latlat (m²)`: Variance in latitude.
 				- `cov_lonlon (m²)`: Variance in longitude.
 				- `cov_heightheight (m²)`: Variance in height.
 		- ((6800d572-7a35-4070-b7b9-794a5d191967))
+		  id:: 6801033c-7e37-4935-b60e-d7c45ce5fe0a
 		  This block provides the **velocity covariance matrix** in the **North-East-Up (NEU)** frame.
 			- **Covariance (Velocity)**
 				- `cov_VnVn (m²/s²)`: Variance in north velocity.
 				- `cov_VeVe (m²/s²)`: Variance in east velocity.
 				- `cov_VuVu (m²/s²)`: Variance in up velocity.
 		- ((6800caab-906d-42b6-8040-c44b9653accd))
+		  id:: 6801034c-608b-4761-95a6-a8a88c0487d3
 		  This block provides **Dilution of Precision (DOP)** values, indicating the geometric quality of the satellite constellation.
 			- **DOP Values**
 				- `GDOP`: Geometric DOP (scaled by 100).
@@ -59,6 +70,7 @@
 				- `NDOP`: North DOP (scaled by 100).
 				- `EDOP`: East DOP (scaled by 100).
 		- ((6800d589-5fc8-421d-8b36-e6747bcf2115)) **(Optional)**
+		  id:: 68010362-cfd5-4482-b7db-0b3b6ffd3e9a
 		  **!!! This Block is Optional, It Take Spaces Up to ~40-100 bytes !!!**
 		  This block provides **code range measurements** and **C/N₀** (carrier-to-noise density ratio) for each satellite signal tracked.
 			- **Per-satellite fields**
@@ -72,11 +84,16 @@
   For the messages here RTKLIB provides functions parsing this messages, see the link below for more detail: [RTKLIB/src/rcv/septentrio.c at master · tomojitakasu/RTKLIB](https://github.com/tomojitakasu/RTKLIB/blob/master/src/rcv/septentrio.c)
 	- ### SBF
 		- ### Observation
+		  id:: 68010e77-ed51-4b5b-bad1-9395cfe23db8
 			- ((6800c3e4-ea2e-44c6-8a53-d1fe4c56550d))
+			  id:: 6801091f-cbad-4c15-8403-556ee54f1d3c
 			- ((680109cc-1c3e-4026-b978-69d485441933))
+			  id:: 68010e96-6de4-4030-be27-1674a22bc171
 			- ((68010a59-b143-4318-aa1a-058f291e4599)) **(Optional)**
+			  id:: 68010f58-6aa2-41b2-8a0b-6212498af154
 			  Provides the tracking noise variance, might be useful for tightly coupled system
 		- ### Ephemeris
+		  id:: 68010e85-d67a-48d9-a832-c4da68ba1e3f
 		  Select the Ephemeris blocks based on the constellation used
 			- ((6801086d-4507-419f-8889-bc45d3e977e9))
 			- ((68010a8d-3c0d-4da1-be6c-9b67a0ff326f))
