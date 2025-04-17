@@ -7,7 +7,6 @@
 			- ((6801033c-7e37-4935-b60e-d7c45ce5fe0a))
 			- ((6801034c-608b-4761-95a6-a8a88c0487d3))
 			  id:: 680107df-0a5b-4cdc-a204-fd968d4c2388
-			- ((68010362-cfd5-4482-b7db-0b3b6ffd3e9a))
 	- ((6800c074-9383-484f-98fc-f39f44dad838))
 		- ((68010e77-ed51-4b5b-bad1-9395cfe23db8))
 			- ((6801091f-cbad-4c15-8403-556ee54f1d3c))
@@ -66,15 +65,6 @@
 				- `TDOP`: Time DOP (scaled by 100).
 				- `HDOP`: Horizontal DOP (scaled by 100).
 				- `VDOP`: Vertical DOP (scaled by 100).
-		- ((6800d589-5fc8-421d-8b36-e6747bcf2115)) **(Optional)**
-		  id:: 68010362-cfd5-4482-b7db-0b3b6ffd3e9a
-		  **!!! This Block is Optional, It Take Spaces Up to ~40-100 bytes !!!**
-		  This block provides **code range measurements** and **C/N₀** (carrier-to-noise density ratio) for each satellite signal tracked.
-			- **Per-satellite fields**
-				- `svID`: Satellite identifier.
-				- `cn0 (dB-Hz)`: Carrier-to-noise density ratio (C/N₀).
-				- `codeRange (m)`: Measured pseudorange.
-				- `signalType`: GNSS signal (e.g., GPS L1CA, Galileo E1).
 	- ### NMEA
 - ## Tightly Coupled
   id:: 6800c074-9383-484f-98fc-f39f44dad838
