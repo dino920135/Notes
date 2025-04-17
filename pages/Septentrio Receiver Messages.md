@@ -62,13 +62,10 @@
 		  id:: 6801034c-608b-4761-95a6-a8a88c0487d3
 		  This block provides **Dilution of Precision (DOP)** values, indicating the geometric quality of the satellite constellation.
 			- **DOP Values**
-				- `GDOP`: Geometric DOP (scaled by 100).
 				- `PDOP`: Position DOP (scaled by 100).
+				- `TDOP`: Time DOP (scaled by 100).
 				- `HDOP`: Horizontal DOP (scaled by 100).
 				- `VDOP`: Vertical DOP (scaled by 100).
-				- `TDOP`: Time DOP (scaled by 100).
-				- `NDOP`: North DOP (scaled by 100).
-				- `EDOP`: East DOP (scaled by 100).
 		- ((6800d589-5fc8-421d-8b36-e6747bcf2115)) **(Optional)**
 		  id:: 68010362-cfd5-4482-b7db-0b3b6ffd3e9a
 		  **!!! This Block is Optional, It Take Spaces Up to ~40-100 bytes !!!**
