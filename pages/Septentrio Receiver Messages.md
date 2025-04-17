@@ -69,12 +69,15 @@
 	- ### NMEA
 - ## Tightly Coupled
   id:: 6800c074-9383-484f-98fc-f39f44dad838
+  For the messages here RTKLIB provides functions parsing this messages, see the link below for more detail: [RTKLIB/src/rcv/septentrio.c at master · tomojitakasu/RTKLIB](https://github.com/tomojitakasu/RTKLIB/blob/master/src/rcv/septentrio.c)
 	- ### SBF
 		- ### Observation
 			- ((6800c3e4-ea2e-44c6-8a53-d1fe4c56550d))
 			- ((680109cc-1c3e-4026-b978-69d485441933))
-			- ((68010a59-b143-4318-aa1a-058f291e4599))
+			- ((68010a59-b143-4318-aa1a-058f291e4599)) **(Optional)**
+			  Provides the tracking noise variance, might be useful for tightly coupled system
 		- ### Ephemeris
+		  Select the Ephemeris blocks based on the constellation used
 			- ((6801086d-4507-419f-8889-bc45d3e977e9))
 			- ((68010a8d-3c0d-4da1-be6c-9b67a0ff326f))
 			- ((68010aa5-e4ff-4b6d-a444-a1eefde549bd))
