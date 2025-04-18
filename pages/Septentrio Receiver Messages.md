@@ -14,6 +14,12 @@
 			- ((68010f58-6aa2-41b2-8a0b-6212498af154))
 			  id:: 6801111a-6146-4c56-b63f-d67c577ae8b2
 		- ((68010e85-d67a-48d9-a832-c4da68ba1e3f))
+			- ((68010929-1b6f-4ea0-aa40-4a3179b2a963))
+			- ((68010ee3-473d-49c7-b2d0-5404cd839c43))
+			- ((68010ef4-3677-432e-83fa-552edc726d4a))
+			- ((68010efd-88e6-41f7-8f93-5a9070304b0e))
+			- ((68010f0f-7cac-4b0e-9e5e-d3b731aa7c22))
+			- ((68010f3f-b853-48fa-b057-9bca090b4232))
 	- ((6800c080-5f62-437d-aa40-b940a19c7d43))
 		- ((6800c0cb-dc14-4a31-87fa-9c260f2f3921))
 - ## Loosely Coupled
@@ -83,11 +89,17 @@
 		  id:: 68010e85-d67a-48d9-a832-c4da68ba1e3f
 		  Select the Ephemeris blocks based on used constellation
 			- ((6801086d-4507-419f-8889-bc45d3e977e9))
+			  id:: 68010929-1b6f-4ea0-aa40-4a3179b2a963
 			- ((68010a8d-3c0d-4da1-be6c-9b67a0ff326f))
+			  id:: 68010ee3-473d-49c7-b2d0-5404cd839c43
 			- ((68010aa5-e4ff-4b6d-a444-a1eefde549bd))
+			  id:: 68010ef4-3677-432e-83fa-552edc726d4a
 			- ((68010ab0-2805-4480-889c-c4d84e383c3a))
+			  id:: 68010efd-88e6-41f7-8f93-5a9070304b0e
 			- ((68010e46-83c2-4663-b877-e5bfe58b4ae1))
+			  id:: 68010f0f-7cac-4b0e-9e5e-d3b731aa7c22
 			- ((68010e56-533d-4e38-8c1a-8a0e0b06aa18))
+			  id:: 68010f3f-b853-48fa-b057-9bca090b4232
 - ## Appandix
   id:: 6800c080-5f62-437d-aa40-b940a19c7d43
 	- ### Documents
