@@ -39,7 +39,6 @@
 			- **Time**
 				- `TOW (ms)`: GPS time of week of the navigation epoch (milliseconds).
 			- **Position**
-			  collapsed:: true
 				- `lat (deg)`: Latitude (in degrees).
 				- `lon (deg)`: Longitude (in degrees).
 				- `height (m)`: Height above reference ellipsoid (in meters).
@@ -69,7 +68,6 @@
 		  This block provides **Dilution of Precision (DOP)** values, indicating the geometric quality of the satellite constellation.
 			- **DOP Values**
 				- `PDOP`: Position DOP (scaled by 100).
-				- `TDOP`: Time DOP (scaled by 100).
 				- `HDOP`: Horizontal DOP (scaled by 100).
 				- `VDOP`: Vertical DOP (scaled by 100).
 	- ### NMEA
@@ -113,6 +111,31 @@
 	  It's easier to reference from `Appandix B: List of SBF Blocks` in ((6800c0dd-4378-4f50-93f5-a8c04a97ebc4))
 		- ### PVTGeodetic (4007)
 		  id:: 6800cc30-cfaa-4d4d-8688-5f6991761575
+			- TOW (0.01 s)
+			- WNc (1 week)
+			- Mode (0-7 bits)
+			- Error (int 0-10)
+			- Latitude (rad)
+			- Longitude (rad)
+			- Height (m)
+			- Undulation (m)
+			- Vn (m/s)
+			- Ve (m/s)
+			- Vu (m/s)
+			- COG (degree)
+			- RxClkBias (ms)
+			- RxClkDrift (ppm)
+			- TimeSystem (0-5, 100)
+			- Datum (0, 19, 30-36, 250, 251)
+			- NrSV
+			- WaCorrInfo
+			- ReferenceID
+			- MeanCorrAge
+			- SignalInfo
+			- AlertFlag
+			- NrBases
+			- PPPInfo
+			- Latency
 		- ### PosCovGeodetic (5906)
 		  id:: 6800ca7d-9f67-47f7-83c4-6c4d46d29d4f
 		- ### VelCovGeodetic (5908)
