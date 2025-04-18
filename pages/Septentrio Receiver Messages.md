@@ -39,6 +39,7 @@
 			- **Time**
 				- `TOW (ms)`: GPS time of week of the navigation epoch (milliseconds).
 			- **Position**
+			  collapsed:: true
 				- `lat (deg)`: Latitude (in degrees).
 				- `lon (deg)`: Longitude (in degrees).
 				- `height (m)`: Height above reference ellipsoid (in meters).
