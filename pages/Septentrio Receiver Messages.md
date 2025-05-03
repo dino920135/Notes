@@ -1,4 +1,4 @@
-- #Septentrio #GNSS #receiver
+- #Septentrio #GNSS #receiver #SBF
 - ## Table of Contents
 	- ((6800c069-6572-427c-bbfd-444869493456))
 		- ((6800c980-80d5-4200-b28f-fdb2223c5d19))
