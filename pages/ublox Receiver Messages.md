@@ -1,4 +1,4 @@
-- #ublox #receiver
+- #ublox #receiver #GNSS #UBX
 - ## Table of Contents
 	- ((67e11540-fc84-4a67-a851-c843574668be))
 		- ((67f9464a-1cc9-408f-ad21-647d37fe697c))
