@@ -41,3 +41,13 @@ title:: mounting SD card on NXP i.MX8 ubuntu system
 				- Press `n` to create a new primary partition
 				- Accept defaults to use full capacity
 				- Press `w` to write and exit
+			- Format the new partition with `mkfs`
+				- For ext4 format
+				  ```bash
+				  sudo mkfs.ext4 /dev/mmcblk1p1
+				  ```
+				- For FAT32 format (for cross platform usage)
+				- ```bash
+				  sudo apt update
+				  sudo apt install dosfstools
+				  ```
