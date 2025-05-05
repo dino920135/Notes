@@ -30,3 +30,14 @@ title:: mounting SD card on NXP i.MX8 ubuntu system
 			  mmcblk1     7.8G
 			  ├─mmcblk1p1 ...
 			  ```
+			  **!!! make sure it's not the system partition (plug & unplug) !!!**
+			- Delete and recreate partitions with `fdisk`
+			  ```bash
+			  sudo fdick /dev/mmcblk1
+			  ```
+			  Inside  `fdisk` :
+				- Press `p` to view existing partitions
+				- Press `d` to delete each one
+				- Press `n` to create a new primary partition
+				- Accept defaults to use full capacity
+				- Press `w` to write and exit
