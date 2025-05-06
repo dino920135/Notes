@@ -1,5 +1,6 @@
 title:: mounting SD card on NXP i.MX8 ubuntu system
 #sdcard #nxp #imx8 #ubuntu
+{{renderer :tocgen2}}
 
 - ## Check for device
 	- Run `lsblk`
@@ -19,7 +20,25 @@ title:: mounting SD card on NXP i.MX8 ubuntu system
 	- ```bash
 	  sudo mkdir -p /mnt/sdcard
 	  ```
+- ## Mount SD Card
+	- Assuming the SD card has a partition (e.g., `mmcblk1p1`):
+	  ```bash
+	  sudo mount /dev/mmcblk1p1 /mnt/sdcard
+	  ```
+	  You can specify filesystem type if needed:
+	  ```bash
+	  # FAT32
+	  sudo mount -t vfat /dev/mmcblk1p1 /mnt/sdcard
+	  # EXT4
+	  sudo mount -t ext4 /dev/mmcblk1p1 /mnt/sdcard
+	  ```
+- ## Unmount SD Card
+	- Before removing card
+	  ```bash
+	  sudo umount /mnt/sdcard
+	  ```
 - ## Troubleshooting
+  collapsed:: true
 	- ### SD card partition SIZE is not correct
 	  e.g. a 64GB SD card is only showing 7.8GB partition
 	  It's likely still has an old partition table on the SD card. Fixing the problem with formatting the SD card
