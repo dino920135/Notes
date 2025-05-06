@@ -38,7 +38,6 @@ title:: mounting SD card on NXP i.MX8 ubuntu system
 	  sudo umount /mnt/sdcard
 	  ```
 - ## Troubleshooting
-  collapsed:: true
 	- ### SD card partition SIZE is not correct
 	  e.g. a 64GB SD card is only showing 7.8GB partition
 	  It's likely still has an old partition table on the SD card. Fixing the problem with formatting the SD card
