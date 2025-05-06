@@ -1,5 +1,5 @@
 title:: Mounting SD Card on NXP i.MX8 Ubuntu System
-#sdcard #nxp #imx8 #ubuntu
+#sdcard #nxp #imx8 #ubuntu #mount 
 {{renderer :tocgen2}}
 
 - ## Check for device
