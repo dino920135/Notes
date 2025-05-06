@@ -1,4 +1,4 @@
-title:: mounting SD card on NXP i.MX8 ubuntu system
+title:: Mounting SD Card on NXP i.MX8 Ubuntu System
 #sdcard #nxp #imx8 #ubuntu
 {{renderer :tocgen2}}
 
