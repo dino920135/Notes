@@ -12,6 +12,12 @@
 		  deb http://archive.ubuntu.com/ubuntu jammy-updates main universe restricted multiverse
 		  deb http://archive.ubuntu.com/ubuntu jammy-security main universe restricted multiverse
 		  ```
+		  For ARM64 system
+		  ```bash
+		  deb http://ports.ubuntu.com/ubuntu-ports jammy main universe
+		  deb http://ports.ubuntu.com/ubuntu-ports jammy-updates main universe
+		  deb http://ports.ubuntu.com/ubuntu-ports jammy-security main universe
+		  ```
 		- Update and install
 		  ```bash
 		  sudo apt update
