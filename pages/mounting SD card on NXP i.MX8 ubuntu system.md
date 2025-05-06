@@ -47,7 +47,11 @@ title:: mounting SD card on NXP i.MX8 ubuntu system
 				  sudo mkfs.ext4 /dev/mmcblk1p1
 				  ```
 				- For FAT32 format (for cross platform usage)
-				- ```bash
+				  ```bash
+				  sudo mkfs.vfat -F 32 /dev/mmcblk1p1
+				  ```
+				- If `mkfs` is not installed
+				  ```bash
 				  sudo apt update
 				  sudo apt install dosfstools
 				  ```
