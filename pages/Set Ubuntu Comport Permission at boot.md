@@ -48,3 +48,13 @@
 	  sudo udevadm control --reload-rules
 	  sudo udevadm trigger /dev/ttymxc3
 	  ```
+	- Confirm Permission
+	  logseq.order-list-type:: number
+	  ```bash
+	  root@jammy-dev64mq:~/GNSSINS# ls -al /dev/ttymxc*
+	  crw-rw---- 1 root dialout 207, 16 May  6 20:14 /dev/ttymxc0
+	  crw--w---- 1 root tty     207, 17 May  6 20:14 /dev/ttymxc1
+	  crw-rw---- 1 root dialout 207, 18 May  6 20:14 /dev/ttymxc2
+	  crw-rw-rw- 1 root dialout 207, 19 May 18 23:49 /dev/ttymxc3
+	  ```
+	  For `/dev/ttymxc3` shows `crw-rw-rw-`
