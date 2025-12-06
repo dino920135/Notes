@@ -1,26 +1,30 @@
-## Matlab imuSensor
-According to [imuSensor - IMU simulation model - MATLAB](https://www.mathworks.com/help/nav/ref/imusensor-system-object.html), three sensors are included:
-	- Accelerometer (accel) - [accelparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/accelparams.html)
-	- Gyroscope (gyro) - [gyroparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/gyroparams.html)
-	- Magnetometer (mag) - [magparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/magparams.html)
+tag:: #matlab #imuSensor #unit #[[Noise Density]] #[[Bias Instability]] #[[Random Walk]]
+
+- ## Matlab imuSensor
+  According to [imuSensor - IMU simulation model - MATLAB](https://www.mathworks.com/help/nav/ref/imusensor-system-object.html), three sensors are included:
+	- ((69345b3c-5677-4312-b618-0dabafbf2391)) (accel) - [accelparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/accelparams.html)
+	- ((69345b82-382a-4a3d-b833-c5bdbadc6240)) (gyro) - [gyroparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/gyroparams.html)
+	- #Magnetometer (mag) - [magparams](https://www.mathworks.com/help/releases/R2025a/nav/ref/magparams.html)
 - ### Accelerometer
+  id:: 69345b3c-5677-4312-b618-0dabafbf2391
   Let's look at the commonly used parameters: **Noise Density**, **Accel Bias Instability**, **Random Walk**.
 	- #### !!! Warning !!!
 	  by Matlab website, **VRW** correspond to `NoiseDensity` instead of ~~`RandomWalk`~~!!!
-	- #### Noise Density $(m/s^2/\sqrt{Hz})$ (VRW) 
+	- #### [[Noise Density]] $(m/s^2/\sqrt{Hz})$ (VRW) 
 	  ![image.png](../assets/image_1765039525007_0.png)
-	- #### Bias Instability $(m/s^2)$
+	- #### [[Bias Instability]] $(m/s^2)$
 	  ![image.png](../assets/image_1765039728251_0.png)
-	- #### Random Walk $(m/s^2 * \sqrt{Hz})$
+	- #### [[Random Walk]] $(m/s^2 * \sqrt{Hz})$
 	  ![image.png](../assets/image_1765039776134_0.png)
 - ### Gyroscope
+  id:: 69345b82-382a-4a3d-b833-c5bdbadc6240
 	- #### !!! Warning !!!
 	  by Matlab website, **ARW** correspond to `NoiseDensity` instead of ~~`RandomWalk`~~!!!
-	- #### Noise Density $(rad/s/\sqrt{Hz})$ (ARW)
+	- #### [[Noise Density]] $(rad/s/\sqrt{Hz})$ (ARW)
 	  ![image.png](../assets/image_1765043137053_0.png)
-	- #### Bias Instability $(rad/s)$
+	- #### [[Bias Instability]] $(rad/s)$
 	  ![image.png](../assets/image_1765043153859_0.png)
-	- #### Random Walk $(rad/s * \sqrt{Hz})$
+	- #### [[Random Walk]] $(rad/s * \sqrt{Hz})$
 	  ![image.png](../assets/image_1765043170116_0.png)
 - ### Unit Convert Example
 	- #### ASM330LHB
