@@ -45,4 +45,3 @@ tag:: #matlab #imuSensor #unit #[[Noise Density]] #[[Bias Instability]] #[[Rando
 		- **G_BI**
 		  $= 3\ \degree/h$
 		  $= 3 \times \frac{PI}{180}\ rad/3600s = 3 \times \frac{1}{3600} \times \frac{PI}{180}\ rad/s$
--
