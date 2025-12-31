@@ -1,4 +1,4 @@
-- #scrum #adgile
+- #scrum #agile
   {{renderer :tocgen}}
 - # Whats Agile
 	- ## Waterfall vs. Agile

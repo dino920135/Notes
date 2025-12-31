@@ -1,4 +1,4 @@
-tag:: #matlab #imuSensor #unit #[[Noise Density]] #[[Bias Instability]] #[[Random Walk]]
+tag:: #matlab #imu #imuSensor #unit #[[Noise Density]] #[[Bias Instability]] #[[Random Walk]]
 
 - ## Matlab imuSensor
   According to [imuSensor - IMU simulation model - MATLAB](https://www.mathworks.com/help/nav/ref/imusensor-system-object.html), three sensors are included:
