@@ -17,6 +17,10 @@
 			  ```bash
 			  nvm install --lts
 			  ```
+		- #### Install Gemini cli
+			- ```bash
+			  npm install -g @google/gemini-cli
+			  ```
 - ## Basic usage
 	-
 - ## GEMINI.md
