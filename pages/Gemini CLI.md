@@ -8,6 +8,15 @@
 		  ```shell
 		  npm install -g @google/gemini-cli
 		  ```
+	- ### WSL
+		- #### Install node.js
+			- ```bash
+			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+			  ```
+			- Restart the terminal
+			  ```bash
+			  nvm install --lts
+			  ```
 - ## Basic usage
 	-
 - ## GEMINI.md
