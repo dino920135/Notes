@@ -3,7 +3,24 @@
 	- Position:  
 	  $$\underline{{{r}}}^{n}=(\varphi\ \lambda\ h)^{T}$$
 	- Velocity:  
-	  $${\underline{{v}}}^{n}={\left(\begin{array}{l}{v_{N}}\\ {v_{E}}\\ {v_{D}}\end{array}\right)}={\left(\begin{array}{c c c}{(M+h)}&{0}&{0}\\ {0}&{(N+h)\cos\varphi}&{0}\\ {0}&{0}&{-1}\end{array}\right)}{\left(\begin{array}{c}{\dot{\varphi}}\\ {\dot{\lambda}}\\ {\dot{h}}\end{array}\right)}$$
+	  $${\underline{{v}}}^{n}=
+	  {\left(\begin{array}{l}{v_{N}}\\ {v_{E}}\\ {v_{D}}\end{array}\right)}=
+	  {\left(\begin{array}{c c c}{(M+h)}&{0}&{0}\\ {0}&{(N+h)\cos\varphi}&{0}\\ {0}&{0}&{-1}\end{array}\right)}
+	  {\left(\begin{array}{c}{\dot{\varphi}}\\ {\dot{\lambda}}\\ {\dot{h}}\end{array}\right)}$$
+	- $$\underline{\dot{r}}^n = 
+	  \left(\begin{array}{l}
+	  {\dot{\varphi}} \\ {\dot{\lambda}} \\ {\dot{h}}
+	  \end{array}\right) =
+	  \left(\begin{array}{c c c}
+	  \frac{1}{M+h} & 0 & 0 \\
+	  0 & \frac{1}{(N+h)cos\varphi} & 0 \\
+	  0 & 0 & -1
+	  \end{array}\right)
+	  \left(\begin{array}{l}
+	  v_N \\ v_E \\ v_D
+	  \end{array}\right)
+	  $$
+	-
 - # Local Geographic Navigation frame Mechanization (n-frame)
 	- ## Gyroscope
 	  From **Gyro Meas.**($\omega^{b}_{ib}$) to **Attitude** $(\phi ,\ \theta,\ \psi)$
