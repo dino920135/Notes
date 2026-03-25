@@ -1,4 +1,4 @@
-- #gemini #agent #ai
+- #gemini #agent #ai #skills #cli #llm
 - ## Installation
 	- Follow the instruction in: 
 	  [Github: google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
@@ -35,7 +35,11 @@
 			  npm install -g @google/gemini-cli
 			  ```
 - ## Basic usage
-	-
+	- ### Slash commands
+		- `/skills`
+		- `/chat`
+		- `/tools`
+		-
 - ## GEMINI.md
 - ## Reference
 	- [安裝 Gemini Cli 筆記 – 仲佑的網誌](https://yowlab.idv.tw/wordpress/?p=3172)
