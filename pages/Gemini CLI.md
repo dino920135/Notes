@@ -36,6 +36,9 @@
 			  ```
 - ## Basic usage
 	- ### Slash commands
+		- `/stats`:
+		  Check session/model/tools usage statistic
+		  ![image.png](../assets/image_1774462322485_0.png)
 		- `/skills` #skills
 		- `/chat`
 		- `/tools`
