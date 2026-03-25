@@ -1,5 +1,5 @@
 - #gemini #agent #ai #skills #cli #llm
-- ## Installation
+- ## Installation #install
 	- Follow the instruction in: 
 	  [Github: google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 	- ### Windows
@@ -8,7 +8,7 @@
 		  ```shell
 		  npm install -g @google/gemini-cli
 		  ```
-	- ### WSL
+	- ### WSL #wsl
 		- #### Install node.js
 			- ```bash
 			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -21,7 +21,7 @@
 			- ```bash
 			  npm install -g @google/gemini-cli
 			  ```
-	- ### Ubuntu (Linux)
+	- ### Ubuntu (Linux) #linux
 		- #### Install node.js
 			- ```bash
 			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -36,7 +36,7 @@
 			  ```
 - ## Basic usage
 	- ### Slash commands
-		- `/skills`
+		- `/skills` #skills
 		- `/chat`
 		- `/tools`
 		-

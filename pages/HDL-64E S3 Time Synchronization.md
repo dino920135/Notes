@@ -1,6 +1,7 @@
 sensor:: lidar
 manufacturers:: velodyne
 model:: HDL-64E S3
+tag:: #[[time sync]] #pps #nmea 
 {{renderer :tocgen2}}
 
 - ## Reference Documents

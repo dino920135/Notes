@@ -11,6 +11,7 @@ public:: true
 	- [Software User Manual (ouster.io)](https://data.ouster.io/downloads/software-user-manual/software-user-manual-v2p0.pdf)
 	- [Ouster Sensor API Guide (aliyuncs.com)](https://ouster.oss-cn-shanghai.aliyuncs.com/firmware%20v2.1/api-manual-v2.1.0.pdf)
 	- [Sensor Operations — Ouster Sensor Docs documentation](https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_operations/sensor-operations.html)
+	- [Accessories — Ouster Sensor Docs documentation](https://static.ouster.dev/sensor-docs/hw_user_manual_OS1/hw_common_sections_OS1/Accessories.html)
 - ## Overview
   ![image.png](../assets/image_1672874757350_0.png)
 	-
@@ -23,15 +24,20 @@ public:: true
 	- ### Ouster Studio
 	  [Ouster Studio lidar visualization software | Ouster](https://ouster.com/products/software/ouster-studio-visualizer/)
 	  ![image.png](../assets/image_1672874018371_0.png)
-- ## Time Synchronization
-	-
+- ## Time Synchronization #[[time sync]]
+	- [Accessories — Ouster Sensor Docs documentation](https://static.ouster.dev/sensor-docs/hw_user_manual_OS1/hw_common_sections_OS1/Accessories.html)
 - ## Configure
 	- ### Mode
 		- ![image.png](../assets/image_1672873086359_0.png)
-	- ### Timming
+	- ### Timming #[[time sync]]
+		- `NMEA In Polarity`: Be aware of the receiver transmitted signal whether it was [[RS232]] or [[TTL]] signal
+		  in experience:
+			- `ACTIVE_LOW`: [[Garmin GPS 18x LVC]]
+			- `ACTIVATE_HIGH`: [[TTL]]
 		- ![image.png](../assets/image_1672873135647_0.png)
 	-
 - ## Alert
 	- ETHERNET_LINK_BAD
 	  ![image.png](../assets/image_1672872308929_0.png)
 	  Sensor has detected an issue with the connected ethernet link. Please check the network setup including the network switch and harnessing can support 1 Gbps Ethernet. If you experience no issues with this Alert active, **this alert can be ignored**.
+-
