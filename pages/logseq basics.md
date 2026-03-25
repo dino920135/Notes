@@ -1,7 +1,5 @@
-#logseq #note
-title:: logseq basics
-id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
-
+- #logseq #note
+  id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
 - # Sync Logseq with Github
   1. Create repository on Github (eg: Note)
   2. Clone the repository to local directories
@@ -18,3 +16,5 @@ id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
 	- [Logseq Markdown Table Editor](https://github.com/haydenull/logseq-plugin-markdown-table)
 	- [logseq-formula-ocr-plugin](https://github.com/olmobaldoni/logseq-formula-ocr-plugin)
 	-
+- ## Useful References
+	- [開源筆記軟體Logseq【第三篇-進階語法功能】](https://www.cc.ntu.edu.tw/chinese/epaper/home/20221220_006309.html)
