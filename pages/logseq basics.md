@@ -14,7 +14,7 @@
 	- [logseq-plugin-bullet-threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
 	- [logseq-plugin-todo-master](https://github.com/pengx17/logseq-plugin-todo-master)
 	- [Logseq Markdown Table Editor](https://github.com/haydenull/logseq-plugin-markdown-table)
-	- [logseq-formula-ocr-plugin](https://github.com/olmobaldoni/logseq-formula-ocr-plugin)
+	- ~~[logseq-formula-ocr-plugin](https://github.com/olmobaldoni/logseq-formula-ocr-plugin)~~ (deprecated, use GPT, Gemini, Claude ... instead)
 	-
 - ## Useful References
 	- [開源筆記軟體Logseq【第三篇-進階語法功能】](https://www.cc.ntu.edu.tw/chinese/epaper/home/20221220_006309.html)
