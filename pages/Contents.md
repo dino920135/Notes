@@ -1,1 +1,2 @@
 - {{renderer :tocgen2, [[hdl-64e s3 time synchronization]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[logseq basics]], calc(100vh - 135px)}}

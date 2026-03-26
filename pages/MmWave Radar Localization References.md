@@ -1,11 +1,9 @@
-public:: true
-
 - #research #mmwave #radar #localization #paper #reference
-- # MmWave Radar Localization References
 - ## Papers
 	- ![image.png](../assets/image_1663203277420_0.png){:height 707, :width 699}
 	- ### Survey Paper
 		- [(2022) Millimeter Wave FMCW RADARs for perception, recognition and localization in automotive applications: A survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9760104), Venon A, Dupuis Y, Vasseur P et al.
+		- [[@Millimeter Wave FMCW RADARs for perception, recognition and localization in automotive applications: A survey]]
 		- [(2022) MmWave Radar and Vision Fusion for Object Detection in Autonomous Driving: A Review](https://doi.org/10.3390/s22072542), Wei Z, Zhang F, Chang S et al.
 		  id:: 63223bbc-5202-4edb-911f-8de859445cd3
 		- [(2022) Review on Millimeter-Wave Radar and Camera Fusion Technology](https://www.mdpi.com/2071-1050/14/9/5114), Zhou Y, Dong Y, Hou F et al.
