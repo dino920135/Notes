@@ -1,4 +1,4 @@
-- #reference #endnote #mendeley
+- #reference #endnote #mendeley #zotero #[[cross reference]] #paper #journal
 - ## More Information
 	- [研究生README｜文獻管理神器：Zotero、EndNote和Mendeley 三大文獻管理工具比較](https://vocus.cc/article/66734811fd89780001118155)
 - ## Comparison
@@ -11,7 +11,9 @@
 	  | **Note-taking** | 👑 Best to use | Good | Good |
 	  | **Collaboration** | Yes | Yes | Yes |
 	  | **Citation Styles** | Hundreds of styles; all editable. | 👑 6,000+ styles; can be downloaded/edited. | 15 pre-installed; hundreds more can be imported. |
-	- <!--EndFragment-->
-- ## EndNote
-- ## Mendeley
--
+- ## EndNote #endnote
+	- Web import: [EndNote Click - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/endnote-click/jaleebmaoohbjjohjlfmihkkopgfibne)
+- ## Mendeley #mendeley
+	- Web import: [Mendeley Web Importer - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/mendeley-web-importer/mbcgpelmjnpfbdnkbebdlfjmeckpnhha)
+- ## Zotero #zotero
+	- Web import: [Zotero Connector - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/zotero-connector/nmhdhpibnnopknkmonacoephklnflpho)
