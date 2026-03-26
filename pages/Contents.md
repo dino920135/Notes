@@ -1,3 +1,3 @@
 ## [[GNSS Receivers]]
-- ## [[VS Code]]
+- ## [[VS Code Basics]]
 - ## [[Radar]]

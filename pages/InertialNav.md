@@ -1,4 +1,3 @@
-title:: InertialNav
 github:: opensource
 #EKF #INS #IMU
 
