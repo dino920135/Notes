@@ -1,7 +1,7 @@
-public:: true
-title:: VS Code
-#vscode
+tag:: #vscode
 
+- {{query (property :tag "#vscode")}}
+  query-table:: true
 - ## Navigate
   [42 Visual Studio Code Shortcuts for Boosting Your Productivity](https://www.sitepoint.com/visual-studio-code-keyboard-shortcuts/)
 	- ### Open file

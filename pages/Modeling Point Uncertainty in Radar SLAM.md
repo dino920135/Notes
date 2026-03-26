@@ -1,6 +1,6 @@
 journal:: ArXiv
 volume:: abs/2402.16082
-tag:: #journal #paper #radar #slam #uncertainty
+tag:: #journal #paper #Radar #slam #uncertainty
 
 - ## Radar Measurement Model
 	- Given radar point $^R p_k$ in the radar frame $R$, decompose into two components:
