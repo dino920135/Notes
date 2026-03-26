@@ -3,7 +3,6 @@
 	- ![image.png](../assets/image_1663203277420_0.png){:height 707, :width 699}
 	- ### Survey Paper
 		- [(2022) Millimeter Wave FMCW RADARs for perception, recognition and localization in automotive applications: A survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9760104), Venon A, Dupuis Y, Vasseur P et al.
-		- [[@Millimeter Wave FMCW RADARs for perception, recognition and localization in automotive applications: A survey]]
 		- [(2022) MmWave Radar and Vision Fusion for Object Detection in Autonomous Driving: A Review](https://doi.org/10.3390/s22072542), Wei Z, Zhang F, Chang S et al.
 		  id:: 63223bbc-5202-4edb-911f-8de859445cd3
 		- [(2022) Review on Millimeter-Wave Radar and Camera Fusion Technology](https://www.mdpi.com/2071-1050/14/9/5114), Zhou Y, Dong Y, Hou F et al.
@@ -12,11 +11,10 @@
 		- [(2022) RADAR/INS INTEGRATION FOR POSE ESTIMATION IN GNSS-DENIED ENVIRONMENTS](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B1-2022/137/2022/isprs-archives-XLIII-B1-2022-137-2022.pdf), Elkholy M, Elsheikh M, El-Sheimy N.
 	- ### Radar and Lidar Map
 		- [(2022) LiDAR-and Radar-Based Robust Vehicle Localization with Confidence Estimation of Matching Results](https://www.mdpi.com/1424-8220/22/9/3545/htm), Yanase R, Hirano D, Aldibaja M et al.
-	- ### Radar SLAM
-	  #slam
+	- ### Radar [SLAM](slam)
 		- [(2021) 3D ego-Motion Estimation Using low-Cost mmWave Radars via Radar Velocity Factor for Pose-Graph SLAM](https://ieeexplore.ieee.org/abstract/document/9495184), Park Y, Shin Y, Kim J et al.
 		- [(2020) RadarSLAM: Radar based Large-Scale SLAM in All Weathers](https://ieeexplore.ieee.org/abstract/document/9341287), Hong Z, Petillot Y, Wang S
-	- ### Mapping
+	- ### [Mapping](mapping)
 		- [(2022) High Resolution Point Clouds from mmWave Radar](https://arxiv.org/abs/2206.09273), Prabhakara A, Jin T, Das A et al.
 		- [(2020) 3D Point Cloud Generation with Millimeter-Wave Radar](https://doi.org/10.1145/3432221), Qian K, He Z, Zhang X
 		- [(2020) The Millimeter-Wave Radar SLAM Assisted by the RCS Feature of the Target and IMU](https://www.mdpi.com/1424-8220/20/18/5421), Li Y, Liu Y, Wang Y et al.

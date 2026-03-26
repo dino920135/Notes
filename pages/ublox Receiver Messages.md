@@ -1,4 +1,8 @@
-- #ublox #receiver #GNSS #UBX
+sensor:: GNSS
+manufacturers:: ublox
+model:: f9p
+tags:: #ublox #receiver #GNSS #UBX
+
 - ## Table of Contents
 	- ((67e11540-fc84-4a67-a851-c843574668be))
 		- ((67f9464a-1cc9-408f-ad21-647d37fe697c))
@@ -7,6 +11,7 @@
 			- ((67e10ad0-be56-4a3a-a3cf-146092ed7bf0))
 			- ((67e116b0-32af-4301-9753-de056c4cb114))
 		- ((67e23ae7-34ff-456b-96d3-eb7babc1e122))
+		  collapsed:: true
 			- ((67e10ad0-e2b4-46ea-9f4a-d8e317713799))
 			- ((67e11cf5-6658-48ca-94f3-8c14360310ed))
 			- ((67e23cd1-2fba-45e4-87ec-3057bec52296))
@@ -81,9 +86,11 @@
 	- ((67e10ad0-21b8-4894-b38c-d1c4aa9803bf)) (Ephemeris)
 - ## Appandix
   id:: 67fa5a1e-1ce2-4b3c-933d-d93aad61bef7
+  collapsed:: true
 	- ### UBX
 		- ### UBX-RXM-RAWX (0x02 0x15)
 		  id:: 67e10ad0-83f0-44f8-943f-bfb2092e0363
+		  collapsed:: true
 		  This message contains the i**nformation needed to be able to generate a RINEX 3
 		  multi-GNSS observation file** (see ftp://ftp.igs.org/pub/data/format/).
 		  This message contains **pseudorange, Doppler, carrier phase, phase lock and
