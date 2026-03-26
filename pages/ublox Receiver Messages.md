@@ -1,7 +1,7 @@
 sensor:: GNSS
 manufacturers:: ublox
 model:: f9p
-tags:: #ublox #receiver #GNSS #UBX
+tag:: #ublox #receiver #GNSS #UBX
 
 - ## Table of Contents
 	- ((67e11540-fc84-4a67-a851-c843574668be))
