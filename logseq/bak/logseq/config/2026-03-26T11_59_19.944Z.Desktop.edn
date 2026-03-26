@@ -177,13 +177,14 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites["contents" "vs code" "gnss receivers" "ins" "radar" "mmwave radar localization references" "ublox receiver message" "awr1843 boost+dca1000evm data capture" "vim" "awr1843-boost+dca1000evm_data_capture"]
+ :favorites["contents" "vs code" "gnss receivers" "radar" "ins" "mmwave radar localization references" "ublox receiver message" "awr1843 boost+dca1000evm data capture" "vim" "awr1843-boost+dca1000evm_data_capture"]
  :graph/settings {:builtin-pages? false
- :journal? true}
+ :journal? false
+ :orphan-pages? true}
  :publishing/all-pages-public? true
- :graph/forcesettings {:link-dist 180
+ :graph/forcesettings {:link-dist 40
  :charge-strength -600
- :charge-range 1100}
+ :charge-range 500}
  :zotero/settings-v2 {"default" {:type-id "20052500", :zotero-linked-attachment-base-directory "", :zotero-data-directory "C:\\Users\\dino9\\Zotero", :extra-tags ""}}
  :feature/enable-flashcards? false
 
