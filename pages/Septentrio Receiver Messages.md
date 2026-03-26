@@ -1,7 +1,7 @@
 sensor:: GNSS
 manufacturers:: Septentrio
 model:: Mosaic-X5, Mosaic-H
-tag:: #Septentrio #GNSS #receiver #SBF
+#Septentrio #GNSS #receiver #SBF
 
 - ## Table of Contents
 	- ((6800c069-6572-427c-bbfd-444869493456))
