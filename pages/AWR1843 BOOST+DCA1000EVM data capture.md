@@ -1,7 +1,4 @@
-public:: true
-title:: AWR1843 BOOST+DCA1000EVM data capture
-#awr1843 #mmwave
-
+- #awr1843 #mmwave
 - #dca1000evm
   {{renderer :tocgen}}
 - ## Documents
