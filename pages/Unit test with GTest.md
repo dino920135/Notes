@@ -1,11 +1,9 @@
-public:: true
-
+- #code #[[unit test]] #gtest
 - ## Reference
 	- [Quickstart: Building with CMake | GoogleTest](https://google.github.io/googletest/quickstart-cmake.html)
 	- [VSCode + CMake + googletest 基本入门_vscode怎么make runtest_Sprinkle_WPD的博客-CSDN博客](https://blog.csdn.net/qq_26915769/article/details/107028696?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107028696-blog-130151637.235%5Ev35%5Epc_relevant_increate_t0_download_v2_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107028696-blog-130151637.235%5Ev35%5Epc_relevant_increate_t0_download_v2_base&utm_relevant_index=2)
 - ## Quick Start
 	- ### Declare Depedencies in CMakeLists.txt
-	  collapsed:: true
 		- Add the following lines to `CMakeLists.txt` file to declare the dependency on GoogleTest (**Require CMake at least 3.14**). GoogleTest official suggested to use `FetchContent` Cmake module (**Require CMake at least 3.11**).
 		  
 		  ```Cmake
@@ -25,7 +23,6 @@ public:: true
 		  
 		  The above configuration declares a dependency on GoogleTest which is downloaded from GitHub. In the above example, `03597a01ee50ed33e9dfd640b249b4be3799d395` is the Git commit hash of the GoogleTest version to use; it is recommend **updating the hash often to point to the latest version**.
 	- ### Creating Test Script
-	  collapsed:: true
 		- By creating a file named `unittest.cc` in the project diectory, 
 		  
 		  ```c
@@ -57,7 +54,6 @@ public:: true
 		  gtest_discover_tests(unittest)
 		  ```
 	- ### Running Tests
-	  collapsed:: true
 		- The test could be simply run by executing the executable file above(`./unittest`)
 		  
 		  ```bash
