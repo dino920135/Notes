@@ -28,10 +28,10 @@ model:: OS-1-128
 	- ### Mode
 		- ![image.png](../assets/image_1672873086359_0.png)
 	- ### Timming #[[time sync]]
-		- `NMEA In Polarity`: Be aware of the receiver transmitted signal whether it was [[RS232]] or [[TTL]] signal
+		- `NMEA In Polarity`: Be aware of the receiver transmitted signal whether it was [[Serial/RS232]] or [[Serial/TTL]] signal
 		  in experience:
 			- `ACTIVE_LOW`: [[Garmin GPS 18x LVC]]
-			- `ACTIVATE_HIGH`: [[TTL]]
+			- `ACTIVATE_HIGH`: [[Serial/TTL]]
 		- ![image.png](../assets/image_1672873135647_0.png)
 	-
 - ## Alert

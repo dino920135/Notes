@@ -1,11 +1,12 @@
-- #serial #TTL #RS232
+- #Serial #Serial/TTL #Serial/RS232
+  title:: Serial/TTL
 - ## What is TTL?
 	- TTL stands for **T**ransistor-**T**ransistor **L**ogic.
 	- In TTL logic,
 		- a high state (logic `1`) is represented by a voltage between 2V \~ 5V
 		- a low state (logic `0`) is represented by a voltage between 0V \~ 0.8V
 		- Voltages between 0.8V \~ 2V are undefined.
-- ## Difference between TTL and [[RS232]]
+- ## Difference between TTL and [[Serial/RS232]]
 	- The main **difference** between TTL and RS232 is the voltage level and the way they represent logic states.
 	  | Feature | TTL | RS232 |
 	  |---|---|---|

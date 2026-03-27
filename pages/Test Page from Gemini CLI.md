@@ -1,0 +1,11 @@
+# Welcome to LogSeq!
+	- This page was created via the **Gemini CLI** using the LogSeq MCP server.
+	- ## Features tested:
+		- Page creation
+		- Markdown parsing
+		- Block hierarchy
+		- Nested block 1
+			- Sub-nested block A
+		- Nested block 2
+		- ---
+		- tags: [test, gemini-cli] status: success

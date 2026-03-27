@@ -7,7 +7,6 @@
 	- [DCA1000EVM Data Capture Card User's Guide (Rev. A)](https://www.ti.com/lit/ug/spruij4a/spruij4a.pdf?ts=1665117110972&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FDCA1000EVM)
 	- **[DCA1000EVM Quick Start Guide](https://www.ti.com/lit/ml/spruik7/spruik7.pdf?ts=1665067397329)**
 - ## Power Supply
-  collapsed:: true
 	- ### AWR1843 BOOST
 		- 2.1 mm barrel jack(center positive), 5V > 2.5 A
 		  ![image.png](../assets/image_1665137136168_0.png)
@@ -21,12 +20,10 @@
 			- 2.1 mm barrel jack(center positive), 5V, 2.5 A  
 			  ![image.png](../assets/image_1665136806877_0.png)
 - ## Install Requirements
-  collapsed:: true
 	- [MMWAVE-STUDIO](https://www.ti.com/tool/MMWAVE-STUDIO) (the FTDI drivers should be installed as well if needed)
 	- [Matlab Runtime Engine](https://in.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015aSP1/installers/win32/MCR_R2015aSP1_win32_installer.exe)
 	- [XDS Emulation Software (EMU Pack)](https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_xds_software_package_download.html) (32-bit)
 - ## Connection
-  collapsed:: true
   [DCA1000EVM使用指南](https://e2echina.ti.com/blogs_/b/the_process/posts/dca1000evm)
 	- ### Wire Connection  
 	  ![image.png](../assets/image_1665237052204_0.png)   
@@ -36,7 +33,6 @@
 	- ### Ethernet Settings
 	  ![image.png](../assets/image_1665236872957_0.png)
 - ## mmWave Studio
-  collapsed:: true
 	- ### Execute mmWave Studio
 	  Execute mmWave Studio under path _ti\mmwave_studio_02_01_01_00\mmWaveStudio\RunTime\mmWaveStudio.exe_
 	  **As Administrator!!!!**
