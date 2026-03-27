@@ -1,4 +1,4 @@
 ## [[GNSS Receivers]]
-- ## [[VS Code]]
+- ## [[⌨️Coding]]
 - ## [[Radar]]
 - ## [[INS]]
