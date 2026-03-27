@@ -1,5 +1,5 @@
 github:: opensource
-#EKF #INS #IMU
+#EKF #🧭INS #IMU
 
 - Origin from: [priseborough/InertialNav: Inertial Navigation Filter (github.com)](https://github.com/priseborough/InertialNav)
   Fork to: [dino920135/InertialNav: Inertial Navigation Filter (github.com)](https://github.com/dino920135/InertialNav)
