@@ -1,4 +1,4 @@
-- #FMCW #radar #adc #fft
+- #FMCW #Radar #adc #fft
 - ## Coloradar
 	- ### FMCW mmwave radar FFT with Hanning window
 		- ### Without Hanning Window

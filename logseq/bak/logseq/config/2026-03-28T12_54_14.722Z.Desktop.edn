@@ -177,11 +177,11 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites["contents" "coding" "gnss receivers" "radar" "ins" "🧭ins" "📡radar" "⌨️coding" "🛰️gnss receivers" "ublox receiver message" "vim" "awr1843-boost+dca1000evm_data_capture"]
- :graph/settings {:builtin-pages? true
+ :favorites["contents" "coding" "gnss receivers" "radar" "ins" "logseq" "🧭ins" "📡radar" "⌨️coding" "🛰️gnss receivers" "ublox receiver message" "awr1843-boost+dca1000evm_data_capture"]
+ :graph/settings {:builtin-pages? false
  :journal? false
  :orphan-pages? true
- :excluded-pages? false}
+ :excluded-pages? true}
  :publishing/all-pages-public? true
  :graph/forcesettings {:link-dist 40
  :charge-strength -600
