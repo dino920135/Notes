@@ -1,4 +1,4 @@
-alias:: gnss
+alias:: [[Hardware/Receiver]], gnss
 icon:: 🛰️
 
 - {{query (or (page [[GNSS]]) (page [[receiver]]) "GNSS")}}

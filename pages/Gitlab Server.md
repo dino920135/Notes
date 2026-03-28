@@ -1,5 +1,4 @@
-public:: true
-
+- #git #gitlab #server
 - {{renderer :tocgen}}
 - # Useful Command
 	- Check doker container

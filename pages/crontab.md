@@ -1,6 +1,4 @@
-public:: true
-
-- #crontab
+- #linux
 - # crontab
 	- ## Basic commands
 	  **crontab -option**

@@ -1,4 +1,4 @@
-- #grub #boot #entry
+- #grub #boot #entry #OS
 - Updating **TrueNAS SCALE** few months ago from `25.04.2.4` to `25.04.2.6`. But the update failed . Then the new boot environment was unable to remove cause the **Active** status is stuck at `Reboot`.
 - Check grub menu index 
   `sudo grep -i "menuentry '" /boot/grub/grub.cfg|sed -r "s|--class .*$||g"|nl -v 0`

@@ -1,3 +1,4 @@
+- #code #c++
 - ## c++: internal compiler error
 	- ### Error message  
 	  c++: internal compiler error: Killed (program cc1plus)

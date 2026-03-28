@@ -1,14 +1,13 @@
-public:: true
-
-### Reference from:
+- #python #pytorch
+- ### Reference from:
 	- [https://rockt.github.io/2018/04/30/einsum](https://rockt.github.io/2018/04/30/einsum)
 	- [https://zhuanlan.zhihu.com/p/44954540?fbclid=IwAR0Hp8u4jGZL0ya5_T8gqPOzK_LB-TDXmMOvSkOUTwqIviKucyEsYKzpbPc](https://zhuanlan.zhihu.com/p/44954540?fbclid=IwAR0Hp8u4jGZL0ya5_T8gqPOzK_LB-TDXmMOvSkOUTwqIviKucyEsYKzpbPc)
-## Import pytorch to workspace with
-
-```python
-import pytorch
-```
-## 1. Matrix Transpose
+- ## Import pytorch to workspace with
+  
+  ```python
+  import pytorch
+  ```
+- ## 1. Matrix Transpose
 	- # $B_{ij} = A_{ij}$
 	  
 	  ```python
@@ -24,7 +23,7 @@ import pytorch
 	        [2, 5]])
 	  '''
 	  ```
-## 2. Sum
+- ## 2. Sum
 	- # $b = \sum_i \sum_j A_{ij} = A_{ij}$
 	  
 	  ```python
@@ -38,7 +37,7 @@ import pytorch
 	  tensor(15)
 	  '''
 	  ```
-## 3. Column Sum
+- ## 3. Column Sum
 	- # $b_i = \sum_j A_{ij} = A_{ij}$
 	  
 	  ```python
@@ -52,7 +51,7 @@ import pytorch
 	  tensor([3, 5, 7])
 	  '''
 	  ```
-## 4. Row Sum
+- ## 4. Row Sum
 	- # $b_i = \sum_j A_{ij} = A_{ij}$
 	  
 	  ```python
@@ -66,7 +65,7 @@ import pytorch
 	  tensor([ 3, 12])
 	  '''
 	  ```
-## 5. Matrix Multiplication
+- ## 5. Matrix Multiplication
 	- # $c_{ij} = \sum_k A_{ik} B_{kj} = A_{ik}B_{kj}$
 	  
 	  ```python
@@ -86,7 +85,7 @@ import pytorch
 	        [ 70,  82,  94, 106, 118]])
 	  '''
 	  ```
-## 6. Vector dot product
+- ## 6. Vector dot product
 	- # $c = \sum_i a_i b_i = a_i b_i$
 	  
 	  ```python
@@ -99,7 +98,7 @@ import pytorch
 	  c = tensor(14)
 	  '''
 	  ```
-## 7. Matrix dot product
+- ## 7. Matrix dot product
 	- # $C = \sum_i \sum_j A_{ij} B_{ij} = A_{ij} B_{ij}$
 	  ```python
 	  a = torch.arange(6).reshape(2, 3)

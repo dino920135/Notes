@@ -23,7 +23,6 @@ category:: [[Linux]]
 	- **Remember to setup login password** in **Settings > Accounts > Sign-in options**
 	- ![image.png](../assets/image_1666464085880_0.png)
 	- ## Enable root login for SSH
-	- #root
 	- Edit the ssh configuration file (`/etc/ssh/sshd_config`) with root permissions
 - ```bash
   vim /etc/ssh/sshd_config

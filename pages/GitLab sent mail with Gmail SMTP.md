@@ -1,7 +1,4 @@
-public:: true
-title:: GitLab sent mail with Gmail SMTP
-#gitlab #server #email #Git
-
+- #gitlab #server #email #Git
 - # GitLab sent mail with Gmail SMTP
 - ## Documantation
 	- [GitLab Docs - SMTP settings](https://docs.gitlab.com/omnibus/settings/smtp.html#gmail)

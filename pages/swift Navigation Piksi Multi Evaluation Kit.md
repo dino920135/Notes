@@ -1,5 +1,4 @@
-public:: true
-
+- #INS #GNSS # IMU
 - {{renderer :tocgen}}
 - ## Document
 	- [Swift Navigation Support](https://support.swiftnav.com/support/home)

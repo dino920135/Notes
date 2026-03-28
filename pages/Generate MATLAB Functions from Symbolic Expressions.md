@@ -1,3 +1,4 @@
+- #matlab #symbolic
 - {{renderer :tocgen2}}
 - [Generate MATLAB Functions from Symbolic Expressions - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/symbolic/generate-matlab-functions.html)
 - ## Matlab Symbolic

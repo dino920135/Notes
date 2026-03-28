@@ -1,3 +1,4 @@
+- #INS #imu
 - {{renderer :tocgen}}
 - ## Introduction to Inertial Navigation
 	- ### Rigid body modelling in space

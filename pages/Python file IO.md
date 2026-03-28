@@ -1,5 +1,4 @@
-public:: true
-
+- #python #io
 - ## Read csv file with pandas
 	- Skip specific rows: `skiprows=[i for i in range(24)]+[25]`
 	- Ignore spaces: `skipinitialspace = True`
