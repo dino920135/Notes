@@ -2,7 +2,7 @@
 - {{renderer :tocgen2}}
 - Source: [Radar Toolbox — Examples](https://www.mathworks.com/help/radar/examples.html?category=index&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
 - ## [Radar Toolbox Supported Hardware — Examples](https://www.mathworks.com/help/radar/examples.html?category=supported-hardware&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
-- ## [Simulate an Automotive 4D Imaging MIMO Radar - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/simulate-an-automotive-4d-imaging-mimo-radar.html)
+- ## [Simulate an Automotive 4D Imaging MIMO Radar](https://www.mathworks.com/help/radar/ug/simulate-an-automotive-4d-imaging-mimo-radar.html)
 	- #simulation #MIMO #[[imaging radar]]
 - ## [Create a Digital Twin of a TI mmWave Radar](https://www.mathworks.com/help/radar/ug/create-a-digital-twin-of-a-TI-mmwave-radar.html)
 	- #ti #mmwave
