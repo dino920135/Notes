@@ -1,5 +1,4 @@
 alias:: git
-icon:: 📓
 
 - # Dev/Git
 	- Version control and collaboration using Git.
