@@ -1,4 +1,4 @@
-- #[[VS Code]] #latex
+- #[[VS Code]] #latex #IDE
 - {{renderer :tocgen2}}
 - ## LaTex Workshop
   [LaTeX Workshop – 在VSCode中編輯及編譯LaTeX](https://shaynechen.gitlab.io/vscode-latex/)
