@@ -1,5 +1,4 @@
 - #gitlab #server #email #Git
-- # GitLab sent mail with Gmail SMTP
 - ## Documantation
 	- [GitLab Docs - SMTP settings](https://docs.gitlab.com/omnibus/settings/smtp.html#gmail)
 	- [GitLab 設定 Email 透過 Gmail SMTP 發送信件 (筆記)](https://blog.toright.com/posts/7019/gitlab-gmail-smtp-send-setup.html)
