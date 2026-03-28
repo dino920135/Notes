@@ -1,16 +1,17 @@
 - #matlab #Radar
+- {{renderer :tocgen2}}
 - Source: [Radar Toolbox — Examples](https://www.mathworks.com/help/radar/examples.html?category=index&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
+- ## [Radar Toolbox Supported Hardware — Examples](https://www.mathworks.com/help/radar/examples.html?category=supported-hardware&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
 - ## [Simulate an Automotive 4D Imaging MIMO Radar - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/simulate-an-automotive-4d-imaging-mimo-radar.html)
 	- #simulation #MIMO #[[imaging radar]]
-	-
-- ## [Create a Digital Twin of a TI mmWave Radar - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/create-a-digital-twin-of-a-TI-mmwave-radar.html)
+- ## [Create a Digital Twin of a TI mmWave Radar](https://www.mathworks.com/help/radar/ug/create-a-digital-twin-of-a-TI-mmwave-radar.html)
 	- #ti #mmwave
 	- https://www.mathworks.com/help/examples/radar/win64/ModelingATIMmWaveRadarInMATLABExample_10.png
-- ## [Grid-Based Tracking in Urban Environments Using Multiple Radars - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/grid-based-tracking-in-urban-environments-using-multiple-radars.html)
+- ## [Grid-Based Tracking in Urban Environments Using Multiple Radars](https://www.mathworks.com/help/radar/ug/grid-based-tracking-in-urban-environments-using-multiple-radars.html)
 	- #tracking
 	- https://www.mathworks.com/help/examples/driving_radar_fusion/win64/GridBasedRadarTrackingExample_03.gif
-- ## [Radar Signal Simulation and Processing for Automated Driving - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/radar-signal-simulation-and-processing-for-automated-driving.html)
+- ## [Radar Signal Simulation and Processing for Automated Driving](https://www.mathworks.com/help/radar/ug/radar-signal-simulation-and-processing-for-automated-driving.html)
 	- https://www.mathworks.com/help/examples/driving_radar/win64/AutomatedDrivingRadarSimulationExample_04.png
-- ## [Design and Simulate an FMCW Long-Range Radar (LRR) - MATLAB & Simulink](https://www.mathworks.com/help/radar/ug/design-and-simulate-FMCW-long-range-radar-LRR.html)
+- ## [Design and Simulate an FMCW Long-Range Radar (LRR)](https://www.mathworks.com/help/radar/ug/design-and-simulate-FMCW-long-range-radar-LRR.html)
 	- #simulation #LRR
 	- https://www.mathworks.com/help/examples/radar/win64/RadarSimulationAndProcessingExample_01.png
