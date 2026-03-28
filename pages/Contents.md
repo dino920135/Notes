@@ -2,3 +2,4 @@
 - ## [[INS]]
 - ## [[GNSS Receivers]]
 - ## [[Radar]]
+- ## [[Logseq]]

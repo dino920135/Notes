@@ -11,7 +11,11 @@ alias:: [[tag organize]]
 			- **Example:** Create `Dev/Git`
 		- ### 2. Set the Alias (Isolated Block)
 			- In the **very first block** of the new page, add the `alias::` property.
-			- **Crucial Rule:** The `alias::` property MUST be alone in this block for perfect indexing.
+			- **Crucial Rule:** The `alias::` property MUST on the first line for perfect indexing. **And MUST be alone in the first block for perfect preview.** 
+			  Example:
+				- With only property `alias::`, the preview shows the whole page:
+				  ![image.png](../assets/image_1774680894887_0.png)
+				- But if Adding other properties like `icon::`
 			- **Example Block 1:** `alias:: git`
 			- **Example Block 2:** `# Dev/Git`
 		- ### 3. Migrate Content

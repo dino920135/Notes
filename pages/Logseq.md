@@ -1,1 +1,2 @@
-alias:: logseq
+alias:: logseq,
+icon:: 📓
