@@ -21,7 +21,7 @@
 	  ```
 	  Then the terminal can be focus with `Ctrl` + `KEY_YOU_DEFINE`
 	-
-- ## Git with vscode
+- ## [[Git]] with [[vscode]]
 	- ## git clone
 - ## Coo-work Tips
 	- ### Recommended extesion

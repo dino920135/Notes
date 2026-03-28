@@ -9,3 +9,6 @@
 		- Nested block 2
 		- ---
 		- tags: [test, gemini-cli] status: success
+- ## Verification Test
+	- Update functionality check after session and LogSeq restart.
+	- Status: Testing...

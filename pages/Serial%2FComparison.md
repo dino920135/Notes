@@ -1,7 +1,5 @@
 # Serial Communication Comparison: TTL vs RS232
-	- This page provides a consolidated view of the differences between **TTL** (Transistor-Transistor Logic) and **RS232** (Recommended Standard 232) serial communication.
 	- ## Key Differences
-		- The primary distinction between TTL and RS232 lies in their voltage levels, logic representation, and physical characteristics.
 		- | Feature | TTL | RS232 | 
 		  |---|---|---| 
 		  | **Logic '1' (High)** | +2V to +5V | -3V to -25V | 
@@ -18,5 +16,3 @@
 	- ## Related Pages
 		- [[Serial/TTL]]
 		- [[Serial/RS232]]
-		- ---
-		- tags: [serial, communication, protocol, reference] status: finalized

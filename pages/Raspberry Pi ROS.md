@@ -10,7 +10,12 @@
 - # Install OS
 	- ## Install Ubuntu MATE 18.04
 	- ## Enable SSH
-	  {{embed ((64e5b599-a0b5-4fb6-8350-518b82dbbb2a))}}
+	  Installation
+	  ```bash
+	  sudo apt-get install openssh-server
+	  sudo systemctl enable ssh
+	  sudo systemctl start ssh
+	  ```
 - # Install ROS (Melodic)
   Follow the steps on ((6547e905-f91a-4fac-adbe-13fbcf7f3bad))
 	- ### Setup sources.lists

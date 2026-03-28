@@ -1,7 +1,7 @@
 public:: true
 title:: VS Code SSH
 
-	- #[[VS Code]] #[[SSH Setup]]
+	- #[[VS Code]] #ssh
 - # Connect to SSH server through VS Code
 	- ## With Remote-Explorer
 		- ### Installation

@@ -1,5 +1,7 @@
-- #Serial #Serial/TTL #Serial/RS232
-  title:: Serial/TTL
+alias:: TTL
+alias:: ttl
+#serial #TTL #RS232
+
 - ## What is TTL?
 	- TTL stands for **T**ransistor-**T**ransistor **L**ogic.
 	- In TTL logic,

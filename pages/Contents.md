@@ -1,4 +1,4 @@
-## [[⌨️Coding]]
-- ## [[🧭INS]]
-- ## [[🛰️GNSS Receivers]]
-- ## [[📡Radar]]
+## [[Coding]]
+- ## [[INS]]
+- ## [[GNSS Receivers]]
+- ## [[Radar]]

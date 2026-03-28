@@ -1,4 +1,4 @@
-- #🧭INS #gyroscope #accelerometer
+- #INS #gyroscope #accelerometer
 - Reference form [ucalgary.ca/engo_webdocs/NES/01.20156.EHShin.pdf](https://www.ucalgary.ca/engo_webdocs/NES/01.20156.EHShin.pdf)
 - # Inertial Navigation Equation
 	- Position:  
