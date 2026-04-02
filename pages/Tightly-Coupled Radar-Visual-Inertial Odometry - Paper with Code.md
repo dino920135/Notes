@@ -1,4 +1,9 @@
 - #[[tightly coupled]] #radar #visual #inertial #odometry
+- {{renderer :tocgen2}}
+- ## Source
+	- [[2603.23052] Tightly-Coupled Radar-Visual-Inertial Odometry](https://arxiv.org/abs/2603.23052)
+	  /zotero
+	- [ntnu-arl/radvio: A tightly-coupled radar-visual-inertial odometry, to enable robust performance in challenging environments.](https://github.com/ntnu-arl/radvio/tree/main)
 - ## Sensors
 	- Radar: IWR6843AOP
 		- ### Radar Chirp Configuration
