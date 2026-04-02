@@ -24,4 +24,11 @@ alias:: nvim
 	  ```
 		- the plugin installation will start automatically by `:lazy`
 		  ![image.png](../assets/image_1775137923486_0.png)
--
+- ## neovim Windows
+	- `ctrl + w`
+	  ![image.png](../assets/image_1775138794796_0.png)
+- ## Search
+	- `space, /`: search in current file
+	  ![image.png](../assets/image_1775139229845_0.png)
+	- `space, s, /`: search in all files
+	  ![image.png](../assets/image_1775139472489_0.png)
