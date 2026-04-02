@@ -4,3 +4,4 @@
 	- [AWR2243 Evaluation Module -  User's Guide](https://www.ti.com/lit/ug/spruit8d/spruit8d.pdf)
 - ## First to know
 	- [[AWR2243 BOOST]] is different from [[AWR1843 BOOST]] modules, it **does not contains DSP/[[MCU]] for computation**.
+-
