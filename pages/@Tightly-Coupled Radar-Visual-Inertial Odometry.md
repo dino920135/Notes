@@ -1,0 +1,15 @@
+date:: [[Mar 24th, 2026]]
+title:: @Tightly-Coupled Radar-Visual-Inertial Odometry
+website-title:: arXiv.org
+item-type:: [[webpage]]
+access-date:: 2026-03-28T13:32:34Z
+original-title:: Tightly-Coupled Radar-Visual-Inertial Odometry
+language:: en
+url:: https://arxiv.org/abs/2603.23052v1
+authors:: [[Morten Nissov]], [[Mohit Singh]], [[Kostas Alexis]]
+links:: [Local library](zotero://select/library/items/ULJDHXD5), [Web library](https://www.zotero.org/users/20052500/items/ULJDHXD5)
+
+- [[Abstract]]
+	- Visual-Inertial Odometry (VIO) is a staple for reliable state estimation on constrained and lightweight platforms due to its versatility and demonstrated performance. However, pertinent challenges regarding robust operation in dark, low-texture, obscured environments complicate the use of such methods. Alternatively, Frequency Modulated Continuous Wave (FMCW) radars, and by extension Radar-Inertial Odometry (RIO), offer robustness to these visual challenges, albeit at the cost of reduced information density and worse long-term accuracy. To address these limitations, this work combines the two in a tightly coupled manner, enabling the resulting method to operate robustly regardless of environmental conditions or trajectory dynamics. The proposed method fuses image features, radar Doppler measurements, and Inertial Measurement Unit (IMU) measurements within an Iterated Extended Kalman Filter (IEKF) in real-time, with radar range data augmenting the visual feature depth initialization. The method is evaluated through flight experiments conducted in both indoor and outdoor environments, as well as through challenges to both exteroceptive modalities (such as darkness, fog, or fast flight), thoroughly demonstrating its robustness. The implementation of the proposed method is available at: https://github.com/ntnu-arl/radvio.
+- [[Attachments]]
+	- [Full Text PDF](https://arxiv.org/pdf/2603.23052) {{zotero-imported-file NAM8EK3K, "Nissov et al. - 2026 - Tightly-Coupled Radar-Visual-Inertial Odometry.pdf"}}

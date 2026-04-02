@@ -2,7 +2,7 @@
 - {{renderer :tocgen2}}
 - ## Source
 	- [[2603.23052] Tightly-Coupled Radar-Visual-Inertial Odometry](https://arxiv.org/abs/2603.23052)
-	  /zotero
+	  [[@Tightly-Coupled Radar-Visual-Inertial Odometry]]
 	- [ntnu-arl/radvio: A tightly-coupled radar-visual-inertial odometry, to enable robust performance in challenging environments.](https://github.com/ntnu-arl/radvio/tree/main)
 - ## Sensors
 	- Radar: IWR6843AOP
@@ -21,3 +21,5 @@
 	- IMU: VectorNav VN10
 	- Camera: Teledyne Blackfly S 0.4 MP
 	- GNSS: Blox-M10S L1
+- ## Platform Setup
+	- ![image.png](../assets/image_1775141272274_0.png)
