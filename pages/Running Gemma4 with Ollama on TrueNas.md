@@ -1,7 +1,10 @@
 - #LLM #Gemma #Ollama #TrueNas #[[Open WebUI]] #SearXNG
 - ## Install Apps on TrueNas Scale
-	- ### Ollama
-	- ### Open WebUI
-	- ### SearXNG
+	- ### [[Ollama]]
+		- ![image.png](../assets/image_1775410846590_0.png)
+	- ### [[Open WebUI]]
+		- ![image.png](../assets/image_1775410866219_0.png)
+	- ### [[SearXNG]]
+		- ![image.png](../assets/image_1775410880939_0.png)
 - ## Install Gemma4 with Ollama
 - ## Web Search settings
