@@ -5,10 +5,15 @@
 	- ### [[Open WebUI]]
 		- ![image.png](../assets/image_1775410866219_0.png)
 		- #### **Open WebUI Configuration**
-			- Image Selector*:
+			- **Image Selector*:**
 			  Since we already have our own ollama server setup, we only need the very simple  Open WebUI
 				- Standard Image (OpenAPI or External Ollama Server Usage)
-			- Ollama Base URL (Optional, Used for External Ollama Server)
+			- **Ollama Base URL** or **OpenAI API Key**
+				- https://HOST_IP:PORT/
+			- **Redis Password***
+				- Random password
+			- **WebUI Secret Key***
+				- Random Key
 	- ### [[SearXNG]]
 		- ![image.png](../assets/image_1775410880939_0.png)
 - ## Install Gemma4 with Ollama
