@@ -1,4 +1,5 @@
 - #LLM #Gemma #Ollama #TrueNas #[[Open WebUI]] #SearXNG
+- {{renderer :tocgen2}}
 - ## Install Apps on TrueNas Scale
 	- ### [[Ollama]]
 		- ![image.png](../assets/image_1775410846590_0.png)
@@ -16,5 +17,6 @@
 				- Random Key
 	- ### [[SearXNG]]
 		- ![image.png](../assets/image_1775410880939_0.png)
+		- Simply use default setting
 - ## Install Gemma4 with Ollama
 - ## Web Search settings
