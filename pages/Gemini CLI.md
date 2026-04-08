@@ -24,7 +24,6 @@
 			  npm install -g @google/gemini-cli
 			  ```
 	- ### Ubuntu (Linux) #linux
-	  collapsed:: true
 		- #### Install node.js
 			- ```bash
 			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
