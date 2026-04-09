@@ -9,6 +9,7 @@
 		- Duration $T_c: 40~~\mu s$
 		- which gives
 			- Slope $S: 100~~MHz/\mu s$
+			- Wave length $\lambda : 3.9~~mm$
 	- ### Frame Character
 		- Chirp Cycle $T_c : 1014~~\mu s$
 			- Idel Time $(974~~\mu s)$ + Ramp End Time $(40~~\mu s)$
@@ -20,6 +21,7 @@
 - ## Chirp Time $T_c$
 	- ### Max Velocity
 	- $$v_{max} = \frac{\lambda}{4T_c}$$
+	- $T_c = 1014~~\mu s$, $v_{max} = \frac{0.0039}{4 (1014\times 10^{-6})}$
 - ## Frame Time $T_f$
 	- ### Velocity Resolution
 	  $$v_{res} = \frac{\lambda}{2 T_f}$$
