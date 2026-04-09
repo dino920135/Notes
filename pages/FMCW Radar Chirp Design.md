@@ -1,7 +1,7 @@
 - #FMCW #Radar #mmwave
+- {{renderer :tocgen2}}
 - ## Constant
 	- Speed of light $c: 3 \times 10^8$
-- ##
 - ## Specification
 	- ### Chirp Character
 		- Start Frequency $f_c: 77~~GHz$
@@ -18,22 +18,23 @@
 	- ### Range Resolution: 
 	  $$d_{res} = \frac{c}{2B}$$
 	- 4 GHz bandwidth: $\frac{3 \times 10^8}{2 \cdot (4 \times 10^9)} = 0.0375~~m = 3.75~~cm$
+	- ## ADC sampling rate $F_s$
+		- ### Max Range
+		  $$d_{max} = \frac{F_s c}{2S}$$
+		- ### [[AWR1843 BOOST]]
+			- $F_s = 2,000~~ksps~~(2~~MHz)$
+			- Max distance $d_{max} = \frac{(2 \times 10^6) \cdot 3 \times 10^8}{2 \times 100 \times 10^6 \times 10^6} = 3~~m$?
+		- ### [[AWR2243 BOOST]]
+			- $F_s = 15,000~~ksps~~(15~~MHz)$
+			- 23.5 m ?
 - ## Chirp Time $T_c$
 	- ### Max Velocity
 	- $$v_{max} = \frac{\lambda}{4T_c}$$
-	- $T_c = 1014~~\mu s$, $v_{max} = \frac{0.0039}{4 (1014\times 10^{-6})}$
+	- $T_c = 1014~~\mu s$, $v_{max} = \frac{0.0039}{4 (1014\times 10^{-6})} = 0.96~~m/s$
 - ## Frame Time $T_f$
 	- ### Velocity Resolution
 	  $$v_{res} = \frac{\lambda}{2 T_f}$$
-- ## ADC sampling rate $F_s$
-	- ### Max Range
-	  $$d_{max} = \frac{F_s c}{2S}$$
-	- ### [[AWR1843 BOOST]]
-		- $F_s = 2,000~~ksps~~(2~~MHz)$
-		- Max distance $d_{max} = \frac{(2 \times 10^6) \cdot 3 \times 10^8}{2 \times 100 \times 10^6 \times 10^6} = 3~~m$?
-	- ### [[AWR2243 BOOST]]
-		- $F_s = 15,000~~ksps~~(15~~MHz)$
-		- 23.5 m ?
+	- $T_f = 200~~ms$, $v_{res} = \frac{0.0039}{2(200*10^{-3})} = 0.0095~~m/s$
 - ## References
 	- [Introduction to mmwave Sensing: FMCWRadars](https://www.ti.com/content/dam/videos/external-videos/ko-kr/2/3816841626001/5415203482001.mp4/subassets/mmwaveSensing-FMCW-offlineviewing_0.pdf)
 	- [The fundamentals of millimeter wave radar sensors](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf?ts=1775612844301&ref_url=https%253A%252F%252Fwww.google.com%252F)
