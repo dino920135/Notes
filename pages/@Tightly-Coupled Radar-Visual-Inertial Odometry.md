@@ -1,3 +1,4 @@
+exclude_in_graph:: true
 date:: [[Mar 24th, 2026]]
 title:: @Tightly-Coupled Radar-Visual-Inertial Odometry
 website-title:: arXiv.org
