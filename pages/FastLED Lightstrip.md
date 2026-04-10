@@ -1,7 +1,6 @@
-title:: fastled lightstrip
+title:: FastLED Lightstrip
 #arduino #fastled #lightstrip #embedded
 
-- # FastLED Lightstrip
 - [FastLED Basic Usage](https://github.com/FastLED/FastLED/wiki/Basic-usage)
 - ## HSV(Hue, Saturation, Value) Color
 	- ### Hue:
