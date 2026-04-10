@@ -178,12 +178,14 @@
  :ref/linked-references-collapsed-threshold 50
  :favorites["Contents" "ublox Receiver Message" "AWR1843-BOOST+DCA1000EVM_data_capture"]
  :graph/settings {:builtin-pages? false
- :journal? true}
+ :journal? true
+ :excluded-pages? false
+ :orphan-pages? false}
  :publishing/all-pages-public? true
  :graph/forcesettings {:link-dist 180
  :charge-strength -600
  :charge-range 800}
- :zotero/settings-v2 {"default" {:type-id "dino920135"}}
+ :zotero/settings-v2 {"default" {:type-id "20052500"}}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
