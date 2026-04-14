@@ -1,3 +1,4 @@
+- #estimation #kf
 - The **assumptions** for the model is important
 	- eg, kalman filter: white & gaussian noise
 - ## Deterministic model does not provide perfect estimation

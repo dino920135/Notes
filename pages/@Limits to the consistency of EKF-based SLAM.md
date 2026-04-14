@@ -1,5 +1,4 @@
 exclude_in_graph:: true
-tags:: [[SLAM]], consistency, extended Kalman filter, [[linearization errors]], [[map building]]
 url:: https://www.sciencedirect.com/science/article/pii/S1474667017320633
 links:: [Local library](zotero://select/library/items/L587WTUK), [Web library](https://www.zotero.org/users/20052500/items/L587WTUK)
 
