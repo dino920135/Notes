@@ -1,11 +1,4 @@
 exclude_in_graph:: true
-date:: Mar 24th, 2026
-title:: @Tightly-Coupled Radar-Visual-Inertial Odometry
-website-title:: arXiv.org
-item-type:: webpage
-access-date:: 2026-03-28T13:32:34Z
-original-title:: Tightly-Coupled Radar-Visual-Inertial Odometry
-language:: en
 url:: https://arxiv.org/abs/2603.23052v1
 authors:: Morten Nissov, Mohit Singh, Kostas Alexis
 links:: [Local library](zotero://select/library/items/ULJDHXD5), [Web library](https://www.zotero.org/users/20052500/items/ULJDHXD5)
