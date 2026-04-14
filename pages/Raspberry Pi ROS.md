@@ -1,4 +1,4 @@
-- #raspi #ROS
+- #raspi #ROS #[[ROS 1]] #[[ROS 2]]
 - {{renderer :tocgen2}}
 - ## Raspberry Pi 4B
 	- ### Reference
@@ -69,7 +69,7 @@
 - ## Raspberry Pi 5
 	- ### Reference
 		- [Ubuntu (deb packages) — ROS 2 Documentation: Jazzy documentation](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
-	- ### ROS 2
+	- ### [[ROS 2]]
 		- ### [Set locale](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html#id3)
 		  ```bash
 		  locale  # check for UTF-8
