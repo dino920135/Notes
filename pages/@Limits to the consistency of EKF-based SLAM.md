@@ -1,5 +1,5 @@
 exclude_in_graph:: true
-tags:: [[SLAM]], [[consistency]], [[extended Kalman filter]], [[linearization errors]], [[map building]]
+tags:: [[SLAM]], consistency, extended Kalman filter, [[linearization errors]], [[map building]]
 date:: Jul 1st, 2004
 issn:: 1474-6670
 issue:: 8
