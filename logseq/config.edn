@@ -182,7 +182,7 @@
  :excluded-pages? false
  :orphan-pages? true}
  :publishing/all-pages-public? true
- :graph/forcesettings {:link-dist 180
+ :graph/forcesettings {:link-dist 80
  :charge-strength -600
  :charge-range 800}
  :zotero/settings-v2 {"default" {:type-id "20052500"}}

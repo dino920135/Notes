@@ -1,6 +1,5 @@
 exclude_in_graph:: true
 url:: https://arxiv.org/abs/2603.23052v1
-authors:: Morten Nissov, Mohit Singh, Kostas Alexis
 links:: [Local library](zotero://select/library/items/ULJDHXD5), [Web library](https://www.zotero.org/users/20052500/items/ULJDHXD5)
 
 - [[Abstract]]

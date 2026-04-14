@@ -178,10 +178,11 @@
  :ref/linked-references-collapsed-threshold 50
  :favorites["Contents" "ublox Receiver Message" "AWR1843-BOOST+DCA1000EVM_data_capture"]
  :graph/settings {:builtin-pages? false
- :journal? true
- :excluded-pages? false}
+ :journal? false
+ :excluded-pages? false
+ :orphan-pages? true}
  :publishing/all-pages-public? true
- :graph/forcesettings {:link-dist 180
+ :graph/forcesettings {:link-dist 50
  :charge-strength -600
  :charge-range 800}
  :zotero/settings-v2 {"default" {:type-id "20052500"}}

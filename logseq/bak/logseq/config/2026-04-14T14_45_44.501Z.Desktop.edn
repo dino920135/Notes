@@ -178,8 +178,9 @@
  :ref/linked-references-collapsed-threshold 50
  :favorites["Contents" "ublox Receiver Message" "AWR1843-BOOST+DCA1000EVM_data_capture"]
  :graph/settings {:builtin-pages? false
- :journal? true
- :excluded-pages? true}
+ :journal? false
+ :excluded-pages? false
+ :orphan-pages? true}
  :publishing/all-pages-public? true
  :graph/forcesettings {:link-dist 180
  :charge-strength -600
