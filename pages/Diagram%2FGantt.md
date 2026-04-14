@@ -1,0 +1,1 @@
+alias:: Gantt, gantt diagram
