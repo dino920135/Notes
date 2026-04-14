@@ -101,7 +101,6 @@ title:: ION_Notes
 	-
 	-
 - GNSS Fault detection and mitigation using Android Sensors
-  collapsed:: true
 	- interference RFI (Radio Frequency Interference) & multipath
 	- Eliminate -> mitigation
 	- Qualcom: Nerual RF SLAM. Samsung: HRC
