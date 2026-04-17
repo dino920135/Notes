@@ -1,4 +1,4 @@
-- #network #configure #netplan #nmcli
+- #network #configure #netplan #nmcli #cli #terminal
 - ## View Current Configures
 	- ```bash
 	  $ sudo nmcli connection
