@@ -1,2 +1,8 @@
 - #mmwave #radar #radome
 - ## Source: [mmWave Radar Radome Design Guide](https://www.ti.com/lit/an/swra705/swra705.pdf)
+- ![image.png](../assets/image_1776511839603_0.png)
+- ![image.png](../assets/image_1776511742888_0.png)
+- ## 名詞翻譯
+	- Radome: 天線罩
+	-
+-
