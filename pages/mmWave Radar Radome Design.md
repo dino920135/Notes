@@ -4,5 +4,6 @@
 - ![image.png](../assets/image_1776511742888_0.png)
 - ## 名詞翻譯
 	- Radome: 天線罩
-	-
+	- Dielectric constant: 介電常數
+		- 決定電磁波在物體中的傳播速度
 -
