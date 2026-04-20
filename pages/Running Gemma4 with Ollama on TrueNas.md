@@ -20,3 +20,9 @@
 		- Simply use default setting
 - ## Install Gemma4 with Ollama
 - ## Web Search settings
+	- `/etc/searxng/settings.yaml`
+	- ```yaml
+	  formats:
+	  	- html
+	      - json (add this)
+	  ```

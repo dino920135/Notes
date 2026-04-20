@@ -3,7 +3,12 @@
 - ![image.png](../assets/image_1776511839603_0.png)
 - ![image.png](../assets/image_1776511742888_0.png)
 - ## 名詞翻譯
-	- Radome: 天線罩
-	- Dielectric constant: 介電常數
+	- Radome (Radar Dome): 天線罩
+	- Relative permittivity $\epsilon_r$: 相對電容率 or 相對介電常數
+		- 是介電質的電容率$(\epsilon)$與真空電容率$(\epsilon_0)$的比值$(\epsilon_r = \frac{\epsilon}{\epsilon_0})$
+	- Dielectric constant $(D_k)$: 介電常數
 		- 決定電磁波在物體中的傳播速度
+	- Loss tangent$(tan \delta)$: 損耗角正切
+		- 材料的能量耗損
+		- $tan\delta = \frac{e''}{e'} = \frac{介電損失}{介電常數}$
 -
