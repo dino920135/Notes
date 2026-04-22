@@ -21,6 +21,15 @@
 			- -?, -h, --help                           Show help and usage information
 - ## Attach Port
 	- `usbipd attach -a -b [BUSID] -w`
+	- ```cmd
+	  C:\Users>usbipd attach -a -b 6-3 -w
+	  usbipd: info: Using WSL distribution 'Ubuntu-22.04' to attach; the device will be available in all WSL 2 distributions.
+	  usbipd: info: Loading vhci_hcd module.
+	  usbipd: info: Detected networking mode 'nat'.
+	  usbipd: info: Using IP address 172.17.32.1 to reach the host.
+	  usbipd: info: Starting endless attach loop; press Ctrl+C to quit.
+	  WSL Monitoring host 172.17.32.1 for BUSID: 6-3
+	  ```
 		- Usage:
 			- usbipd attach [options]
 		- Options:
