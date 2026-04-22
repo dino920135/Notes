@@ -38,6 +38,7 @@ title:: Mounting SD Card on NXP i.MX8 Ubuntu System
 	  sudo umount /mnt/sdcard
 	  ```
 - ## Automatically mount SD Card at Boot
+	- [[Auto mount SD Card on boot]]
 - ## Troubleshooting
 	- ### SD card partition SIZE is not correct
 	  e.g. a 64GB SD card is only showing 7.8GB partition
