@@ -21,4 +21,13 @@
 			- -?, -h, --help                           Show help and usage information
 - ## Attach Port
 	- `usbipd attach -a -b [BUSID] -w`
--
+		- Usage:
+			- usbipd attach [options]
+		- Options:
+			- -a, --auto-attach                      Automatically re-attach when the device is detached or unplugged
+			- -b, --busid <BUSID>                    Attach device having <BUSID>
+			- -i, --hardware-id <VID:PID>            Attach device having <VID>:<PID>
+			- -w, --wsl <[DISTRIBUTION]> (REQUIRED)  Attach to WSL, optionally specifying the distribution to use
+			- -o, --host-ip <IPADDRESS>              Use <IPADDRESS> for WSL to connect back to the host
+			- -u, --unplugged                        Allows auto-attaching a currently unplugged device
+			- -?, -h, --help                         Show help and usage information
