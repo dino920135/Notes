@@ -1,4 +1,4 @@
-- #smb #ubuntu #linux #[[network drive]]
+- #smb #ubuntu #linux #[[network drive]] #nas
 - ## Install cifs
 	- ```bash
 	  sudo apt update
