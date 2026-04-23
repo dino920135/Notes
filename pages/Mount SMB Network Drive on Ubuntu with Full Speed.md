@@ -27,7 +27,7 @@
 		  ```
 		- Add the mount point
 		- ```bash
-		  //192.168.x.x/Share /mnt/Share cifs credentials=/home/YOUR_LOCAL_USER/.smbcredentials,uid=1000,gid=1000,iocharset=utf8,x-systemd.automount 0 0
+		  //192.168.x.x/Share /mnt/Share cifs credentials=/home/YOUR_LOCAL_USER/.smbcredentials,uid=1000,gid=1000,iocharset=utf8,rsize=130048,wsize=130048,vers=3.0,x-systemd.automount 0 0
 		  ```
 	- ### Test the Mount
 		- ```bash
