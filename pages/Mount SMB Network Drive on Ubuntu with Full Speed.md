@@ -1,4 +1,5 @@
-## Install cifs
+- #smb #ubuntu #linux #[[network drive]]
+- ## Install cifs
 	- ```bash
 	  sudo apt update
 	  sudo apt install cifs-utils
