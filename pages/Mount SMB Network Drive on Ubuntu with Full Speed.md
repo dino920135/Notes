@@ -1,0 +1,35 @@
+## Install cifs
+	- ```bash
+	  sudo apt update
+	  sudo apt install cifs-utils
+	  ```
+- ## Create Mount Point
+	- ```bash
+	  sudo mkdir -p /mnt/Share
+	  ```
+- ## Mount Permanently (Auto-mount on Boot)
+	- ### Credential file
+		- ```bash
+		  nano ~/.smbcredentials
+		  ```
+		- Add username and password
+		- ```text
+		  username=YOUR_USER
+		  password=YOUR_PASSWORD
+		  ```
+		- Secure the file
+		- ```bash
+		  chmod 600 ~/.smbcredentials
+		  ```
+	- ### Add Mount Point to /etc/fstab
+		- ```bash
+		  sudo nano /etc/fstab
+		  ```
+		- Add the mount point
+		- ```bash
+		  //192.168.x.x/Share /mnt/Share cifs credentials=/home/YOUR_LOCAL_USER/.smbcredentials,uid=1000,gid=1000,iocharset=utf8,x-systemd.automount 0 0
+		  ```
+	- ### Test the Mount
+		- ```bash
+		  sudo mount -a
+		  ```
