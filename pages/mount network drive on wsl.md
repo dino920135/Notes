@@ -1,4 +1,4 @@
-- #wsl #nas [[network drive]]
+- #wsl #nas #[[network drive]]
 - ## Prepare
 	- ### Create mount point
 	  Creating mount point s `mkdir /mnt/s`
