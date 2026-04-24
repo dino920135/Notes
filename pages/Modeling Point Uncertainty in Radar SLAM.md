@@ -1,18 +1,32 @@
 journal:: ArXiv
-volume:: abs/2402.16082
-#journal #paper #Radar #slam #uncertainty
 
+	- volume:: abs/2402.16082
+	- #journal #paper #Radar #slam #uncertainty
 - [[@Modeling Point Uncertainty in Radar SLAM]]
 - ## Radar Measurement Model
 	- Given radar point $^R p_k$ in the radar frame $R$, decompose into two components:
 		- $$^Rp_k=[r_k,\ \Omega_k]^T$$
-	- range: $r_k \in \R$
-		- $$r^{gt}_k = r_k + \delta_{r_k}$$
-	- azimuth $(\theta)$, elevation $(\phi)$: $\Omega_k \in S^2$
-		- $$\delta_{\Omega_k} \sim \mathcal{N}(0_{2 \times 1},\ \Sigma_{\Omega}),\ 
-		  \Sigma_{\Omega} = 
-		  \begin{bmatrix}
-		  \sigma^2_{\theta} & 0 \\
-		  0 & \sigma^2_{\phi}
-		  \end{bmatrix}
-		  $$
+	- ### Range Component
+		- range: $r_k \in \mathbb{R}$
+		- $$r^{gt}_k = r_k + \delta_{r_k}, \quad \delta_{r_k} \sim \mathcal{N}(0, \sigma_r^2)$$
+	- ### Bearing Component (The $S^2$ Manifold)
+		- The bearing direction is represented as a unit vector on the **sphere manifold**: $\Omega_k \in S^2 \subset \mathbb{R}^3$.
+		- Unlike range, the bearing cannot be updated with standard vector addition without losing the unit-length constraint. Instead, we use the **Manifold $\boxplus$ (boxplus)** operator.
+		- #### Manifold Representation
+			- A perturbation $\delta \Omega_k$ is defined in the **2D tangent space** $T_{\Omega}S^2 \approx \mathbb{R}^2$.
+			- $$\Omega^{gt}_k = \Omega_k \boxplus \delta \Omega_k$$
+			- where $\delta \Omega_k \sim \mathcal{N}(0_{2 \times 1}, \Sigma_{\Omega})$.
+		- #### The $\boxplus$ Operator for $S^2$
+			- To map the 2D perturbation back to the 3D sphere:
+			- $$\Omega \boxplus \delta \Omega = \cos(\|\delta \Omega\|) \Omega + \sin(\|\delta \Omega\|) \frac{\mathbf{B}_{\Omega} \delta \Omega}{\|\delta \Omega\|}$$
+			- where $\mathbf{B}_{\Omega} = [b_1, b_2] \in \mathbb{R}^{3 \times 2}$ is an orthonormal basis for the tangent space at $\Omega$.
+		- #### Covariance on Manifold
+			- The uncertainty is modeled by the $2 \times 2$ covariance matrix $\Sigma_{\Omega} = \text{diag}(\sigma_{\theta}^2, \sigma_{\phi}^2)$.
+			- This representation avoids the **gimbal lock** (singularity) associated with traditional Euler-based azimuth/elevation angles at the poles.
+- ## Mathematical Foundations: Group vs. Manifold
+	- | Concept | Representation | Tangent Space | Operator |
+		- |---------|----------------|---------------|----------|
+		- | **Rotation** | $SO(3)$ (Rotation Matrix) | $\mathfrak{so}(3) \approx \mathbb{R}^3$ | $R \cdot \exp(\phi^\wedge)$ |
+		- | **Direction** | $S^2$ (Unit Sphere) | $T_{\Omega}S^2 \approx \mathbb{R}^2$ | $\Omega \boxplus \delta \Omega$ |
+	- **Manifold (流型):** A topological space that locally resembles Euclidean space. For SLAM, we care about the "Tangent Space" where we can perform linear operations (like Kalman Filter updates).
+	- **Retraction:** The $\boxplus$ operator is technically a "retraction" that moves us from the tangent space back to the manifold while maintaining constraints (like $\|\Omega\|=1$).
