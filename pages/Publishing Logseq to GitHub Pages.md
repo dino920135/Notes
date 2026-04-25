@@ -1,7 +1,7 @@
 tags:: [[logseq]], [[github-pages]], [[automation]], [[tutorial]]
 
 - # Publishing Logseq to GitHub Pages
-	- This guide explains how to automatically publish your Logseq graph to GitHub Pages using GitHub Actions, based on the configuration in `.github/workflows/blank.yml`.
+  This guide explains how to automatically publish your Logseq graph to GitHub Pages using GitHub Actions, based on the configuration in `.github/workflows/blank.yml`.
 	- ## Overview
 		- The automation process uses a GitHub Action to convert your Markdown files into a Single Page Application (SPA) and then deploys that SPA to a special branch called `gh-pages`.
 	- ## Workflow Configuration
@@ -37,9 +37,9 @@ tags:: [[logseq]], [[github-pages]], [[automation]], [[tutorial]]
 		  ```
 	- ## Step-by-Step Breakdown
 		- ### 1. Triggers
-			- The workflow starts automatically when:
-				- You **push** changes to the `main` branch.
-				- You manually trigger it via the **Actions** tab in GitHub (**workflow_dispatch**).
+		  The workflow starts automatically when:
+			- You **push** changes to the `main` branch.
+			- You manually trigger it via the **Actions** tab in GitHub (**workflow_dispatch**).
 		- ### 2. Checkout
 			- `actions/checkout@v4.1.7` downloads your repository's files to the GitHub runner.
 		- ### 3. Build (Logseq Publish)
@@ -51,7 +51,7 @@ tags:: [[logseq]], [[github-pages]], [[automation]], [[tutorial]]
 			- **clean: true**: Removes old files from the destination branch that are no longer in the `www` folder.
 			- **single-commit: true**: Keeps the `gh-pages` branch history clean by overwriting it with a single commit.
 	- ## GitHub Repository Settings
-		- After the workflow runs for the first time:
+	  After the workflow runs for the first time:
 		- Go to your repository on GitHub.
 		  logseq.order-list-type:: number
 		- Click on **Settings** > **Pages**.
