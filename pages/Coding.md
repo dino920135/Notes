@@ -1,6 +1,6 @@
 alias:: code
 
-	- icon:: ⌨️
+- icon:: ⌨️
 - {{renderer :tocgen2}}
 - ## Languages & Frameworks
 	- {{query (or [[c++]] [[python]] [[pytorch]] [[eigen]] [[einsum-in-pytorch]] [[matlab]] [[node.js]] [[shellscript]]))}}

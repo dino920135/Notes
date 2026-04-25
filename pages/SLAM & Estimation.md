@@ -1,5 +1,6 @@
 icon:: 📐
 
+- {{renderer :tocgen2}}
 - ## Overview
 	- Theoretical foundations and implementation details for localization, mapping, and state estimation.
 - ## Quick Access

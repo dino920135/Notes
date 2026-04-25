@@ -1,5 +1,6 @@
 icon:: 📋
 
+- {{renderer :tocgen2}}
 - ## Overview
 	- Project planning, methodologies, and task tracking.
 - ## Quick Access
