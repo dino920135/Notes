@@ -15,7 +15,13 @@ If the Logseq MCP tools (e.g., `list_pages`) report "Not connected" or timeout:
 - **Action**: Run the bundled cleanup script: `powershell.exe -ExecutionPolicy Bypass -File scripts/mcp_cleanup.ps1`.
 - **Diagnosis**: Check if Logseq is running and if the HTTP API (port 12315) is enabled in `Settings > Features`.
 
-### 2. Advanced Research Queries (Datalog)
+### 2. Block Management Best Practices
+When using `mcp_logseq_insert_nested_block` or `mcp_logseq_update_block`:
+- **Granularity**: DO NOT insert multiple headings or unordered list items in a single block. This causes Logseq rendering errors (truncated content).
+- **Strategy**: Insert each heading and list item as a separate block call. Use the `parent_block_uuid` and `sibling` parameters to build the hierarchy step-by-step.
+- **Wait for Previous**: When inserting multiple blocks sequentially in one turn, ALWAYS set `wait_for_previous: true` on subsequent calls to maintain correct order.
+
+### 3. Advanced Research Queries (Datalog)
 Use these Datalog recipes for `mcp_logseq_query`:
 - **Unlinked Literature**: Finds pages starting with `@` that have no references.
   `[:find (pull ?p [*]) :where [?p :block/name ?n] [(clojure.string/starts-with? ?n "@")] (not [?b :block/path-refs ?p])]`
