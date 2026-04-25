@@ -3,7 +3,7 @@
 	- [[DevOps & Systems]]
 	- [[Hardware & Embedded]]
 - ## 📡 Research Pillars
-	- [[radar]]
+	- [[Radar]]
 	- [[GNSS Receivers]]
 	- [[INS]]
 	- [[SLAM & Estimation]]

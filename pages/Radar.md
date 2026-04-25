@@ -1,4 +1,5 @@
 alias:: radar
+title:: Radar
 
 - icon:: 📡
 - {{renderer :tocgen2}}

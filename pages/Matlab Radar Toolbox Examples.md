@@ -5,7 +5,7 @@
 - ## [Simulate an Automotive 4D Imaging MIMO Radar](https://www.mathworks.com/help/radar/ug/simulate-an-automotive-4d-imaging-mimo-radar.html)
 	- #simulation #MIMO #[[imaging radar]]
 - ## [Create a Digital Twin of a TI mmWave Radar](https://www.mathworks.com/help/radar/ug/create-a-digital-twin-of-a-TI-mmwave-radar.html)
-	- #ti #mmwave
+	- #ti #Radar/mmwave
 	- https://www.mathworks.com/help/examples/radar/win64/ModelingATIMmWaveRadarInMATLABExample_10.png
 - ## [Grid-Based Tracking in Urban Environments Using Multiple Radars](https://www.mathworks.com/help/radar/ug/grid-based-tracking-in-urban-environments-using-multiple-radars.html)
 	- #tracking
