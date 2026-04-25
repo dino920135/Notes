@@ -1,4 +1,4 @@
-- #logseq #github-pages #automation #tutorial
+- #logseq #Logseq/Publish #github-pages #automation #tutorial
 - This guide explains how to automatically publish your Logseq graph to GitHub Pages using GitHub Actions, based on the configuration in `.github/workflows/blank.yml`.
 - ## Overview
 	- The automation process uses a GitHub Action to convert your Markdown files into a Single Page Application (SPA) and then deploys that SPA to a special branch called `gh-pages`.
