@@ -1,5 +1,15 @@
-## [[Coding]]
-- ## [[INS]]
-- ## [[GNSS Receivers]]
-- ## [[Radar]]
-- ## [[Logseq]]
+## 🛠️ Engineering
+	- [[Coding]]
+	- [[DevOps & Systems]]
+	- [[Hardware & Embedded]]
+- ## 📡 Research Pillars
+	- [[Radar]]
+	- [[GNSS Receivers]]
+	- [[INS]]
+	- [[SLAM & Estimation]]
+- ## 📚 Literature
+	- [[@Papers]]
+- ## 📝 Management & Meta
+	- [[Work Management]]
+	- [[Logseq]]
+	- [[Personal/Health]]
