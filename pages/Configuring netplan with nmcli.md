@@ -16,8 +16,8 @@
 	  type ethernet \
 	  con-name "NETPLAN_NAME" \
 	  ifname eth0 \
-	  ip4 192.168.113.100/24 \
-	  gw4 192.168.113.1
+	  ip4 192.168.XXX.XXX/24 \
+	  gw4 192.168.XXX.1
 	  ```
 - ## Activate netplan
 	- ```bash
