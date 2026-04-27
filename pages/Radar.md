@@ -8,4 +8,3 @@ title:: Radar
 - ## Quick Access
 	- {{query (or "mmwave" "radar" [[FMCW]] [[MIMO]] [[AWR1843]] [[AWR2243]] [[DCA1000 EVM]]))}}
 	- query-properties:: [:page :block]
-	- query-table:: true
