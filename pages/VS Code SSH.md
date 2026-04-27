@@ -12,5 +12,7 @@
 - ## Use MobaXterm Xserver
   #mobaxterm #xserver #ssh #x11
 	- [MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download](https://mobaxterm.mobatek.net/download.html)
-	- Session > New Session
+	- ### Session > New Session
 	  ![image.png](../assets/image_1777300758156_0.png)
+	- ### X server > Start X server
+		- ![image.png](../assets/image_1777300939476_0.png)
