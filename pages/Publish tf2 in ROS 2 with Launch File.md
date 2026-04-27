@@ -1,4 +1,5 @@
 - #tf2 #ros2 #[[ros2 launch]]
+- Use a ROS 2 launch file to conveniently publish static transforms between coordinate frames.
 - ```python
   from launch import LaunchDescription
   from launch_ros.actions import Node
