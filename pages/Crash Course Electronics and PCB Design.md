@@ -23,7 +23,8 @@ title:: Crash Course Electronics and PCB Design
 			  $$V=U/q0$$
 			  $$dV=dU/q0$$
 			  $$1V=1J/1C$$
-		- ### The Photoelectric Effect ([光電效應](Photoelectric Effect))
+		- TODO ### The Photoelectric Effect ([光電效應](Photoelectric Effect))
+			- 
 		- ### Alternating and Direct Current
 			- RMS of alternating current
 			  Peak-peak Voltage: $$V_{pp}=2 \sqrt[]{2} RMS$$

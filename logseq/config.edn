@@ -176,7 +176,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites["contents" "radar" "coding" "ins" "gnss receivers" "logseq" "ublox receiver message" "awr1843-boost+dca1000evm_data_capture"]
+ :favorites["TODO" "contents" "radar" "coding" "ins" "gnss receivers" "logseq" "ublox receiver message" "awr1843-boost+dca1000evm_data_capture"]
  :graph/settings {:builtin-pages? false
  :journal? false
  :excluded-pages? false
