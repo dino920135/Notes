@@ -1,13 +1,19 @@
 - #logseq #note
   id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
 - ## Sync Logseq with [Github](github)
-	- 1. Create repository on Github (eg: Note)
-	- 2. Clone the repository to local directories
-	- 3. Press ![image.png](../assets/image_1661680355000_0.png) and select **Add new graph**
-	- 4. Choose the folder (eg: Note) for local repository    
+	- Create repository on Github (eg: Note)
+	  logseq.order-list-type:: number
+	- Clone the repository to local directories
+	  logseq.order-list-type:: number
+	- Press ![image.png](../assets/image_1661680355000_0.png) and select **Add new graph**
+	  logseq.order-list-type:: number
+	- Choose the folder (eg: Note) for local repository    
+	  logseq.order-list-type:: number
 	  ![image.png](../assets/image_1661680623972_0.png)
-	- 5. All the pages will be store in `<your repo>/pages/*.md`
-	- 6. Save your work to Github with [logseq-plugin-git](https://github.com/haydenull/logseq-plugin-git) by pressing `Ctrl + S`
+	- All the pages will be store in `<your repo>/pages/*.md`
+	  logseq.order-list-type:: number
+	- Save your work to Github with [logseq-plugin-git](https://github.com/haydenull/logseq-plugin-git) by pressing `Ctrl + S`
+	  logseq.order-list-type:: number
 - ## Useful Plugins
 	- [logseq-plugin-git](https://github.com/haydenull/logseq-plugin-git)  
 	  Provide buttons for quick git operating (git status, git log, git commit, git pull, git push)
