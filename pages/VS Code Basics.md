@@ -22,7 +22,7 @@
 	  Then the terminal can be focus with `Ctrl` + `KEY_YOU_DEFINE`
 	-
 - ## [[Git]] with [[vscode]]
-	- ## git clone
+	- TODO ## git clone
 - ## Coo-work Tips
 	- ### Recommended extesion
 	  `ctrl + shift + P` and type `Extensions: Configure Recommended Extensions (Workspace)`
