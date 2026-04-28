@@ -34,3 +34,11 @@
 		- ```bash
 		  sudo mount -a
 		  ```
+		- If showing 
+		  ```bash
+		  $ sudo mount -a
+		  [sudo] password for point-3080:
+		  mount: /mnt/Share: cannot mount //192.168.xxx.xxx/Share read-only.
+		  mount: /mnt/Personal: cannot mount //192.168.xxx.xxx/Personal read-only.
+		  ```
+		  Means `cifs-utils` is not installed
