@@ -1,4 +1,5 @@
 - #Obsidian #agent #ai #obsidian-cli
 - TODO
 - ## Install obsidian-cli
-	-
+	- **Settings > General > Enable Command Line Interface**
+	- ![image.png](../assets/image_1777349160465_0.png)
