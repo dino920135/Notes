@@ -1,2 +1,4 @@
 - #Obsidian #agent #ai #obsidian-cli
 - TODO
+- ## Install obsidian-cli
+	-
