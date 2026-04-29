@@ -1,4 +1,4 @@
-- DOING #STM #[[Dual Core]] #STM32H7 #[[Cube IDE]]
+- DOING #STM #[[Dual Core]] #STM32H7 #[[Cube IDE]] #MCU
   :LOGBOOK:
   CLOCK: [2026-04-29 Wed 21:26:25]
   :END:
