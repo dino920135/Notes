@@ -26,12 +26,12 @@
     font-size: 1.4em;
 }
 
-.ls-block h4{
-    font-size: 1.2em;
+.ls-block h3{
+    font-size: 1.4em;
 }
 
-.editor-inner .h4.uniline-block,.ls-block h4 {
-    font-size: 1.2em;
+.editor-inner .h3.uniline-block,.ls-block h3 {
+    font-size: 1.4em;
 }
 
 /* Re-assert this stock CSS so that refs don't get huge */
