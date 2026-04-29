@@ -1,3 +1,5 @@
 - #autologin #ubuntu
 - **Settings > Users > Unlock ... > Enable Automatic Login**
 	- ![image.png](../assets/image_1777441040931_0.png)
+- ## Sources
+	- [用 Windows 遠端 Ubuntu 22.04](https://hhming.moe/post/windows-remote-ubuntu-22-04/)
