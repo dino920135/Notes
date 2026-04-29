@@ -17,7 +17,6 @@
 				  collapsed:: true
 				  ![image.png](../assets/image_1777472759619_0.png)
 					- GDB Connection Settings
-					  collapsed:: true
 					  * [x] `Autostart local GDB server`
 					  * [ ] `Connect to remote GDB server`
 						- Port number:
@@ -30,6 +29,7 @@
 							- CM7: `0 - Cortex-M7`
 							- CM4: `3 - Cortex-M4`
 					- Reset behavior
+					  Reset all cores before debugging
 						- CM7:
 						  * [x] `Halt all cores`
 							- Type: `Connect under reset`
@@ -59,11 +59,13 @@
 				- Add configuration for **CM4**
 				  logseq.order-list-type:: number
 			- ![image.png](../assets/image_1777473856373_0.png)
-		- ### Run Debugger
+		- #### Run Debugger
 			- **Run Dual Core Debugger with One Click!**
 			- ![image.png](../assets/image_1777473931896_0.png)
 	- ### CM7 and CM4 start order
 		- #### Default Break Point
+			- If the **Set breakpoint at: main** option is checked
+			- ![image.png](../assets/image_1777475077191_0.png)
 		- #### CM7 release CM4 entry point
 			- ```c
 			  /* When system initialization is finished, Cortex-M7 will release Cortex-M4 by means of
@@ -86,3 +88,7 @@
 - ## Dual Core Running Structure
 	- Build CM7 > Download CM7
 	- Build CM4 > Download CM4
+	- Connecting CM7 Debugger
+		- Halt and resume
+	- Connecting CM4 Debugger
+		- Halt and resume
