@@ -57,5 +57,6 @@ category:: [[logseq]], [[starters]]
 	- [[Logseq Organizing TAGs with Namespace and Alias]] - How to keep your graph tidy.
 	- [[Logseq/Query]] - Theoretical documentation for simple and advanced queries.
 	- [[Logseq Query Templates]] - Copy-pasteable query examples for tasks, journals, and maintenance.
+	- [[Logseq Admonition Example]] - How to create custom callouts using the "<" syntax.
 	- [[Publishing Logseq to GitHub Pages]] - How to automate publishing your graph to the web.
 	- [[Logseq]] - Main index page.
