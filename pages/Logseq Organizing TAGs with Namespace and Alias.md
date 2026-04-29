@@ -1,6 +1,6 @@
 alias:: [[tag organize]]
 
-- #logseq #tag #namespace #alias
+- #Logseq #tag #namespace #alias
 - # Logseq Tag Organization Guide
 	- This guide documents the **"Merge & Redirect"** workflow for grouping tags under namespaces while keeping the text in your notes short and readable.
 	- ## The Goal

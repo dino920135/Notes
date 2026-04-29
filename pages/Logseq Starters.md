@@ -1,4 +1,4 @@
-category:: [[logseq]], [[starters]]
+category:: [[Logseq]], [[starters]]
 
 - # Welcome to Logseq
 	- Logseq is a privacy-first, open-source knowledge management and collaboration platform. It focuses on privacy, longevity, and user control.

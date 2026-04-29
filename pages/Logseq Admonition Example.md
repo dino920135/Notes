@@ -1,4 +1,4 @@
-- #logseq #tutorial #Admonition
+- #Logseq #tutorial #Admonition
 - # Logseq Admonitions
 	- Admonitions (also known as callouts) are a great way to highlight important information in your notes.
 - ## 1. Native Admonitions

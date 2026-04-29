@@ -1,4 +1,4 @@
-- #logseq #note
+- #Logseq #note
   id:: 657d6955-bb8c-4932-925d-6da8f8a6a606
 - ## Sync Logseq with [Github](github)
 	- Create repository on Github (eg: Note)

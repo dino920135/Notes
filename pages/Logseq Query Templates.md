@@ -1,4 +1,4 @@
-category:: [[logseq]], [[query]]
+category:: [[Logseq]], [[query]]
 
 - # Logseq Query Templates & Tutorials
 	- This page provides copy-pasteable templates for common Logseq workflows. For the theoretical background on how queries work, see [[Logseq/Query]].
