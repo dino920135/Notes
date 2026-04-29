@@ -1,0 +1,3 @@
+- #autologin #ubuntu
+- **Settings > Users > Unlock ... > Enable Automatic Login**
+	- ![image.png](../assets/image_1777441040931_0.png)
