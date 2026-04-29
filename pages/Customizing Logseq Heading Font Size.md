@@ -1,4 +1,5 @@
-## Source
+- #logseq #custom #[[font size]] #heading
+- ## Source
 	- [Size of font for filenames/headings - Questions & Help - Logseq](https://discuss.logseq.com/t/size-of-font-for-filenames-headings/14714/5)
 - ## custom.css
 	- ```css
