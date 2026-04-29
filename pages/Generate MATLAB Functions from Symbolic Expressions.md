@@ -2,7 +2,7 @@
 - {{renderer :tocgen2}}
 - [Generate MATLAB Functions from Symbolic Expressions - MATLAB & Simulink (mathworks.com)](https://www.mathworks.com/help/symbolic/generate-matlab-functions.html)
 - ## Matlab Symbolic
-- ## Matlab Function
+  \TODO
 - ## Example
 	- Specify polar coordinates $r(t), \phi (t)$, and $\theta (t)$ that are functions of time
 	  ```matlab
