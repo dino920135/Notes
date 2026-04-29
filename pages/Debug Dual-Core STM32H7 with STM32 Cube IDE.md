@@ -72,20 +72,6 @@
 			- The debugger will **pause at the beginning of main()** function. Which might leads to the problem discuss in ((69f1f536-ffae-44ca-b10f-d59be1d89391))
 		- #### CM7 release CM4 point
 		  id:: 69f1f536-ffae-44ca-b10f-d59be1d89391
-			- On the STM32H7, the **Cortex-M7 is the Boot Master**. After a system reset, the CM4 core is automatically held in a low-power "Wait For Event" (WFE) state.
-			- This ensures that the M4 doesn't attempt to access peripherals or memory before the M7 has finished critical system-wide configurations (like Clock Trees and Power Domains).
-			- The following code shows the M7 using the **Hardware Semaphore (HSEM)** to signal to the M4 that the system is ready:
-			- ```c
-			  /* When system initialization is finished, Cortex-M7 will release Cortex-M4 by means of
-			  HSEM notification */
-			  /*HW semaphore Clock enable*/
-			  __HAL_RCC_HSEM_CLK_ENABLE();
-			  /*Take HSEM */
-			  HAL_HSEM_FastTake(HSEM_ID_0);
-			  /*Release HSEM in order to notify the CPU2(CM4)*/
-			  HAL_HSEM_Release(HSEM_ID_0,0);
-			  /* wait until CPU2 wakes up from stop mode */
-			  ```
 			- #+BEGIN_WARNING
 			  **If the CM7 debugger halt the core before HSEM release for CM7, the CM4 will be unreachable by STLINK:**
 			  #+END_WARNING 
@@ -103,13 +89,40 @@
 			  Error in initializing ST-LINK device.
 			  Reason: Unknown. Please check power and cabling to target.
 			  ```
+			- On the STM32H7, the **Cortex-M7 is the Boot Master**. After a system reset, the CM4 core is automatically held in a low-power "Wait For Event" (WFE) state.
+			- This ensures that the M4 doesn't attempt to access peripherals or memory before the M7 has finished critical system-wide configurations (like Clock Trees and Power Domains).
+			- The following code shows the M7 using the **Hardware Semaphore (HSEM)** to signal to the M4 that the system is ready:
+			- ```c
+			  /* When system initialization is finished, Cortex-M7 will release Cortex-M4 by means of
+			  HSEM notification */
+			  /*HW semaphore Clock enable*/
+			  __HAL_RCC_HSEM_CLK_ENABLE();
+			  /*Take HSEM */
+			  HAL_HSEM_FastTake(HSEM_ID_0);
+			  /*Release HSEM in order to notify the CPU2(CM4)*/
+			  HAL_HSEM_Release(HSEM_ID_0,0);
+			  /* wait until CPU2 wakes up from stop mode */
+			  ```
 	- ### Halting (breakpoints) Cores Simultaneously
 	  #+BEGIN_WARNING
 	  **CM7 Should aways runs ahead of CM4!**
 	  #+END_WARNING
+		- #### Cross Trigger Interface (CTI)
+		  ![image.png](../assets/image_1777480606242_0.png) 
+		  
+		  This option allows pausing core together
+		  * [ ] `Allow other cores to halt this core`
+		  * [ ] `Signal halt events to other cores`
+		  **I enabled the following options**, see below blocks for reason
+			- **CM7**: Signal halt events to other cores
+			- **CM4**: Allow other cores to halt this core
 		- #### Priority of CM7 & CM4
+			- There is no function for synchronous Resume
+			- **Aways Resume CM7 before CM4 !!**
 		- #### CM7 halting CM4
+			- Since CM7 is aways running ahead of CM4
 		- #### ~~CM4 halting CM7~~
+			- CM7
 - ## Dual Core Running Structure
 	- ### 1. Orchestration (CM7 Launch)
 		- The CM7 Debug Configuration acts as the "Master" launcher.
