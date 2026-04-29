@@ -78,7 +78,7 @@
 			  HAL_HSEM_Release(HSEM_ID_0,0);
 			  /* wait until CPU2 wakes up from stop mode */
 			  ```
-	- ### Halting Cores Simultaneously
+	- ### Halting (breakpoints) Cores Simultaneously
 	  #+BEGIN_WARNING
 	  **CM7 Should aways runs ahead of CM4!**
 	  #+END_WARNING
