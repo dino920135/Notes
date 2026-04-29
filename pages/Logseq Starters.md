@@ -1,0 +1,61 @@
+category:: [[logseq]], [[starters]]
+
+- # Welcome to Logseq
+	- Logseq is a privacy-first, open-source knowledge management and collaboration platform. It focuses on privacy, longevity, and user control.
+- ## 1. Foundational Concepts
+	- ### Journals-First Approach
+		- In Logseq, the **Journal** is your home base. Instead of worrying about where to put a note, just write it in today's journal entry.
+		- Use `[[Links]]` and `#Tags` to connect your journal entries to specific topics. Over time, these pages will populate themselves with "Linked References."
+	- ### The Outliner (Blocks)
+		- Everything in Logseq is a **Block** (a bullet point).
+		- Indentation creates a hierarchy: **Parent** blocks and **Child** blocks.
+		- This structure allows you to collapse/expand sections and "zoom in" to focus on specific ideas.
+	- ### Bi-directional Linking
+		- `[[Page Name]]`: Creates a link to a page. If the page doesn't exist, Logseq creates it.
+		- `#Tag`: Functions exactly like a page link but is often used for categorization.
+		- Every link creates a connection in both directions, visible at the bottom of each page.
+- ## 2. Practical Workflows
+	- ### Note-Taking & Slash Commands
+		- Type `/` to bring up the **Slash Command** menu.
+		- Common commands: `/current time`, `/image`, `/draw` (Excalidraw), `/cloze`.
+	- ### Using Renderers
+		- Logseq supports renderers for dynamic content.
+		- `{{renderer :tocgen}}`: Automatically generates a Table of Contents for the current page.
+	- ### Manual Indexing
+		- While the Journal-first approach is great for capture, creating a manual index (like a `[[Contents]]` page) helps you structure your knowledge into "Map of Content" (MOC) pages.
+	- ### Task Management
+		- Use the `TODO` keyword to start a task.
+		- Workflow cycle: `TODO` -> `DOING` -> `DONE`.
+		- You can also use `LATER` and `NOW`.
+		- Add a deadline with `/deadline` or a scheduled date with `/scheduled`.
+	- ### Properties
+		- Properties are metadata for blocks or pages. They allow you to add structured data to your notes.
+		- **Page properties** (placed at the very top of a page, no bullet):
+		  ```markdown
+		  alias:: alternate name
+		  icon:: 📓
+		  ```
+		- **Block properties** (indented under a block):
+		  ```markdown
+		  key:: value
+		  ```
+- ## 3. Shortcuts & Essential Syntax
+	- ### Essential Hotkeys
+		- `Tab`: Indent block (make child).
+		- `Shift + Tab`: Outdent block (make parent).
+		- `Alt + Up/Down`: Move block up or down.
+		- `Alt + Left/Right`: Zoom out/in to a block.
+		- `Ctrl + Enter`: Cycle TODO status.
+	- ### Basic Markdown
+		- **Bold**: `**text**`
+		- *Italic*: `*text*`
+		- ==Highlight==: `==text==`
+		- `Code`: `` `text` ``
+		- **Code Block**: ` ``` ` then Enter.
+- ## 4. Navigation & Further Reading
+	- [[Logseq Basics]] - Initial setup, Git sync, and recommended plugins.
+	- [[Logseq Organizing TAGs with Namespace and Alias]] - How to keep your graph tidy.
+	- [[Logseq/Query]] - Theoretical documentation for simple and advanced queries.
+	- [[Logseq Query Templates]] - Copy-pasteable query examples for tasks, journals, and maintenance.
+	- [[Publishing Logseq to GitHub Pages]] - How to automate publishing your graph to the web.
+	- [[Logseq]] - Main index page.

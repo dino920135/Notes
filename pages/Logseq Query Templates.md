@@ -1,0 +1,195 @@
+category:: [[logseq]], [[query]]
+
+- # Logseq Query Templates & Tutorials
+	- This page provides copy-pasteable templates for common Logseq workflows. For the theoretical background on how queries work, see [[Logseq/Query]].
+- ## 1. Task Management
+	- ### Overdue Tasks
+		- Finds all tasks (`TODO` or `DOING`) that have a deadline before today.
+		- ```clojure
+		  {{query (and (todo todo doing) (deadline < today))}}
+		  ```
+		- {{query (and (todo todo doing) (deadline < today))}}
+		  collapsed:: true
+	- ### High Priority Tasks
+		- Finds all blocks marked with priority `A`.
+		- ```clojure
+		  {{query (priority A)}}
+		  ```
+		- {{query (priority A)}}
+		  collapsed:: true
+- ## 2. Project & Page Tracking
+	- ### Active Projects
+		- This advanced query finds pages tagged with `#project` that have a property `status:: active`.
+		- ```clojure
+		  #+BEGIN_QUERY
+		  {
+		  :title "Active Projects"
+		  :query [:find (pull ?p [*])
+		          :where
+		          [?p :block/properties ?props]
+		          [(get ?props :status) ?status]
+		          [(= ?status "active")]
+		          [?p :block/tags ?t]
+		          [?t :block/name "project"]]
+		  }
+		  #+END_QUERY
+		  ```
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {
+		  :title "Active Projects"
+		  :query [:find (pull ?p [*])
+		          :where
+		          [?p :block/properties ?props]
+		          [(get ?props :status) ?status]
+		          [(= ?status "active")]
+		          [?p :block/tags ?t]
+		          [?t :block/name "project"]]
+		  }
+		  #+END_QUERY
+	- ### Recently Modified Pages
+		- Shows pages updated in the last 7 days (limited to top 20).
+		- ```clojure
+		  #+BEGIN_QUERY
+		  {:title "Recently Updated"
+		   :query [:find (pull ?p [*])
+		           :in $ ?start
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           [?p :block/updated-at ?u]
+		           [(>= ?u ?start)]
+		           [?p :block/file ?f]
+		           [?f :file/path ?path]
+		           (not [(clojure.string/includes? ?path "bak")])]
+		   :inputs [:5d]
+		   :result-transform (fn [res] (take 20 (sort-by :block/updated-at (complement <) res)))}
+		  #+END_QUERY
+		  ```
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {:title "Recently Updated"
+		   :query [:find (pull ?p [*])
+		           :in $ ?start
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           [?p :block/updated-at ?u]
+		           [(>= ?u ?start)]
+		           [?p :block/file ?f]
+		           [?f :file/path ?path]
+		           (not [(clojure.string/includes? ?path "bak")])]
+		   :inputs [:5d]
+		   :result-transform (fn [res] (take 20 (sort-by :block/updated-at (complement <) res)))}
+		  #+END_QUERY
+	- ### Project Dashboard (Table View)
+		- A table view to track specific pages (e.g., your research pillars) with custom property columns.
+		- ```clojure
+		  #+BEGIN_QUERY
+		  {:title "Research Dashboard"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name ?name]
+		           [(contains? #{"radar" "gnss receivers" "ins" "slam & estimation"} ?name)]]
+		   :view (fn [result]
+		           [:table
+		            [:thead [:tr [:th "Page"] [:th "Status"]]]
+		            [:tbody
+		             (for [r result]
+		               [:tr
+		                [:td [:a {:href (str "#/page/" (get r :block/name))} (get r :block/original-name)]]
+		                [:td (get-in r [:block/properties :status])]])]])}
+		  #+END_QUERY
+		  ```
+		- #+BEGIN_QUERY
+		  {:title "Research Dashboard"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name ?name]
+		           [(contains? #{"radar" "gnss receivers" "ins" "slam & estimation"} ?name)]]
+		   :view (fn [result]
+		           [:table
+		            [:thead [:tr [:th "Page"] [:th "Status"]]]
+		            [:tbody
+		             (for [r result]
+		               [:tr
+		                [:td [:a {:href (str "#/page/" (get r :block/name))} (get r :block/original-name)]]
+		                [:td (get-in r [:block/properties :status])]])]])}
+		  #+END_QUERY
+- ## 3. Journal Aggregation
+	- ### Habit Tracker
+		- Pulls all blocks tagged with `#habit` from the last 7 days.
+		- ```clojure
+		  {{query (and (tag habit) (between -7d today))}}
+		  ```
+		- {{query (and (tag habit) (between -7d today))}}
+		  collapsed:: true
+	- ### Daily Review Prompts
+		- Aggregates blocks from past journals that contain specific review questions (e.g., "What went well?").
+		- ```clojure
+		  {{query "What went well?"}}
+		  ```
+		- {{query "What went well?"}}
+		  collapsed:: true
+- ## 4. Graph Maintenance
+	- ### Pages Missing Tags
+		- Finds pages that have no `tags::` property AND no hashtags or links in any blocks.
+		- ```clojure
+		  #+BEGIN_QUERY
+		  {:title "Untagged Pages"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           [?p :block/file ?f]
+		           [?f :file/path ?path]
+		           (not [(clojure.string/includes? ?path "bak")])
+		           (not [?p :block/tags _])
+		           (not-join [?p]
+		             [?b :block/page ?p]
+		             [?b :block/refs _])]}
+		  #+END_QUERY
+		  ```
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {:title "Untagged Pages"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           [?p :block/file ?f]
+		           [?f :file/path ?path]
+		           (not [(clojure.string/includes? ?path "bak")])
+		           (not [?p :block/tags _])
+		           (not-join [?p]
+		             [?b :block/page ?p]
+		             [?b :block/refs _])]}
+		  #+END_QUERY
+		- Finds pages that have no incoming links from other pages.
+		- ```clojure
+		  #+BEGIN_QUERY
+		  {:title "Orphaned Pages"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           (not [_ :block/path-refs ?p])]}
+		  #+END_QUERY
+		  ```
+		- #+BEGIN_QUERY
+		  {:title "Orphaned Pages"
+		   :query [:find (pull ?p [*])
+		           :where
+		           [?p :block/name _]
+		           (not [?p :block/journal? true])
+		           (not [_ :block/path-refs ?p])]}
+		  #+END_QUERY
+- ## 5. How to use as Native Templates
+	- To turn any of these into a reusable template that you can trigger with `/`:
+	- 1. Create a block for the template name.
+	- 2. Add the property `template:: my-query-name` to that block.
+	- 3. Indent the query block underneath it.
+	- **Example:**
+		- My Overdue Query
+		  template:: overdue-tasks
+			- {{query (and (todo todo doing) (deadline < today))}}

@@ -7,8 +7,6 @@
 	- [[GNSS Receivers]]
 	- [[INS]]
 	- [[SLAM & Estimation]]
-- ## 📚 Literature
-	- [[@Papers]]
 - ## 📝 Management & Meta
 	- [[Work Management]]
 	- [[Logseq]]
