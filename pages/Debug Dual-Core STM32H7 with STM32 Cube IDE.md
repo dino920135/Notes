@@ -11,6 +11,7 @@
 - ## Debugger Configuration
 	- ### Launching Debugger
 		- #### Debug Configuration
+		  collapsed:: true
 			- Tool Bar: **Run > Debug Configurations...**
 			- Add New **STM32 C/C++ Application** Configuration. One for CM7 (as master), one for CM4.
 			  ![image.png](../assets/image_1777470718307_0.png)
@@ -52,6 +53,7 @@
 					  * [ ] `Download` (Uncheck)
 					  (The Executable is already download in CM7 configuration)
 		- #### Launch Group
+		  collapsed:: true
 			- Creating Launch Group allows running multiple debug configuration at once
 			- Tool Bar: **Run > Debug Configurations...**
 			- Add New **Launch Group**.
@@ -61,6 +63,7 @@
 				  logseq.order-list-type:: number
 			- ![image.png](../assets/image_1777473856373_0.png)
 		- #### Run Debugger
+		  collapsed:: true
 			- **Run Dual Core Debugger with One Click!**
 			- ![image.png](../assets/image_1777473931896_0.png)
 - ## Problems for Debugging Dual Core
