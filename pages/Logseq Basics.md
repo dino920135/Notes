@@ -10,8 +10,6 @@
 	- Choose the folder (eg: Note) for local repository    
 	  logseq.order-list-type:: number
 	  ![image.png](../assets/image_1661680623972_0.png)
-	- All the pages will be store in `<your repo>/pages/*.md`
-	  logseq.order-list-type:: number
 	- Save your work to Github with [logseq-plugin-git](https://github.com/haydenull/logseq-plugin-git) by pressing `Ctrl + S`
 	  logseq.order-list-type:: number
 - ## Useful Plugins
@@ -27,12 +25,12 @@
 	- [logseq-atlas-theme](https://github.com/sethfair/logseq-atlas-theme)
 - ## Useful References
 	- [開源筆記軟體Logseq【第三篇-進階語法功能】](https://www.cc.ntu.edu.tw/chinese/epaper/home/20221220_006309.html)
-- ## Resources
+- ## Youtube Tutorials
 	- {{video https://youtu.be/TB9JZEN49SM}}
-		- {{youtube-timestamp 57}} Todo list
+		- {{youtube-timestamp 60}} Todo list
 		- {{youtube-timestamp 123}} Journals Calendar
 		- {{youtube-timestamp 155}} Bullet Thereading
 		- {{youtube-timestamp 192}} Tags
 		- {{youtube-timestamp 264}} Automatic Linker
-		-
+		- {{youtube-timestamp 330}} Markdown Table Editor
 	- {{video https://youtu.be/khNI-4r2wW0}}
