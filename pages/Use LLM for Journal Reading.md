@@ -1,7 +1,8 @@
-## Source
+- #llm #journal
+- ## Source
 	- [看别人分享的Claude读文献用html的方式展示也太妙了！试了一下效果真好！恨没早点开始用Claude！！！](https://www.threads.com/@zoroxcoro/post/DV8XhdNjNq8?xmt=AQF0RPwiJksYmtSn3TgAkzVodtLkhIP9iGj-4Ed9SaWc1xS54DqNYZv7VwTeoLoxKKwtoZGO)
 - ## Prompt
-	- ### Using Claude
+	- ### Using [[Claude]]
 	  ```text
 	  請將以下學術論文製作成一個完整的雙欄批註HTML文件，重點呈現論文的論證結構與邏輯層次。
 	  【文件要求】
