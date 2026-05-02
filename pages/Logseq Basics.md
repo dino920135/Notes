@@ -27,3 +27,12 @@
 	- [logseq-atlas-theme](https://github.com/sethfair/logseq-atlas-theme)
 - ## Useful References
 	- [開源筆記軟體Logseq【第三篇-進階語法功能】](https://www.cc.ntu.edu.tw/chinese/epaper/home/20221220_006309.html)
+- ## Resources
+	- {{video https://youtu.be/TB9JZEN49SM}}
+		- {{youtube-timestamp 57}} Todo list
+		- {{youtube-timestamp 123}} Journals Calendar
+		- {{youtube-timestamp 155}} Bullet Thereading
+		- {{youtube-timestamp 192}} Tags
+		- {{youtube-timestamp 264}} Automatic Linker
+		-
+	- {{video https://youtu.be/khNI-4r2wW0}}

@@ -95,7 +95,7 @@
 			  Error in initializing ST-LINK device.
 			  Reason: Unknown. Please check power and cabling to target.
 			  ```
-			- On the STM32H7, the **Cortex-M7 is the Boot Master**. After a system reset, the CM4 core is automatically held in a low-power "Wait For Event" (WFE) state.
+			- On the [[STM32H7]], the **Cortex-M7 is the [[Boot]] Master**. After a system reset, the CM4 core is automatically held in a low-power "Wait For Event" (WFE) state.
 			- This ensures that the M4 doesn't attempt to access peripherals or memory before the M7 has finished critical system-wide configurations (like Clock Trees and Power Domains).
 			- The following code shows the M7 using the **Hardware Semaphore (HSEM)** to signal to the M4 that the system is ready:
 			- ```c
