@@ -5,7 +5,7 @@
 - ## Run Configuration
 	- The **Run Configuration** is pretty much similar to **Debug Configuration** in [[Debug Dual-Core STM32H7 with STM32 Cube IDE]]
 	- ### Important Concept
-		- Download at once
+		- Download both cores at once
 		  logseq.order-list-type:: number
-		- Reset Cores together
+		- Reset cores together
 		  logseq.order-list-type:: number

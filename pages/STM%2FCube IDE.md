@@ -1,0 +1,1 @@
+alias:: Cube IDE
