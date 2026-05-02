@@ -1,6 +1,6 @@
-- DOING #STM #[[Dual Core]] #STM32H7 #[[Cube IDE]] #MCU
+- #STM #[[Dual Core]] #STM32H7 #[[Cube IDE]] #MCU
   :LOGBOOK:
-  CLOCK: [2026-04-29 Wed 21:26:25]
+  CLOCK: [2026-04-29 Wed 21:26:25]--[2026-05-01 Fri 00:48:55] =>  27:22:30
   :END:
 - {{renderer :tocgen2}}
 - ## Resources
