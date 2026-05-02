@@ -11,8 +11,10 @@
 - ## Debugger Configuration
 	- ### Launching Debugger
 		- #### Debug Configuration
-		  collapsed:: true
+		  id:: 69f5ab4e-f459-4134-b24d-32ec27f435c8
 			- Tool Bar: **Run > Debug Configurations...**
+			  id:: 69f5ab4e-3b0d-4dd8-8364-b7b5cdbb2e64
+			  collapsed:: true
 			- Add New **STM32 C/C++ Application** Configuration. One for CM7 (as master), one for CM4.
 			  ![image.png](../assets/image_1777470718307_0.png)
 				- **Debugger** Tab
@@ -118,8 +120,8 @@
 		  * [ ] `Allow other cores to halt this core`
 		  * [ ] `Signal halt events to other cores`
 		  **I enabled the following options**, see below blocks for reason
-			- **CM7**: Signal halt events to other cores
-			- **CM4**: Allow other cores to halt this core
+			- **CM7**: `Signal halt events to other cores`
+			- **CM4**: `Allow other cores to halt this core`
 		- #### Priority of CM7 & CM4
 			- There is no function for synchronous Resume
 			- **Aways Resume CM7 before CM4 !!**

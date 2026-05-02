@@ -3,6 +3,7 @@
 	- Admonitions (also known as callouts) are a great way to highlight important information in your notes.
 - ## 1. Native Admonitions
 	- Logseq has built-in support for several types of admonition blocks. These work out of the box without any custom styling.
+	- **These build-in admonitions can start with simply type `<` in the block**
 	- ### Tip
 	  #+BEGIN_TIP
 	  This is a native Logseq tip block.

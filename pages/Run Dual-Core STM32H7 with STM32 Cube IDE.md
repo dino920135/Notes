@@ -9,3 +9,6 @@
 		  logseq.order-list-type:: number
 		- Reset cores together
 		  logseq.order-list-type:: number
+	- ### Run Configuration
+		- It's similar to ((69f5ab4e-f459-4134-b24d-32ec27f435c8)), but just some of the options are not available.
+		-
