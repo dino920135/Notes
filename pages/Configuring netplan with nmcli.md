@@ -23,5 +23,7 @@
 	- ```bash
 	  sudo nmcli connection up NETPLAN_NAME
 	  ```
+- ## Modify to DHCP
+	- TODO Modify to DHCP
 - ## Configure Files
 	- The configuration files is locate in `/etc/netplan/*.yaml`
