@@ -4,12 +4,8 @@
 	- Follow the instruction in: 
 	  [Github: google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 	- ### Windows #windows
-	  collapsed:: true
 		- Install node.js first from [Node.js — Download Node.js®](https://nodejs.org/en/download)
-		- Install Gemini CLI with **Command Prompt**
-		  ```shell
-		  npm install -g @google/gemini-cli
-		  ```
+		- npm install -g @google/gemini-cli
 	- ### WSL #wsl
 	  collapsed:: true
 		- #### Install node.js
@@ -25,6 +21,7 @@
 			  npm install -g @google/gemini-cli
 			  ```
 	- ### Ubuntu (Linux) #linux
+	  collapsed:: true
 		- #### Install node.js
 			- ```bash
 			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
