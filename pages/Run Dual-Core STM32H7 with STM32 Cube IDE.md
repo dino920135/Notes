@@ -11,4 +11,4 @@
 		  logseq.order-list-type:: number
 	- ### Run Configuration
 		- It's similar to ((69f5ab4e-f459-4134-b24d-32ec27f435c8)), but just some of the options are not available.
-		-
+		- {{embed ((69f5ab4e-a793-47f1-ab45-6096c92f823b))}}

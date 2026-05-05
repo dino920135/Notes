@@ -10,6 +10,7 @@
 	- Gemini
 - ## Debugger Configuration
 	- ### Launching Debugger
+	  id:: 69f5ab4e-a793-47f1-ab45-6096c92f823b
 		- #### Debug Configuration
 		  id:: 69f5ab4e-f459-4134-b24d-32ec27f435c8
 			- Tool Bar: **Run > Debug Configurations...**
@@ -18,7 +19,6 @@
 			- Add New **STM32 C/C++ Application** Configuration. One for CM7 (as master), one for CM4.
 			  ![image.png](../assets/image_1777470718307_0.png)
 				- **Debugger** Tab
-				  collapsed:: true
 				  ![image.png](../assets/image_1777472759619_0.png)
 					- GDB Connection Settings
 					  * [x] `Autostart local GDB server`
@@ -42,7 +42,6 @@
 					- Misc
 					  * [x] `Shared ST-LINK`
 				- **Startup** Tab
-				  collapsed:: true
 				  ![image.png](../assets/image_1777472795846_0.png)
 				  The Settings below allow Building Executables and download them in one click
 					- **CM7**
