@@ -1,5 +1,5 @@
 alias:: stlink
-#ST-Link/V2
+#ST-Link V2
 
 - ## Resources
 	- https://stm32-base.org/guides/connecting-your-debugger.html
