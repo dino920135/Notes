@@ -1,4 +1,4 @@
-- #[[STM/Cube IDE]] #[[Link Library]]
+- #[[STM/Cube IDE]] #[[Link Library]] #[[static library]]
 - ## Project Properties
 	- ### C/C++ Build
 		- **MCU/MPU GCC Compiler > Include paths (*.h)**
