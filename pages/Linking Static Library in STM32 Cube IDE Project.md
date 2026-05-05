@@ -8,7 +8,7 @@
 		  logseq.order-list-type:: number
 			- Add  static library name to Libraries:
 				- If library file name is **libgps_timer_cm4.a** then
-				- type the filename as **gps_timer_cm4** (without `lib` and `*.a`)
+				- type the filename as **gps_timer_cm4** (**without** `lib` and `*.a`)
 			- Add library path to Library search path
 			- ![image.png](../assets/image_1777948056228_0.png)
 	- ### C/C++ General > Path and Symbols
