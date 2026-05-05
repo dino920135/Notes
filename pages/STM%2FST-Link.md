@@ -1,4 +1,4 @@
-alias:: stlink
+alias:: stlink, st-link
 
 - ## Resources
 	- https://stm32-base.org/guides/connecting-your-debugger.html
