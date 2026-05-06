@@ -1,1 +1,1 @@
-- {{query "TODO"}}
+- {{query (and "TODO" (not "`TODO`"))}}
