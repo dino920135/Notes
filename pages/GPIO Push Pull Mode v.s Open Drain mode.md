@@ -1,3 +1,3 @@
 - #GPIO #[[push pull]] #[[open drain]]
 - TODO update this page
-- What if the ground is already connected? (共地？)
+- What if the ground is already connected? does Open drain still works? (共地？)
