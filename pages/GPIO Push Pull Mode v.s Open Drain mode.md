@@ -1,0 +1,3 @@
+- #GPIO #[[push pull]] #[[open drain]]
+- TODO
+- What if the ground is already connected? (共地？)
