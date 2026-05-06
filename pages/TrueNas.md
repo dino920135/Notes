@@ -1,0 +1,1 @@
+- #nas #server #zfs #smb #[[network drive]]
