@@ -8,6 +8,7 @@
 		- ```
 		  npm install -g @google/gemini-cli
 		  ```
+		- WAITING Unknown solution for vscode cmd cannot found npm & gemini
 	- ### WSL #wsl
 		- #### Install node.js
 			- ```bash
@@ -22,6 +23,7 @@
 			  npm install -g @google/gemini-cli
 			  ```
 	- ### Ubuntu (Linux) #linux
+	  collapsed:: true
 		- #### Install node.js
 			- ```bash
 			  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
