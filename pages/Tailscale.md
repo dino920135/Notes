@@ -7,7 +7,10 @@
 - ## [[Subnet Routers]]
 	- [Subnet routers · Tailscale Docs](https://tailscale.com/docs/features/subnet-routers)
 	- ![image.png](../assets/image_1778778067704_0.png)
-	- Tailscale Subnet Routers allows user **connect to the local network** using devices as router.
+	- Tailscale Subnet Routers allows user **connect to the local network** using devices as router. For example:
+		- Remote Desktop
+		- SSH
+		- Network Drive
 	- ### Steps
 		- #### Connect to tailscale as a subnet router
 			- Enable IP forwarding
