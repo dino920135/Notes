@@ -3,7 +3,7 @@
 - {{renderer :tocgen2}}
 - ## Using Tailscale
 	- ### Installation
-	-
+		- [Install Tailscale · Tailscale Docs](https://tailscale.com/docs/install)
 - ## [[Subnet Routers]]
 	- [Subnet routers · Tailscale Docs](https://tailscale.com/docs/features/subnet-routers)
 	- ![image.png](../assets/image_1778778067704_0.png)
