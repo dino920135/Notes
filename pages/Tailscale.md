@@ -1,3 +1,12 @@
 - #vpn
 - TODO
-- ##
+- {{renderer :tocgen2}}
+- ## Using Tailscale
+	- ### Installation
+	-
+- ## [[Subnet Routers]]
+	- [Subnet routers · Tailscale Docs](https://tailscale.com/docs/features/subnet-routers)
+	- ![image.png](../assets/image_1778778067704_0.png)
+	- Tailscale Subnet Routers allows user connect to the local network using devices as router.
+	-
+	-

@@ -6,5 +6,10 @@
 	  logseq.order-list-type:: number
 	- Install LaTex Workshop from Extension Marketplace [LaTex Workshop](https://marketplace.cursorapi.com/items/?itemName=James-Yu.latex-workshop)
 	  logseq.order-list-type:: number
+	- TODO
+	  logseq.order-list-type:: number
+	- ### hotkey
+		- Jump from PDF to Tex: `ctrl + click`
+		- Jump from Tex to PDF: `ctrl + atl + j`
 - ## Citations: [**Zotero**](https://www.zotero.org/) + [**VSCode Zotero**](https://marketplace.cursorapi.com/items/?itemName=jinvim.vscode-zotero) #zotero
 	-
