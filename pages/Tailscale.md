@@ -23,3 +23,5 @@
 		- #### Enable subnet routes from admin console [Tailscale Web]
 			- Find the machine and open the setting tab by pressing three dots on the right
 			- **Three dots > Edit route settings ... >** and select the subnet desire to share
+- ## Tailnet Lock
+	- TODO
