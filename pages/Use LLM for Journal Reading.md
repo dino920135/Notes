@@ -3,6 +3,7 @@
 	- [看别人分享的Claude读文献用html的方式展示也太妙了！试了一下效果真好！恨没早点开始用Claude！！！](https://www.threads.com/@zoroxcoro/post/DV8XhdNjNq8?xmt=AQF0RPwiJksYmtSn3TgAkzVodtLkhIP9iGj-4Ed9SaWc1xS54DqNYZv7VwTeoLoxKKwtoZGO)
 - ## Prompt
 	- ### Using [[Claude]]
+	  collapsed:: true
 	  ```text
 	  請將以下學術論文製作成一個完整的雙欄批註HTML文件，重點呈現論文的論證結構與邏輯層次。
 	  【文件要求】
@@ -43,3 +44,18 @@
 	  - 批註卡片：左色邊 + 淺背景
 	  - 響應式（行動端單欄）
 	  ```
+	- ### Gemini
+		- ```text
+		  將上述提及的論文(共11篇)依據其在論文架構中扮演的角色，輸出為可互動的html
+		  ，由節錄的原文內容與以下內容並列，以證明所摘要的觀點的確出自該篇論文：
+		  1.論文資訊
+		  2.摘要
+		  3.貢獻
+		  4.重要的觀點
+		  5.重點整理：
+		  - 全文邏輯骨架（問題→論點→證據→反駁→結論）
+		  - 作者核心主張一句話版本
+		  - 論證最強處 vs 最弱處各一條
+		  6.原文連結
+		  7. bibtex引用格式 
+		  ```
