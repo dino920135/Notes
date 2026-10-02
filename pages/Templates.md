@@ -12,7 +12,6 @@
 		  nozzle-temp::
 		  bed-temp::
 		  rating::
-		- {{renderer :tocgen2}}
 		- ## Why this filament
 			-
 		- ## Print settings

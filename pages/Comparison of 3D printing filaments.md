@@ -1,5 +1,4 @@
 - #3DPrinting #Filament
-- {{renderer :tocgen2}}
 - ## Filaments
 	- ### Characteristics
 		- How the printed part behaves

@@ -1,7 +1,6 @@
 sensor:: lidar
 manufacturers:: ouster
 model:: OS-1-128
-{{renderer :tocgen2}}
 
 - ## Document
 	- [OS1 Hardware User Manual (ouster.io)](https://data.ouster.io/downloads/hardware-user-manual/hardware-user-manual-revd-os1.pdf)

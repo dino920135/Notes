@@ -1,6 +1,5 @@
 icon:: ⚙️
 
-- {{renderer :tocgen2}}
 - ## Overview
 	- Central hub for system administration, environment setup, and deployment tools.
 - ## Quick Access

@@ -1,7 +1,6 @@
 manufacturers:: Septentrio
 model:: Mosaic-X5, Mosaic-H
 sensor:: GNSS
-{{renderer :tocgen2}}
 
 - ## Connecting to the EVK
   [mosaic - Getting started (septentrio.com)](https://customersupport.septentrio.com/s/article/mosaic-Getting-started)

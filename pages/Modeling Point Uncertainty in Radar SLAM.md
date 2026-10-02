@@ -3,7 +3,6 @@ journal:: ArXiv
 	- volume:: abs/2402.16082
 	- #journal #paper #Radar #slam #uncertainty
 - [[@Modeling Point Uncertainty in Radar SLAM]]
-- {{renderer :tocgen2}}
 - ## Radar Measurement Model
 	- Given radar point $^R p_k$ in the radar frame $R$, decompose into two components:
 		- $$^Rp_k=[r_k,\ \Omega_k]^T$$

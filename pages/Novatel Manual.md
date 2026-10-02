@@ -2,7 +2,6 @@ sensor:: GNSS
 manufacturers:: NovAtel
 model:: OEM
 
-- {{renderer :tocgen2}}
 - ## OEM7 Commands and Logs
 	- ### Document
 		- [OEM7 Commands Logs Manual](https://docs.novatel.com/OEM7/Content/PDFs/OEM7_Commands_Logs_Manual.pdf)

@@ -1,6 +1,5 @@
 icon:: 🧘
 
-- {{renderer :tocgen2}}
 - ## Overview
 	- Notes on ergonomics, health, and physical well-being.
 - ## Quick Access

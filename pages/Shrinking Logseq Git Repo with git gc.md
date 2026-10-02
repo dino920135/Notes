@@ -1,5 +1,4 @@
 - #Git #Logseq #[[Dev/Git]]
-- {{renderer :tocgen2}}
 - ## Problem
 	- The Notes repo's `.git` folder grew to **281 MB**, but the actual content (all `main` history + `gh-pages` site) was only ~57 MB compressed
 	- Since the repo lives in OneDrive, the whole `.git` folder gets synced too

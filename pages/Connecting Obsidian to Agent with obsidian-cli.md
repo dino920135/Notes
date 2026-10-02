@@ -1,5 +1,4 @@
 - #Obsidian #agent #ai #obsidian-cli
-- {{renderer :tocgen2}}
 - ## Enable obsidian-cli
 	- ### Source
 		- [Obsidian CLI](https://obsidian.md/cli)

@@ -1,5 +1,4 @@
 - #matlab #Radar
-- {{renderer :tocgen2}}
 - Source: [Radar Toolbox — Examples](https://www.mathworks.com/help/radar/examples.html?category=index&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
 - ## [Radar Toolbox Supported Hardware — Examples](https://www.mathworks.com/help/radar/examples.html?category=supported-hardware&exampleproduct=all&newonly=&s_tid=CRUX_lftnav)
 - ## [Simulate an Automotive 4D Imaging MIMO Radar](https://www.mathworks.com/help/radar/ug/simulate-an-automotive-4d-imaging-mimo-radar.html)

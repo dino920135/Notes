@@ -1,6 +1,5 @@
 category:: [[Linux]]
 
-- {{renderer :tocgen2}}
 - ## Install SSH server
 	- #ssh
 	- ### Linux as server

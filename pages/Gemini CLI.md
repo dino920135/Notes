@@ -1,5 +1,4 @@
 - #gemini #agent #ai #skills #cli #llm
-- {{renderer :tocgen2}}
 - ## Installation #install
 	- Follow the instruction in: 
 	  [Github: google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)

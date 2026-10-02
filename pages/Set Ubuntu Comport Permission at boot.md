@@ -1,5 +1,4 @@
 - #tty #ubuntu #linux #permission #comport
-  {{renderer :tocgen2}}
 - ## Udev
   `udevadm` is the **command-line tool** used to **interact with the udev device manager** in Linux.
 	- `udev` is the **device manager** for the Linux kernel.

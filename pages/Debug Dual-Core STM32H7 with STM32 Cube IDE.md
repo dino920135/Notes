@@ -2,7 +2,6 @@
   :LOGBOOK:
   CLOCK: [2026-04-29 Wed 21:26:25]--[2026-05-01 Fri 00:48:55] =>  27:22:30
   :END:
-- {{renderer :tocgen2}}
 - ## Resources
 	- [STM32 Dual Core #1. Getting started with STM32 Dual Core CPUs || STM32H745 || How to DEBUG - YouTube]( https://youtu.be/jI1k6p-fduE?t=534)
 	- [Dual Core Debugging on STM32H7 with STM32CubeIDE - YouTube](https://www.youtube.com/watch?v=k3mXhPZSasw)

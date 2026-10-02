@@ -3,7 +3,6 @@ manufacturers:: velodyne
 model:: HDL-64E S3
 
 #[[time sync]] #pps #nmea 
-{{renderer :tocgen2}}
 
 - ## Reference Documents
 	- [Installation guide of Velodyne HDL64E-S3 — Apollo Auto 0.0.1 文档 (daobook.github.io)](https://daobook.github.io/apollo/docs/specs/Lidar/HDL64E_S3_Installation_Guide.html)

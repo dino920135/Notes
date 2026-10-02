@@ -1,5 +1,4 @@
 - #git #gitlab #server
-- {{renderer :tocgen}}
 - # Useful Command
 	- Check doker container
 	  `doker container ps`

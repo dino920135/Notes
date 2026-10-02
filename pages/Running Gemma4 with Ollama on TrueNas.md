@@ -1,5 +1,4 @@
 - #LLM #Gemma #Ollama #TrueNas #[[Open WebUI]] #SearXNG
-- {{renderer :tocgen2}}
 - ## Install Apps on TrueNas Scale
 	- ### [[Ollama]]
 		- ![image.png](../assets/image_1775410846590_0.png)

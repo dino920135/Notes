@@ -1,7 +1,6 @@
 alias:: tmux
 
 - #code #ide
-- {{renderer :tocgen2}}
 - ## Installing tmux
 	- ```bash
 	  sudo apt-get install tmux

@@ -1,5 +1,4 @@
 - #sdcard #ubuntu #mount 
-  {{renderer :tocgen2}}
 - ## Identify the Device
 	- Use `lsblk -f` to find the **device name**, **Filesystem** & **UUID**, here's the output:
 	  ```bash

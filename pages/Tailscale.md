@@ -1,6 +1,5 @@
 - #vpn
 - TODO
-- {{renderer :tocgen2}}
 - ## Using Tailscale
 	- ### Installation
 		- [Install Tailscale · Tailscale Docs](https://tailscale.com/docs/install)

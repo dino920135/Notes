@@ -1,7 +1,6 @@
 alias:: ins
 
 - icon:: 🧭
-- {{renderer :tocgen2}}
 - ## Overview
 	- Inertial Navigation Systems, IMU modeling, and mechanization.
 - ## Quick Access

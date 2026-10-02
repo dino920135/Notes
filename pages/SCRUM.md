@@ -1,5 +1,4 @@
 - #scrum #agile
-  {{renderer :tocgen}}
 - # Whats Agile
 	- ## Waterfall vs. Agile
 		- Waterfall (Predicted): long term, schedule, got the result at the end

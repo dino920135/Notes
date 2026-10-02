@@ -1,5 +1,4 @@
 - #apt #source #install #ubuntu 
-  {{renderer :tocgen2}}
 - ## Missing /etc/apt/sources.list
 	- ### Enable the official Ubuntu repositiories
 		- Connect the device with internet, recreate the default  sources list:

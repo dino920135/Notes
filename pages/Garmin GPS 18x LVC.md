@@ -1,7 +1,6 @@
 sensor:: GNSS
 manufacturers:: Garmin
 model:: GPS 18x LVC
-{{renderer :tocgen2}}
 
 - ## User Manual
 	- [GPS 18x Tech Specs (garmin.com)](https://static.garmin.com/pumac/GPS_18x_Tech_Specs.pdf)

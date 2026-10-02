@@ -1,6 +1,5 @@
 icon:: 🔌
 
-- {{renderer :tocgen2}}
 - ## Overview
 	- Notes regarding physical hardware, microcontrollers, and low-level communication protocols.
 - ## Quick Access

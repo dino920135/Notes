@@ -1,5 +1,4 @@
 - #awr2243 #dca1000evm #ti #mmwave #Radar
-- {{renderer :tocgen2}}
 - ## Documents
 	- [AWR2243 Evaluation Module -  User's Guide](https://www.ti.com/lit/ug/spruit8d/spruit8d.pdf)
 - ## First to know

@@ -1,7 +1,6 @@
 alias:: [[Hardware/Receiver]], gnss
 
 - icon:: 🛰️
-- {{renderer :tocgen2}}
 - ## Overview
 	- Global Navigation Satellite Systems, receiver configuration, and message processing.
 - ## Quick Access

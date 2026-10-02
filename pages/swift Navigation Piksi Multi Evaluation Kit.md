@@ -1,5 +1,4 @@
 - #INS #GNSS # IMU
-- {{renderer :tocgen}}
 - ## Document
 	- [Swift Navigation Support](https://support.swiftnav.com/support/home)
 		- [Piksi Multi Getting Started Guide](https://support.swiftnav.com/support/solutions/articles/44001850752-piksi-multi-getting-started-guide)

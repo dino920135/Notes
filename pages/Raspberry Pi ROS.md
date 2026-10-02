@@ -1,5 +1,4 @@
 - #raspi #ROS #[[ROS 1]] #[[ROS 2]]
-- {{renderer :tocgen2}}
 - ## Raspberry Pi 4B
 	- ### Reference
 		- [Install Ubuntu MATE 18.04 and ROS on Raspberry Pi 3 B+ | by Rishabh Dev Yadav | Medium](https://rishabhdevyadav.medium.com/install-ubuntu-mate-18-04-and-ros-on-raspberry-pi-3-b-7ff84688fa37)
