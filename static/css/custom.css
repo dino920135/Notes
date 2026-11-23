@@ -1,0 +1,41 @@
+.ui-items-container[data-type=toolbar]>.list-wrap {
+  overflow: visible;
+}
+
+.ls-block h2{
+    font-size: 1.8em;
+}
+
+.editor-inner .h2.uniline-block,.ls-block h2 {
+    font-size: 1.8em;
+}
+
+.ls-block h2{
+    font-size: 1.6em;
+}
+
+.editor-inner .h2.uniline-block,.ls-block h2 {
+    font-size: 1.6em;
+}
+
+.ls-block h3{
+    font-size: 1.4em;
+}
+
+.editor-inner .h3.uniline-block,.ls-block h3 {
+    font-size: 1.4em;
+}
+
+.ls-block h4{
+    font-size: 1.2em;
+}
+
+.editor-inner .h4.uniline-block,.ls-block h4 {
+    font-size: 1.2em;
+}
+
+/* Re-assert this stock CSS so that refs don't get huge */
+.block-ref :is(h1,h2,h3,h4,h5,h6) {
+    border-bottom: none;
+    font-size: 1rem
+}
