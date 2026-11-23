@@ -1,6 +1,5 @@
-- #awr1843 #mmwave
-- #dca1000evm
-  {{renderer :tocgen}}
+- #awr1843 #mmwave#dca1000evm
+- {{renderer :tocgen}}
 - ## Documents
 	- [The fundamentals of millimeter wave radar sensors (Rev. A)](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf?ts=1665127395624&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FAWR1843BOOST)
 	- [AWR1843BOOST and IWR1843BOOST Single-Chip mmWave Sensing Solution User's Guide (Rev. B)](https://www.ti.com/lit/ug/spruim4b/spruim4b.pdf?ts=1665127320807&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FAWR1843BOOST)
